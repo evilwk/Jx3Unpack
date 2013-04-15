@@ -1,0 +1,8 @@
+CodePage	Locale
+0	
+932	zh_JP
+936	zh_CN
+949	zh_KR
+950	zh_HK
+950	zh_TW
+65001	en_US

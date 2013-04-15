@@ -1,0 +1,20 @@
+ID	PATH
+CAMERA_ANI_LOGIN	data/source/maps/唐门登陆界面/唐门登陆界面.CameraAni
+SCENE_LOGIN	data/source/maps/唐门登陆界面/唐门登陆界面.map
+JX3CG	ui/Video/JX3CG.avi
+LOGIN_BGM	data/sound/背景音乐/唐门/B02004a 唐门 全长.mp3
+SFX_LOGO	data/source/other/特效/系统/SFX/登陆/登陆_logo.Sfx
+SFX_CRITICALSTRIKE	data/source/other/特效/系统/SFX/其他/h_会心01.Sfx
+SFX_CRITICALSTRIKESHAKE	data/source/other/特效/系统/SFX/其他/抖动3.Sfx
+SFX_SKILLLEVELUP	data/source/other/特效/系统/SFX/其他/技能领悟.Sfx
+SFX_FINISHQUEST	data/source/other/特效/系统/SFX/其他/任务完成.Sfx
+SFX_FINISHASSISTQUEST	data/source/other/特效/系统/SFX/其他/协助成功.Sfx
+SFX_LEARNPROFESSION	Data/source/other/特效/系统/绑定/升级/学习生活技能.Sfx
+SFX_FORGETPROFESSION	Data/source/other/特效/系统/绑定/升级/遗忘生活技能.Sfx
+SFX_LEARNRECIPE	Data/source/other/特效/系统/绑定/升级/学习生活技能.Sfx
+SFX_PROFESSIONLEVELUP	Data/source/other/特效/系统/绑定/升级/学习生活技能.Sfx
+SFX_PROFESSIONMAXLEVELUP	Data/source/other/特效/系统/绑定/升级/学习生活技能.Sfx
+SFX_REPUTATIONLEVELUP	data/source/other/特效/系统/SFX/升级/升级01.Sfx
+SFX_REPUTATIONLEVELDOWN	data/source/other/特效/系统/SFX/升级/升级01.Sfx
+SFX_NEWACHIEVEMENT	data/source/other/特效/系统/SFX/升级/升级01.Sfx
+XSJLOGO	ui/Video/XSJLOGO.avi

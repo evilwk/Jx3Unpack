@@ -1,0 +1,9 @@
+ID	GeneratedRequire	PreviewRequire
+rqtAgility	<text>text="需要身法<D0>" font=<D2> </text>	<text>text="需要身法<D0>" font=<D1> </text>
+rqtBodytype	<text>text="需要体型<D0>" font=<D2> </text>	<text>text="需要体型<D0>" font=<D1> </text>
+rqtFaction	<text>text="需要门派<D0>" font=<D2> </text>	<text>text="需要门派<D0>" font=<D1> </text>
+rqtGender	<text>text="仅<D0>可穿戴" font=<D2> </text>	<text>text="仅<D0>可穿戴" font=<D1> </text>
+rqtLevel	<text>text="需要等级<D0>" font=<D2> </text>	<text>text="需要等级<D0>" font=<D1> </text>
+rqtSpirit	<text>text="需要根骨<D0>" font=<D2> </text>	<text>text="需要根骨<D0>" font=<D1> </text>
+rqtStrength	<text>text="需要力量<D0>" font=<D2> </text>	<text>text="需要力量<D0>" font=<D1> </text>
+rqtVitality	<text>text="需要体质<D0>" font=<D2> </text>	<text>text="需要体质<D0>" font=<D1> </text>

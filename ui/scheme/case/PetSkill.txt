@@ -1,0 +1,8 @@
+TemplateID	AvatarPath	SkillID1	Level1	SkillID2	Level2	SkillID3	Level3	SkillID4	Level4	SkillID5	Level5	SkillID6	Level6	SkillID7	Level7	SkillID8	Level8	SkillID9	Level9	SkillID10	Level10	SkillID11	Level11	SkillID12	Level12	SkillID13	Level13	SkillID14	Level14	SkillID15	Level15
+0		2442	1	2446	1	2447	1	2443	1	2444	1	2445	1	0	0	0	0	0		0		0		0		0		0		0	
+9956	ui\Image\PlayerAvatar\Ð«×Ó.tga	2442	1	2446	1	2447	1	2443	1	2444	1	2445	1	2539	1	2475	1	0		0		0		0		0		0		0	
+9996	ui\Image\PlayerAvatar\òÚò¼.tga	2442	1	2446	1	2447	1	2443	1	2444	1	2445	1	2541	1	2478	1	0		0		0		0		0		0		0	
+9997	ui\Image\PlayerAvatar\Ö©Öë.tga	2442	1	2446	1	2447	1	2443	1	2444	1	2445	1	2542	1	2479	1	0		0		0		0		0		0		0	
+9998	ui\Image\PlayerAvatar\Éß.tga	2442	1	2446	1	2447	1	2443	1	2444	1	2445	1	2536	1	2477	1	0		0		0		0		0		0		0	
+9999	ui\Image\PlayerAvatar\ó¸òÜ.tga	2442	1	2446	1	2447	1	2443	1	2444	1	2445	1	2540	1	2476	1	0		0		0		0		0		0		0	
+12944	ui\Image\PlayerAvatar\ºûµû.tga	3058	1	2446	1	2447	1	3059	1	2445	1	3060	1	3055	1	3054	1	0		0		0		0		0		0		0	

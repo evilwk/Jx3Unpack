@@ -1,0 +1,113 @@
+ID	GeneratedBase	GeneratedMagic	PreviewBase	PreviewMagic
+atInvalid				
+atActiveThreatCoefficient		<text>text="招式产生威胁{D1>0?提高~D1/1024*100#1:降低~D1/(-1024)*100#1}%" font=105 </text>		<text>text="招式产生威胁{D3>0?提高~D3/1024*100#1:降低~D3/(-1024)*100#1}%" font=105 </text>
+atAddSprintPowerMax		<text>text="气力值上限提高{D0/100}点" font=105 </text>		
+atAddSprintPowerRevive		<text>text="气力值每秒恢复速度提高{D0/20*3}点" font=105 </text>		
+atAddSprintPowerCost		<text>text="气力值每秒消耗速度降低{-D0/19*3}点" font=105 </text>		
+atAdjustProfessionLevel		<text>text="烹饪技艺等级提高{D1}级" font=106 </text>		<text>text="烹饪技艺等级提高{D1=D2?D1:D1~\-~D2}级" font=106 </text>
+atAgilityBase		<text>text="身法+{D0}" font=106 </text>		<text>text="身法+{D0=D1?D0:D0~\-~D1}" font=106 </text>
+atAllTypeHitValue		<text>text="全命中等级提高{D0}" font=105 </text>		
+atAllTypeCriticalStrike		<text>text="全会心等级提高{D0}" font=105 </text>		
+atAllTypeCriticalDamagePowerBase		<text>text="全会心效果等级提高{D0}" font=105 </text>		
+atBasePotentialAdd		<text>text="全属性提高{D0}点" font=106 </text>		<text>text="全属性提高{D0=D1?D0:D0~\-~D1}点" font=106 </text>
+atCurrentLife		<text>text="恢复当前气血{D0}" font=105 </text>		<text>text="恢复当前气血{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atCurrentMana		<text>text="恢复当前内力{D0}" font=105 </text>		<text>text="恢复当前内力{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atCurrentStamina		<text>text="恢复当前体力{D0}" font=105 </text>		<text>text="恢复当前体力{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atDamageToLifeForSelf		<text>text="击中敌人后，偷取敌人所受伤害的{D0}%的气血" font=105 </text>		<text>text="击中敌人后，偷取敌人所受伤害的{D0=D1?D0:D0~\-~D1}%的气血" font=105 </text>
+atDamageToManaForSelf		<text>text="击中敌人后，偷取敌人所受伤害的{D0}成的内力" font=105 </text>		<text>text="击中敌人后，偷取敌人所受伤害的{D0=D1?D0:D0~\-~D1}成的内力" font=105 </text>
+atDecriticalDamagePowerBase		<text>text="化劲等级提高{D0}" font=105 </text>		<text>text="化劲等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atDecriticalDamagePowerPercent		<text>text="化劲等级修正值提高{D0}" font=105 </text>		<text>text="化劲等级修正值提高提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atDivingFrameBase		<text>text="水下呼吸时间提高{D0/16}秒" font=105 </text>		
+atDodge		<text>text="闪避等级提高{D0}" font=105 </text>		<text>text="闪避等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atDropDefence		<text>text="抗摔系数提高{D0}点" font=105 </text>		
+atLifeReplenishExt		<text>text="每秒气血恢复提升{D0}" font=105 </text>		<text>text="每秒气血恢复提升{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atLifeReplenishPercent		<text>text="每秒气血恢复提升{D0}成" font=105 </text>		<text>text="每秒气血恢复提升{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atLunarAttackPowerBase		<text>text="阴性内功攻击增加{D0}" font=105 </text>		<text>text="阴性内功攻击增加{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atLunarCriticalDamagePowerBase		<text>text="阴性内功会心效果等级提高{D0}" font=105 </text>		<text>text="阴性内功会心效果等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atLunarCriticalDamagePowerPercent		<text>text="阴性内功会心效果等级修正值提高{D0}" font=105 </text>		<text>text="阴性内功会心效果等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atLunarCriticalStrike		<text>text="阴性内功会心等级提高{D0}" font=105 </text>		<text>text="阴性内功会心等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atLunarCriticalStrikeBaseRate		<text>text="阴性内功会心几率提高{D0/100}%" font=105 </text>		<text>text="阴性内功会心几率提高{D0=D1?D0/100:D0/100~\-~D1/100}%" font=105 </text>
+atLunarHitValue		<text>text="阴性内功命中等级提高{D0}" font=105 </text>		<text>text="阴性内功命中等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atLunarMagicShieldBase		<text>text="阴性内功防御等级提高{D0}" font=105 </text>		<text>text="阴性内功防御等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atLunarOvercomeBase		<text>text="阴性内功破防等级提高{D0}" font=105 </text>		<text>text="阴性内功破防等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMagicAttackPowerBase		<text>text="内功攻击提高{D0}点" font=105 </text>		<text>text="内功攻击提高{D0=D1?D0:D0~\-~D1}点" font=105 </text>
+atMagicCriticalDamagePowerBase		<text>text="内功会心效果等级提高{D0}" font=105 </text>		<text>text="内功会心效果等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMagicCriticalDamagePowerPercent		<text>text="内功会心效果等级修正值提高{D0}" font=105 </text>		<text>text="内功会心效果等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMagicCriticalStrike		<text>text="内功会心等级提高{D0}" font=105 </text>		<text>text="内功会心等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMagicHitValue		<text>text="内功命中等级提高{D0}" font=105 </text>		<text>text="内功命中等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMagicOvercome		<text>text="内功破防等级提高{D0}" font=105 </text>		<text>text="内功破防等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMagicShield	<text>text="内功防御等级提高{D0}" font=106 </text>	<text>text="内功防御等级提高{D0}" font=105 </text>	<text>text="内功防御等级提高{D0=D1?D0:D0~\-~D1}" font=106 </text>	<text>text="内功防御等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atManaReplenishExt		<text>text="每秒内力恢复提升{D0}" font=105 </text>		<text>text="每秒内力恢复提升{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atManaReplenishPercent		<text>text="每秒内力恢复提升{D0}成" font=105 </text>		<text>text="每秒内力恢复提升{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atMaxLifeAdditional		<text>text="额外提高气血上限{D0}" font=105 </text>		<text>text="额外提高气血上限{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMaxLifeBase		<text>text="气血上限提高{D0}" font=105 </text>		<text>text="气血上限提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMaxLifePercentAdd		<text>text="气血上限提高{D0}成" font=105 </text>		<text>text="气血上限提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atMaxManaAdditional		<text>text="额外提高内力上限{D0}" font=105 </text>		<text>text="额外提高内力上限{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMaxManaBase		<text>text="内力上限提高{D0}" font=105 </text>		<text>text="内力上限提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMaxManaPercentAdd		<text>text="内力上限提高{D0}成" font=105 </text>		<text>text="内力上限提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atMeleeWeaponAttackSpeedAdditional		<text>text="近战武器攻速提高{D0#1}" font=105 </text>		<text>text="近战武器攻速提高{D0=D1?D0#1:D0#1~\-~D1#1}" font=105 </text>
+atMeleeWeaponAttackSpeedBase	<text>text="速度{D0#1}" font=106 </text>	<text>text="近战武器速度{D0#1}" font=106 </text>	<text>text="速度{D0=D1?D0#1:D0#1~\-~D1#1}" font=106 </text>	<text>text="速度{D0=D1?D0#1:D0#1~\-~D1#1}" font=106 </text>
+atMeleeWeaponDamageBase	<text>text="近身伤害提高{D0=D1?D0:D0~\-~D1}" font=106 </text>	<text>text="近战武器伤害提高{D0=D1?D0:D0~\-~D1}" font=106 </text>	<text>text="近身伤害提高{D0=D1?D0:D0~\-~D1}-{D2=D3?D2:D2~\-~D3}" font=106 </text>	<text>text="近身伤害提高{D0=D1?D0:D0~\-~D1}-{D2=D3?D2:D2~\-~D3}" font=106 </text>
+atModifyCostManaPercent		<text>text="招式内力消耗降低{D0}" font=105 </text>		<text>text="招式内力消耗降低{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atMoveSpeedPercent		<text>text="移动速度{D0>0?提高~D0*100/1024~\%:降低~D0*100/1024~\%}" font=105 </text>		<text>text="移动速度{D0>0?提高~D0/1024~\%:降低~D0/1024~\%}" font=105 </text>
+atNeutralAttackPowerBase		<text>text="混元性内功攻击提高{D0}" font=105 </text>		<text>text="混元性内功攻击增加{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atNeutralCriticalDamagePowerBase		<text>text="混元性内功会心效果等级提高{D0}" font=105 </text>		<text>text="混元性内功会心效果等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atNeutralCriticalDamagePowerPercent		<text>text="混元性内功会心效果等级修正值提高{D0}" font=105 </text>		<text>text="混元性内功会心效果等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atNeutralCriticalStrike		<text>text="混元性内功会心等级提高{D0}" font=105 </text>		<text>text="混元性内功会心等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atNeutralCriticalStrikeBaseRate		<text>text="混元性内功会心几率提高{D0/100}%" font=105 </text>		<text>text="混元性内功会心几率提高{D0=D1?D0/100:D0/100~\-~D1/100}%" font=105 </text>
+atNeutralHitValue		<text>text="混元性内功命中等级提高{D0}" font=105 </text>		<text>text="混元性内功命中等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atNeutralMagicShieldBase		<text>text="混元性内功防御等级提高{D0}" font=105 </text>		<text>text="混元性内功防御等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atNeutralOvercomeBase		<text>text="混元性内功破防等级提高{D0}" font=105 </text>		<text>text="混元性内功破防等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atNeutralOvercomePercent		<text>text="混元性内功破防修正值提高{D0}" font=105 </text>		<text>text="混元性内功破防修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atParryBase		<text>text="招架等级提高{D0}" font=105 </text>		<text>text="招架等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atParryPercent		<text>text="招架等级修正值提高{D0}" font=105 </text>		<text>text="招架等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atParryValueBase		<text>text="拆招值提高{D0}" font=105 </text>		<text>text="拆招值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atParryValuePercent		<text>text="拆招修正值提高{D0}" font=105 </text>		<text>text="拆招修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsAttackPowerBase		<text>text="外功攻击提高{D0}" font=105 </text>		<text>text="外功攻击提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsCriticalDamagePowerBase		<text>text="外功会心效果等级提高{D0}" font=105 </text>		<text>text="外功会心效果等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsCriticalDamagePowerPercent		<text>text="外功会心效果等级修正值提高{D0}" font=105 </text>		<text>text="外功会心效果等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsCriticalStrike		<text>text="外功会心等级提高{D0}" font=105 </text>		<text>text="外功会心等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsDefenceAdd		<text>text="外功防御等级提高{D0}" font=105 </text>		<text>text="外功防御等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsHitValue		<text>text="外功命中等级提高{D0}" font=105 </text>		<text>text="外功命中等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsOvercomeBase		<text>text="外功破防等级提高{D0}" font=105 </text>		<text>text="外功破防等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsShieldAdditional		<text>text="外功防御等级额外提高{D0}" font=105 </text>		<text>text="外功防御等级额外提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPhysicsShieldBase	<text>text="外功防御等级提高{D0}" font=106 </text>	<text>text="外功防御等级提高{D0}" font=106 </text>	<text>text="外功防御等级提高{D0=D1?D0:D0~\-~D1}" font=106 </text>	<text>text="外功防御等级提高{D0=D1?D0:D0~\-~D1}" font=106 </text>
+atPhysicsShieldPercent		<text>text="外功防御等级提高{D0}成" font=105 </text>		<text>text="外功防御等级提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atPoisonAttackPowerBase		<text>text="毒性内功攻击提高{D0}" font=105 </text>		<text>text="毒性内功攻击提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPoisonCriticalDamagePowerBase		<text>text="毒性内功会心效果等级提高{D0}" font=105 </text>		<text>text="毒性内功会心效果等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPoisonCriticalDamagePowerPercent		<text>text="毒性内功会心效果等级修正值提高{D0}" font=105 </text>		<text>text="毒性内功会心效果等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPoisonCriticalStrike		<text>text="毒性内功会心等级提高{D0}" font=105 </text>		<text>text="毒性内功会心等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPoisonCriticalStrikeBaseRate		<text>text="毒性内功会心几率提高{D0/100}%" font=105 </text>		<text>text="毒性内功会心几率提高{D0=D1?D0/100:D0/100~\-~D1/100}%" font=105 </text>
+atPoisonHitValue		<text>text="毒性内功命中等级提高{D0}" font=105 </text>		<text>text="毒性内功命中等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPoisonMagicShieldBase		<text>text="毒性内功防御等级提高{D0}" font=105 </text>		<text>text="毒性内功防御等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atPoisonOvercomeBase		<text>text="毒性内功破防等级提高{D0}" font=105 </text>		<text>text="毒性内功破防等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atRageReplenish		<text>text="每秒剑气恢复提高{D0}" font=105 </text>		<text>text="每秒剑气恢复提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atRangeWeaponAttackSpeedBase	<text>text="速度{D0#1}" font=106 </text>	<text>text="远程武器速度{D0#1}" font=106 </text>	<text>text="速度{D0=D1?D0#1:D0#1~\-~D1#1}" font=106 </text>	<text>text="速度{D0=D1?D0#1:D0#1~\-~D1#1}" font=106 </text>
+atRangeWeaponDamageBase	<text>text="远程伤害提高{D0=D1?D0:D0~\-~D1}" font=106 </text>	<text>text="远程武器伤害提高{D0=D1?D0:D0~\-~D1}" font=106 </text>	<text>text="远程伤害提高{D0=D1?D0:D0~\-~D1}-{D2=D3?D2:D2~\-~D3}" font=106 </text>	<text>text="远程伤害提高{D0=D1?D0:D0~\-~D1}-{D2=D3?D2:D2~\-~D3}" font=106 </text>
+atSkillLunarDamage		<text>text="阴性内功招式伤害提高{D0}" font=105 </text>		<text>text="阴性内功招式伤害提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSkillLunarDamagePercent		<text>text="阴性内功招式伤害提高{D0}成" font=105 </text>		<text>text="阴性内功招式伤害提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atSkillNeutralDamage		<text>text="混元性内功招式伤害提高{D0}" font=105 </text>		<text>text="混元性内功招式伤害提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSkillNeutralDamagePercent		<text>text="混元性内功招式伤害提高{D0}成" font=105 </text>		<text>text="混元性内功招式伤害提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atSkillPhysicsDamage		<text>text="外功招式伤害提高{D0}成" font=105 </text>		<text>text="外功招式伤害提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atSkillPhysicsDamagePercent		<text>text="外功招式伤害提高{D0}成" font=105 </text>		<text>text="外功招式伤害提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atSkillPoisonDamage		<text>text="毒性内功招式伤害提高{D0}" font=105 </text>		<text>text="毒性内功招式伤害提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSkillPoisonDamagePercent		<text>text="毒性内功招式伤害提高{D0}成" font=105 </text>		<text>text="毒性内功招式伤害提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atSkillSolarDamage		<text>text="阳性内功招式伤害提高{D0}" font=105 </text>		<text>text="阳性内功招式伤害提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSkillSolarDamagePercent		<text>text="阳性内功招式伤害提高{D0}成" font=105 </text>		<text>text="阳性内功招式伤害提高{D0=D1?D0:D0~\-~D1}成" font=105 </text>
+atSolarAttackPowerBase		<text>text="阳性内功攻击提高{D0}" font=105 </text>		<text>text="阳性内功攻击提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSolarCriticalDamagePowerBase		<text>text="阳性内功会心效果等级提高{D0}" font=105 </text>		<text>text="阳性内功会心效果等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSolarCriticalDamagePowerPercent		<text>text="阳性内功会心效果等级修正值提高{D0}" font=105 </text>		<text>text="阳性内功会心效果等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSolarCriticalStrike		<text>text="阳性内功会心等级提高{D0}" font=105 </text>		<text>text="阳性内功会心等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSolarCriticalStrikeBaseRate		<text>text="阳性内功会心几率提高{D0/100}%" font=105 </text>		<text>text="阳性内功会心几率提高{D0=D1?D0/100:D0/100~\-~D1/100}%" font=105 </text>
+atSolarHitValue		<text>text="阳性内功命中等级提高{D0}" font=105 </text>		<text>text="阳性内功命中等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSolarMagicShieldBase		<text>text="阳性内功防御等级提高{D0}" font=105 </text>		<text>text="阳性内功防御等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSolarOvercomeBase		<text>text="阳性内功破防等级提高{D0}" font=105 </text>		<text>text="阳性内功破防等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atSpiritBase		<text>text="根骨+{D0}" font=106 </text>		<text>text="根骨+{D0=D1?D0:D0~\-~D1}" font=106 </text>
+atSpunkBase		<text>text="元气+{D0}" font=106 </text>		<text>text="元气+{D0=D1?D0:D0~\-~D1}" font=106 </text>
+atStrainBase		<text>text="无双等级提高{D0}" font=105 </text>		<text>text="无双等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atStrainPercent		<text>text="无双等级修正值提高{D0}" font=105 </text>		<text>text="无双等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atStrengthBase		<text>text="力道+{D0}" font=106 </text>		<text>text="力道+{D0=D1?D0:D0~\-~D1}" font=106 </text>
+atTherapyPowerBase		<text>text="治疗成效提高{D0}" font=105 </text>		<text>text="治疗成效提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atToughnessBase		<text>text="御劲等级提高{D0}" font=105 </text>		<text>text="御劲等级提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atToughnessPercent		<text>text="御劲等级修正值提高{D0}" font=105 </text>		<text>text="御劲等级修正值提高{D0=D1?D0:D0~\-~D1}" font=105 </text>
+atVitalityBase		<text>text="体质+{D0}" font=106 </text>		<text>text="体质+{D0=D1?D0:D0~\-~D1}" font=106 </text>

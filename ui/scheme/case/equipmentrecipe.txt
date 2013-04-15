@@ -1,0 +1,20 @@
+ID	Level	Desc
+639	1	<text>text="“绛唇珠袖”招式调息时间减少10秒" font=105 </text>
+640	1	<text>text="“捉影式”招式调息时间减少3秒" font=105 </text>
+641	1	<text>text="“突”招式调息时间减少3秒" font=105 </text>
+642	1	<text>text="“毫针”招式调息时间减少2秒" font=105 </text>
+644	1	<text>text="“醉月”招式调息时间减少1秒" font=105 </text>
+645	1	<text>text="“人剑合一”招式调息时间减少1秒" font=105 </text>
+646	1	<text>text="“三才化生”招式调息时间减少2秒" font=105 </text>
+810	1	<text>text="“蛊虫献祭”招式调息时间减少3秒" font=105 </text>
+817	1	<text>text="“阳明指”招式伤害提高5%" font=105 </text>
+817	2	<text>text="“龙牙”招式伤害提高10%" font=105 </text>
+818	1	<text>text="“无我无剑”招式伤害提高10%" font=105 </text>
+818	2	<text>text="“两仪化形”招式伤害提高10%" font=105 </text>
+818	3	<text>text="“剑气长江”招式伤害提高10%" font=105 </text>
+818	5	<text>text="“韦陀献杵”招式伤害提高10%" font=105 </text>
+818	6	<text>text="“云飞玉皇”招式伤害提高10%" font=105 </text>
+818	7	<text>text="“蝎心”招式伤害提高5%" font=105 </text>
+946	1	<text>text="“夺魄箭”招式伤害提高5%" font=105 </text>
+947	1	<text>text="“蚀肌弹”招式伤害提高5%" font=105 </text>
+948	1	<text>text="“雷震子”招式调息时间减少5秒" font=105 </text>

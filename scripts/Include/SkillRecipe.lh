@@ -1,0 +1,1263 @@
+SkillRecipeTable = {}
+
+SkillRecipeTable[4001] = { RecipeID = 10 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4002] = { RecipeID = 11 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4003] = { RecipeID = 12 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4004] = { RecipeID = 13 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4005] = { RecipeID = 14 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4006] = { RecipeID = 15 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4007] = { RecipeID = 16 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4008] = { RecipeID = 17 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4009] = { RecipeID = 18 , RecipeLevel = 1, SkillID =  356}
+SkillRecipeTable[4010] = { RecipeID = 19 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4011] = { RecipeID = 20 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4012] = { RecipeID = 21 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4013] = { RecipeID = 22 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4014] = { RecipeID = 23 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4015] = { RecipeID = 24 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4016] = { RecipeID = 25 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4017] = { RecipeID = 26 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4018] = { RecipeID = 27 , RecipeLevel = 1, SkillID =  301}
+SkillRecipeTable[4019] = { RecipeID = 28 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4020] = { RecipeID = 29 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4021] = { RecipeID = 30 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4022] = { RecipeID = 31 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4023] = { RecipeID = 32 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4024] = { RecipeID = 33 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4025] = { RecipeID = 34 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4026] = { RecipeID = 35 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4027] = { RecipeID = 36 , RecipeLevel = 1, SkillID =  361}
+SkillRecipeTable[4028] = { RecipeID = 37 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4029] = { RecipeID = 38 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4030] = { RecipeID = 39 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4031] = { RecipeID = 40 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4032] = { RecipeID = 41 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4033] = { RecipeID = 42 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4034] = { RecipeID = 43 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4035] = { RecipeID = 44 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4036] = { RecipeID = 45 , RecipeLevel = 1, SkillID =  355}
+SkillRecipeTable[4037] = { RecipeID = 46 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4038] = { RecipeID = 47 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4039] = { RecipeID = 48 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4040] = { RecipeID = 49 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4041] = { RecipeID = 50 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4042] = { RecipeID = 51 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4043] = { RecipeID = 52 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4044] = { RecipeID = 53 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4045] = { RecipeID = 54 , RecipeLevel = 1, SkillID =  359}
+SkillRecipeTable[4046] = { RecipeID = 55 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4047] = { RecipeID = 56 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4048] = { RecipeID = 57 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4049] = { RecipeID = 58 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4050] = { RecipeID = 59 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4051] = { RecipeID = 60 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4052] = { RecipeID = 61 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4053] = { RecipeID = 62 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4054] = { RecipeID = 63 , RecipeLevel = 1, SkillID =  588}
+SkillRecipeTable[4055] = { RecipeID = 64 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4056] = { RecipeID = 65 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4057] = { RecipeID = 66 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4058] = { RecipeID = 67 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4059] = { RecipeID = 68 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4060] = { RecipeID = 69 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4061] = { RecipeID = 70 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4062] = { RecipeID = 71 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4063] = { RecipeID = 72 , RecipeLevel = 1, SkillID =  364}
+SkillRecipeTable[4064] = { RecipeID = 73 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4065] = { RecipeID = 74 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4066] = { RecipeID = 75 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4067] = { RecipeID = 76 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4068] = { RecipeID = 77 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4069] = { RecipeID = 78 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4070] = { RecipeID = 79 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4071] = { RecipeID = 80 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4072] = { RecipeID = 81 , RecipeLevel = 1, SkillID =  358}
+SkillRecipeTable[4073] = { RecipeID = 82 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4074] = { RecipeID = 83 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4075] = { RecipeID = 84 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4076] = { RecipeID = 85 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4077] = { RecipeID = 86 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4078] = { RecipeID = 87 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4079] = { RecipeID = 88 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4080] = { RecipeID = 89 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4081] = { RecipeID = 90 , RecipeLevel = 1, SkillID =  367}
+SkillRecipeTable[4082] = { RecipeID = 91 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4083] = { RecipeID = 92 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4084] = { RecipeID = 93 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4085] = { RecipeID = 94 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4086] = { RecipeID = 95 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4087] = { RecipeID = 96 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4088] = { RecipeID = 97 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4089] = { RecipeID = 98 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4090] = { RecipeID = 99 , RecipeLevel = 1, SkillID =  306}
+SkillRecipeTable[4091] = { RecipeID = 100, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4092] = { RecipeID = 101, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4093] = { RecipeID = 102, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4094] = { RecipeID = 103, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4095] = { RecipeID = 104, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4096] = { RecipeID = 105, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4097] = { RecipeID = 106, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4098] = { RecipeID = 107, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4099] = { RecipeID = 108, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[4100] = { RecipeID = 109, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4101] = { RecipeID = 110, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4102] = { RecipeID = 111, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4103] = { RecipeID = 112, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4104] = { RecipeID = 113, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4105] = { RecipeID = 114, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4106] = { RecipeID = 115, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4107] = { RecipeID = 116, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4108] = { RecipeID = 117, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[4109] = { RecipeID = 118, RecipeLevel = 1, SkillID = 49 }
+SkillRecipeTable[4110] = { RecipeID = 119, RecipeLevel = 1, SkillID = 49 }
+SkillRecipeTable[4111] = { RecipeID = 120, RecipeLevel = 1, SkillID = 49 }
+SkillRecipeTable[4112] = { RecipeID = 121, RecipeLevel = 1, SkillID = 49 }
+SkillRecipeTable[4113] = { RecipeID = 122, RecipeLevel = 1, SkillID = 49 }
+SkillRecipeTable[4114] = { RecipeID = 123, RecipeLevel = 1, SkillID = 49 }
+SkillRecipeTable[4115] = { RecipeID = 124, RecipeLevel = 1, SkillID = 49 }
+SkillRecipeTable[4116] = { RecipeID = 125, RecipeLevel = 1, SkillID = 58 }
+SkillRecipeTable[4117] = { RecipeID = 126, RecipeLevel = 1, SkillID = 58 }
+SkillRecipeTable[4118] = { RecipeID = 127, RecipeLevel = 1, SkillID = 58 }
+SkillRecipeTable[4119] = { RecipeID = 128, RecipeLevel = 1, SkillID = 58 }
+SkillRecipeTable[4120] = { RecipeID = 129, RecipeLevel = 1, SkillID = 58 }
+SkillRecipeTable[4121] = { RecipeID = 130, RecipeLevel = 1, SkillID = 58 }
+SkillRecipeTable[4122] = { RecipeID = 131, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4123] = { RecipeID = 132, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4124] = { RecipeID = 133, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4125] = { RecipeID = 134, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4126] = { RecipeID = 135, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4127] = { RecipeID = 136, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4128] = { RecipeID = 137, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4129] = { RecipeID = 138, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[4130] = { RecipeID = 139, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4131] = { RecipeID = 140, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4132] = { RecipeID = 141, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4133] = { RecipeID = 142, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4134] = { RecipeID = 143, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4135] = { RecipeID = 144, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4136] = { RecipeID = 145, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4137] = { RecipeID = 146, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[4138] = { RecipeID = 147, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[4139] = { RecipeID = 148, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[4140] = { RecipeID = 149, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[4141] = { RecipeID = 150, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[4142] = { RecipeID = 151, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[4143] = { RecipeID = 152, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[4144] = { RecipeID = 153, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[4145] = { RecipeID = 154, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4146] = { RecipeID = 155, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4147] = { RecipeID = 156, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4148] = { RecipeID = 157, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4149] = { RecipeID = 158, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4150] = { RecipeID = 159, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4151] = { RecipeID = 160, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4152] = { RecipeID = 161, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[4153] = { RecipeID = 162, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[4154] = { RecipeID = 163, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[4155] = { RecipeID = 164, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[4156] = { RecipeID = 165, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[4157] = { RecipeID = 166, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[4158] = { RecipeID = 167, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[4159] = { RecipeID = 168, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[4160] = { RecipeID = 169, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[4161] = { RecipeID = 170, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[4162] = { RecipeID = 171, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[4163] = { RecipeID = 172, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[4164] = { RecipeID = 173, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[4165] = { RecipeID = 174, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[4166] = { RecipeID = 175, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[4167] = { RecipeID = 176, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[4168] = { RecipeID = 177, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[4169] = { RecipeID = 178, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[4170] = { RecipeID = 179, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[4171] = { RecipeID = 180, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[4172] = { RecipeID = 181, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[4173] = { RecipeID = 182, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[4174] = { RecipeID = 183, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[4175] = { RecipeID = 184, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[4176] = { RecipeID = 185, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[4177] = { RecipeID = 186, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[4178] = { RecipeID = 187, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[4179] = { RecipeID = 188, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[4180] = { RecipeID = 189, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[4181] = { RecipeID = 190, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[4182] = { RecipeID = 191, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[4183] = { RecipeID = 192, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[4184] = { RecipeID = 193, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[4185] = { RecipeID = 194, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[4186] = { RecipeID = 195, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[4187] = { RecipeID = 196, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[4188] = { RecipeID = 197, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[4189] = { RecipeID = 198, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[4190] = { RecipeID = 199, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[4191] = { RecipeID = 200, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[4192] = { RecipeID = 201, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[4193] = { RecipeID = 202, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[4194] = { RecipeID = 203, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[4195] = { RecipeID = 204, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[4196] = { RecipeID = 205, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[4197] = { RecipeID = 206, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[4198] = { RecipeID = 207, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[4199] = { RecipeID = 208, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[4200] = { RecipeID = 209, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[4201] = { RecipeID = 210, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[4202] = { RecipeID = 211, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[4203] = { RecipeID = 212, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[4204] = { RecipeID = 213, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[4205] = { RecipeID = 214, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[4206] = { RecipeID = 215, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[4207] = { RecipeID = 216, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[4208] = { RecipeID = 217, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[4209] = { RecipeID = 218, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4210] = { RecipeID = 219, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4211] = { RecipeID = 220, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4212] = { RecipeID = 221, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4213] = { RecipeID = 222, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4214] = { RecipeID = 223, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4215] = { RecipeID = 224, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4216] = { RecipeID = 225, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4217] = { RecipeID = 226, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[4218] = { RecipeID = 227, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4219] = { RecipeID = 228, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4220] = { RecipeID = 229, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4221] = { RecipeID = 230, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4222] = { RecipeID = 231, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4223] = { RecipeID = 232, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4224] = { RecipeID = 233, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4225] = { RecipeID = 234, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4226] = { RecipeID = 235, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[4227] = { RecipeID = 236, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4228] = { RecipeID = 237, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4229] = { RecipeID = 238, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4230] = { RecipeID = 239, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4231] = { RecipeID = 240, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4232] = { RecipeID = 241, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4233] = { RecipeID = 242, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4234] = { RecipeID = 243, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4235] = { RecipeID = 244, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[4236] = { RecipeID = 245, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4237] = { RecipeID = 246, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4238] = { RecipeID = 247, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4239] = { RecipeID = 248, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4240] = { RecipeID = 249, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4241] = { RecipeID = 250, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4242] = { RecipeID = 251, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4243] = { RecipeID = 252, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4244] = { RecipeID = 253, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[4245] = { RecipeID = 254, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4246] = { RecipeID = 255, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4247] = { RecipeID = 256, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4248] = { RecipeID = 257, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4249] = { RecipeID = 258, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4250] = { RecipeID = 259, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4251] = { RecipeID = 260, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4252] = { RecipeID = 261, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4253] = { RecipeID = 262, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[4254] = { RecipeID = 263, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4255] = { RecipeID = 264, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4256] = { RecipeID = 265, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4257] = { RecipeID = 266, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4258] = { RecipeID = 267, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4259] = { RecipeID = 268, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4260] = { RecipeID = 269, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4261] = { RecipeID = 270, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4262] = { RecipeID = 271, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[4263] = { RecipeID = 272, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4264] = { RecipeID = 273, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4265] = { RecipeID = 274, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4266] = { RecipeID = 275, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4267] = { RecipeID = 276, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4268] = { RecipeID = 277, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4269] = { RecipeID = 278, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4270] = { RecipeID = 279, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4271] = { RecipeID = 280, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[4272] = { RecipeID = 281, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4273] = { RecipeID = 282, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4274] = { RecipeID = 283, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4275] = { RecipeID = 284, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4276] = { RecipeID = 285, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4277] = { RecipeID = 286, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4278] = { RecipeID = 287, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4279] = { RecipeID = 288, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4280] = { RecipeID = 289, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[4281] = { RecipeID = 290, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4282] = { RecipeID = 291, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4283] = { RecipeID = 292, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4284] = { RecipeID = 293, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4285] = { RecipeID = 294, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4286] = { RecipeID = 295, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4287] = { RecipeID = 296, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4288] = { RecipeID = 297, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4289] = { RecipeID = 298, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[4290] = { RecipeID = 299, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4291] = { RecipeID = 300, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4292] = { RecipeID = 301, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4293] = { RecipeID = 302, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4294] = { RecipeID = 303, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4295] = { RecipeID = 304, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4296] = { RecipeID = 305, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4297] = { RecipeID = 306, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4298] = { RecipeID = 307, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[4299] = { RecipeID = 308, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4300] = { RecipeID = 309, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4301] = { RecipeID = 310, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4302] = { RecipeID = 311, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4303] = { RecipeID = 312, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4304] = { RecipeID = 313, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4305] = { RecipeID = 314, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4306] = { RecipeID = 315, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4307] = { RecipeID = 316, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[4308] = { RecipeID = 317, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4309] = { RecipeID = 318, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4310] = { RecipeID = 319, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4311] = { RecipeID = 320, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4312] = { RecipeID = 321, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4313] = { RecipeID = 322, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4314] = { RecipeID = 323, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4315] = { RecipeID = 324, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4316] = { RecipeID = 325, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[4317] = { RecipeID = 326, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[4318] = { RecipeID = 327, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[4319] = { RecipeID = 328, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[4320] = { RecipeID = 329, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[4321] = { RecipeID = 330, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[4322] = { RecipeID = 331, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[4323] = { RecipeID = 332, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[4324] = { RecipeID = 333, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[4325] = { RecipeID = 334, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[4326] = { RecipeID = 335, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[4327] = { RecipeID = 336, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[4328] = { RecipeID = 337, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[4329] = { RecipeID = 338, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[4330] = { RecipeID = 339, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[4331] = { RecipeID = 340, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[4332] = { RecipeID = 341, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[4333] = { RecipeID = 342, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[4334] = { RecipeID = 343, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[4335] = { RecipeID = 344, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[4336] = { RecipeID = 345, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[4337] = { RecipeID = 346, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[4338] = { RecipeID = 347, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4339] = { RecipeID = 348, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4340] = { RecipeID = 349, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4341] = { RecipeID = 350, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4342] = { RecipeID = 351, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4343] = { RecipeID = 352, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4344] = { RecipeID = 353, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4345] = { RecipeID = 354, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[4346] = { RecipeID = 355, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4347] = { RecipeID = 356, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4348] = { RecipeID = 357, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4349] = { RecipeID = 358, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4350] = { RecipeID = 359, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4351] = { RecipeID = 360, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4352] = { RecipeID = 361, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4353] = { RecipeID = 362, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[4354] = { RecipeID = 363, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4355] = { RecipeID = 364, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4356] = { RecipeID = 365, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4357] = { RecipeID = 366, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4358] = { RecipeID = 367, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4359] = { RecipeID = 368, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4360] = { RecipeID = 369, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4361] = { RecipeID = 370, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[4362] = { RecipeID = 371, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[4363] = { RecipeID = 372, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[4364] = { RecipeID = 373, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[4365] = { RecipeID = 374, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[4366] = { RecipeID = 375, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[4367] = { RecipeID = 376, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[4368] = { RecipeID = 377, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[4369] = { RecipeID = 378, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[4370] = { RecipeID = 379, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[4371] = { RecipeID = 380, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[4372] = { RecipeID = 381, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[4373] = { RecipeID = 382, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[4374] = { RecipeID = 383, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[4375] = { RecipeID = 384, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[4376] = { RecipeID = 385, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4377] = { RecipeID = 386, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4378] = { RecipeID = 387, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4379] = { RecipeID = 388, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4380] = { RecipeID = 389, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4381] = { RecipeID = 390, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4382] = { RecipeID = 391, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4383] = { RecipeID = 392, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[4384] = { RecipeID = 393, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[4385] = { RecipeID = 394, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[4386] = { RecipeID = 395, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[4387] = { RecipeID = 396, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[4388] = { RecipeID = 397, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[4389] = { RecipeID = 398, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[4390] = { RecipeID = 399, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[4391] = { RecipeID = 400, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[4392] = { RecipeID = 401, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[4393] = { RecipeID = 402, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[4394] = { RecipeID = 403, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[4395] = { RecipeID = 404, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[4396] = { RecipeID = 405, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[4397] = { RecipeID = 406, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[4398] = { RecipeID = 407, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[4399] = { RecipeID = 408, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[4400] = { RecipeID = 409, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[4401] = { RecipeID = 410, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[4402] = { RecipeID = 411, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[4403] = { RecipeID = 412, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[4404] = { RecipeID = 413, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[4405] = { RecipeID = 414, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[4406] = { RecipeID = 415, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[4407] = { RecipeID = 416, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[4408] = { RecipeID = 417, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[4409] = { RecipeID = 418, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[4410] = { RecipeID = 419, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[4411] = { RecipeID = 420, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[4412] = { RecipeID = 421, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4413] = { RecipeID = 422, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4414] = { RecipeID = 423, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4415] = { RecipeID = 424, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4416] = { RecipeID = 425, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4417] = { RecipeID = 426, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4418] = { RecipeID = 427, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4419] = { RecipeID = 428, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[4420] = { RecipeID = 429, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[4421] = { RecipeID = 430, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[4422] = { RecipeID = 431, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[4423] = { RecipeID = 432, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[4424] = { RecipeID = 433, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[4425] = { RecipeID = 434, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[4426] = { RecipeID = 435, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[4427] = { RecipeID = 436, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[4428] = { RecipeID = 437, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[4429] = { RecipeID = 438, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[4430] = { RecipeID = 439, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[4431] = { RecipeID = 440, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[4432] = { RecipeID = 441, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[4433] = { RecipeID = 442, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[4434] = { RecipeID = 443, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[4435] = { RecipeID = 444, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[4436] = { RecipeID = 445, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[4437] = { RecipeID = 446, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[4438] = { RecipeID = 447, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[4439] = { RecipeID = 448, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[4440] = { RecipeID = 449, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[4441] = { RecipeID = 450, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[4442] = { RecipeID = 451, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[4443] = { RecipeID = 452, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[4444] = { RecipeID = 453, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[4445] = { RecipeID = 454, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[4446] = { RecipeID = 455, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[4447] = { RecipeID = 456, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[4448] = { RecipeID = 457, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[4449] = { RecipeID = 458, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[4450] = { RecipeID = 459, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[4451] = { RecipeID = 460, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[4452] = { RecipeID = 461, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[4453] = { RecipeID = 462, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[4454] = { RecipeID = 463, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[4455] = { RecipeID = 464, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4456] = { RecipeID = 465, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4457] = { RecipeID = 466, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4458] = { RecipeID = 467, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4459] = { RecipeID = 468, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4460] = { RecipeID = 469, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4461] = { RecipeID = 470, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4462] = { RecipeID = 471, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[4463] = { RecipeID = 472, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[4464] = { RecipeID = 473, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[4465] = { RecipeID = 474, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[4466] = { RecipeID = 475, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[4467] = { RecipeID = 476, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[4468] = { RecipeID = 477, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[4469] = { RecipeID = 478, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[4470] = { RecipeID = 479, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[4471] = { RecipeID = 480, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[4472] = { RecipeID = 481, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[4473] = { RecipeID = 482, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[4474] = { RecipeID = 483, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[4475] = { RecipeID = 484, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[4476] = { RecipeID = 485, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[4477] = { RecipeID = 486, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4478] = { RecipeID = 487, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4479] = { RecipeID = 488, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4480] = { RecipeID = 489, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4481] = { RecipeID = 490, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4482] = { RecipeID = 491, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4483] = { RecipeID = 492, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4484] = { RecipeID = 493, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[4485] = { RecipeID = 494, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4486] = { RecipeID = 495, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4487] = { RecipeID = 496, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4488] = { RecipeID = 497, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4489] = { RecipeID = 498, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4490] = { RecipeID = 499, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4491] = { RecipeID = 500, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4492] = { RecipeID = 501, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[4668] = { RecipeID = 507, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[6781] = { RecipeID = 545, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[6782] = { RecipeID = 546, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[6783] = { RecipeID = 547, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[6784] = { RecipeID = 548, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[6785] = { RecipeID = 549, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[6786] = { RecipeID = 550, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[6787] = { RecipeID = 551, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[6788] = { RecipeID = 552, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6789] = { RecipeID = 553, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6790] = { RecipeID = 554, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6791] = { RecipeID = 555, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6792] = { RecipeID = 556, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6793] = { RecipeID = 557, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6794] = { RecipeID = 558, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6795] = { RecipeID = 559, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[6796] = { RecipeID = 560, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[6797] = { RecipeID = 561, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[6798] = { RecipeID = 562, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[6799] = { RecipeID = 563, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[6800] = { RecipeID = 564, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[6801] = { RecipeID = 565, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[6802] = { RecipeID = 566, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[6803] = { RecipeID = 567, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6804] = { RecipeID = 568, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6805] = { RecipeID = 569, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6806] = { RecipeID = 570, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6807] = { RecipeID = 571, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6808] = { RecipeID = 572, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6809] = { RecipeID = 573, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6810] = { RecipeID = 574, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[6811] = { RecipeID = 575, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6812] = { RecipeID = 576, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6813] = { RecipeID = 577, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6814] = { RecipeID = 578, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6815] = { RecipeID = 579, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6816] = { RecipeID = 580, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6817] = { RecipeID = 581, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6818] = { RecipeID = 582, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[6819] = { RecipeID = 583, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[6820] = { RecipeID = 584, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[6821] = { RecipeID = 585, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[6822] = { RecipeID = 586, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[6823] = { RecipeID = 587, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[6824] = { RecipeID = 588, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[6825] = { RecipeID = 589, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[6826] = { RecipeID = 590, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6827] = { RecipeID = 591, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6828] = { RecipeID = 592, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6829] = { RecipeID = 593, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6830] = { RecipeID = 594, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6831] = { RecipeID = 595, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6832] = { RecipeID = 596, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6833] = { RecipeID = 597, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6834] = { RecipeID = 598, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[6835] = { RecipeID = 599, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[6836] = { RecipeID = 600, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[6837] = { RecipeID = 601, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[6838] = { RecipeID = 602, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[6839] = { RecipeID = 603, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[6840] = { RecipeID = 604, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[6841] = { RecipeID = 605, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[6842] = { RecipeID = 606, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[6843] = { RecipeID = 607, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[6844] = { RecipeID = 608, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[6845] = { RecipeID = 609, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[6846] = { RecipeID = 610, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[6847] = { RecipeID = 611, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[6848] = { RecipeID = 612, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[6849] = { RecipeID = 613, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[6850] = { RecipeID = 614, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[6851] = { RecipeID = 615, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[6852] = { RecipeID = 616, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[6853] = { RecipeID = 617, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6854] = { RecipeID = 618, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6855] = { RecipeID = 619, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6856] = { RecipeID = 620, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6857] = { RecipeID = 621, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6858] = { RecipeID = 622, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6859] = { RecipeID = 623, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6860] = { RecipeID = 624, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6861] = { RecipeID = 625, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[6862] = { RecipeID = 626, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[6863] = { RecipeID = 627, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[6864] = { RecipeID = 628, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[6865] = { RecipeID = 629, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[6866] = { RecipeID = 630, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[6867] = { RecipeID = 631, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[6868] = { RecipeID = 632, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[8056] = { RecipeID = 647, RecipeLevel = 1, SkillID = 34}
+SkillRecipeTable[8059] = { RecipeID = 648, RecipeLevel = 1, SkillID = 34}
+SkillRecipeTable[8060] = { RecipeID = 649, RecipeLevel = 1, SkillID = 34}
+SkillRecipeTable[8391] = { RecipeID = 10 , RecipeLevel = 1, SkillID = 356}
+SkillRecipeTable[8392] = { RecipeID = 12 , RecipeLevel = 1, SkillID = 356}
+SkillRecipeTable[8393] = { RecipeID = 13 , RecipeLevel = 1, SkillID = 356}
+SkillRecipeTable[8394] = { RecipeID = 14 , RecipeLevel = 1, SkillID = 356}
+SkillRecipeTable[8395] = { RecipeID = 17 , RecipeLevel = 1, SkillID = 356}
+SkillRecipeTable[8396] = { RecipeID = 18 , RecipeLevel = 1, SkillID = 356}
+SkillRecipeTable[8397] = { RecipeID = 19 , RecipeLevel = 1, SkillID = 301}
+SkillRecipeTable[8398] = { RecipeID = 20 , RecipeLevel = 1, SkillID = 301}
+SkillRecipeTable[8399] = { RecipeID = 22 , RecipeLevel = 1, SkillID = 301}
+SkillRecipeTable[8400] = { RecipeID = 23 , RecipeLevel = 1, SkillID = 301}
+SkillRecipeTable[8401] = { RecipeID = 24 , RecipeLevel = 1, SkillID = 301}
+SkillRecipeTable[8402] = { RecipeID = 25 , RecipeLevel = 1, SkillID = 301}
+SkillRecipeTable[8403] = { RecipeID = 26 , RecipeLevel = 1, SkillID = 301}
+SkillRecipeTable[8404] = { RecipeID = 28 , RecipeLevel = 1, SkillID = 361}
+SkillRecipeTable[8405] = { RecipeID = 31 , RecipeLevel = 1, SkillID = 361}
+SkillRecipeTable[8406] = { RecipeID = 33 , RecipeLevel = 1, SkillID = 361}
+SkillRecipeTable[8407] = { RecipeID = 35 , RecipeLevel = 1, SkillID = 361}
+SkillRecipeTable[8408] = { RecipeID = 36 , RecipeLevel = 1, SkillID = 361}
+SkillRecipeTable[8409] = { RecipeID = 42 , RecipeLevel = 1, SkillID = 355}
+SkillRecipeTable[8410] = { RecipeID = 43 , RecipeLevel = 1, SkillID = 355}
+SkillRecipeTable[8411] = { RecipeID = 44 , RecipeLevel = 1, SkillID = 355}
+SkillRecipeTable[8412] = { RecipeID = 45 , RecipeLevel = 1, SkillID = 355}
+SkillRecipeTable[8413] = { RecipeID = 46 , RecipeLevel = 1, SkillID = 359}
+SkillRecipeTable[8414] = { RecipeID = 49 , RecipeLevel = 1, SkillID = 359}
+SkillRecipeTable[8415] = { RecipeID = 51 , RecipeLevel = 1, SkillID = 359}
+SkillRecipeTable[8416] = { RecipeID = 53 , RecipeLevel = 1, SkillID = 359}
+SkillRecipeTable[8417] = { RecipeID = 54 , RecipeLevel = 1, SkillID = 359}
+SkillRecipeTable[8418] = { RecipeID = 56 , RecipeLevel = 1, SkillID = 588}
+SkillRecipeTable[8419] = { RecipeID = 58 , RecipeLevel = 1, SkillID = 588}
+SkillRecipeTable[8420] = { RecipeID = 60 , RecipeLevel = 1, SkillID = 588}
+SkillRecipeTable[8421] = { RecipeID = 62 , RecipeLevel = 1, SkillID = 588}
+SkillRecipeTable[8422] = { RecipeID = 63 , RecipeLevel = 1, SkillID = 588}
+SkillRecipeTable[8423] = { RecipeID = 64 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8424] = { RecipeID = 65 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8425] = { RecipeID = 66 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8426] = { RecipeID = 67 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8427] = { RecipeID = 69 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8428] = { RecipeID = 70 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8429] = { RecipeID = 71 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8430] = { RecipeID = 72 , RecipeLevel = 1, SkillID = 364}
+SkillRecipeTable[8431] = { RecipeID = 73 , RecipeLevel = 1, SkillID = 358}
+SkillRecipeTable[8432] = { RecipeID = 76 , RecipeLevel = 1, SkillID = 358}
+SkillRecipeTable[8433] = { RecipeID = 77 , RecipeLevel = 1, SkillID = 358}
+SkillRecipeTable[8434] = { RecipeID = 78 , RecipeLevel = 1, SkillID = 358}
+SkillRecipeTable[8435] = { RecipeID = 83 , RecipeLevel = 1, SkillID = 367}
+SkillRecipeTable[8436] = { RecipeID = 88 , RecipeLevel = 1, SkillID = 367}
+SkillRecipeTable[8437] = { RecipeID = 91 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8438] = { RecipeID = 92 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8439] = { RecipeID = 93 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8440] = { RecipeID = 94 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8441] = { RecipeID = 95 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8442] = { RecipeID = 96 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8443] = { RecipeID = 97 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8444] = { RecipeID = 98 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8445] = { RecipeID = 99 , RecipeLevel = 1, SkillID = 306}
+SkillRecipeTable[8446] = { RecipeID = 100, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[8447] = { RecipeID = 101, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[8448] = { RecipeID = 103, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[8449] = { RecipeID = 104, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[8450] = { RecipeID = 105, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[8451] = { RecipeID = 106, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[8452] = { RecipeID = 107, RecipeLevel = 1, SkillID = 365}
+SkillRecipeTable[8453] = { RecipeID = 112, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[8454] = { RecipeID = 113, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[8455] = { RecipeID = 114, RecipeLevel = 1, SkillID = 312}
+SkillRecipeTable[8456] = { RecipeID = 122, RecipeLevel = 1, SkillID = 49}
+SkillRecipeTable[8457] = { RecipeID = 125, RecipeLevel = 1, SkillID = 58}
+SkillRecipeTable[8458] = { RecipeID = 129, RecipeLevel = 1, SkillID = 58}
+SkillRecipeTable[8459] = { RecipeID = 131, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[8460] = { RecipeID = 132, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[8461] = { RecipeID = 133, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[8462] = { RecipeID = 134, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[8463] = { RecipeID = 135, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[8464] = { RecipeID = 138, RecipeLevel = 1, SkillID = 564}
+SkillRecipeTable[8465] = { RecipeID = 142, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[8466] = { RecipeID = 145, RecipeLevel = 1, SkillID = 561}
+SkillRecipeTable[8467] = { RecipeID = 147, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8468] = { RecipeID = 148, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8469] = { RecipeID = 149, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8470] = { RecipeID = 150, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8471] = { RecipeID = 151, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8472] = { RecipeID = 152, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8473] = { RecipeID = 153, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8474] = { RecipeID = 154, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[8475] = { RecipeID = 155, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[8476] = { RecipeID = 159, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[8477] = { RecipeID = 160, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[8478] = { RecipeID = 161, RecipeLevel = 1, SkillID = 553}
+SkillRecipeTable[8479] = { RecipeID = 162, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[8480] = { RecipeID = 165, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[8481] = { RecipeID = 167, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[8482] = { RecipeID = 168, RecipeLevel = 1, SkillID = 552}
+SkillRecipeTable[8483] = { RecipeID = 170, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[8484] = { RecipeID = 171, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[8485] = { RecipeID = 172, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[8486] = { RecipeID = 173, RecipeLevel = 1, SkillID = 573}
+SkillRecipeTable[8487] = { RecipeID = 176, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[8488] = { RecipeID = 179, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[8489] = { RecipeID = 181, RecipeLevel = 1, SkillID = 556}
+SkillRecipeTable[8490] = { RecipeID = 183, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[8491] = { RecipeID = 184, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[8492] = { RecipeID = 185, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[8493] = { RecipeID = 188, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[8494] = { RecipeID = 189, RecipeLevel = 1, SkillID = 557}
+SkillRecipeTable[8495] = { RecipeID = 190, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[8496] = { RecipeID = 191, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[8497] = { RecipeID = 192, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[8498] = { RecipeID = 195, RecipeLevel = 1, SkillID = 554}
+SkillRecipeTable[8499] = { RecipeID = 198, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[8500] = { RecipeID = 201, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[8501] = { RecipeID = 202, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[8502] = { RecipeID = 203, RecipeLevel = 1, SkillID = 551}
+SkillRecipeTable[8503] = { RecipeID = 204, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[8504] = { RecipeID = 205, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[8505] = { RecipeID = 207, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[8506] = { RecipeID = 209, RecipeLevel = 1, SkillID = 570}
+SkillRecipeTable[8507] = { RecipeID = 213, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[8508] = { RecipeID = 214, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[8509] = { RecipeID = 217, RecipeLevel = 1, SkillID = 567}
+SkillRecipeTable[8510] = { RecipeID = 218, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[8511] = { RecipeID = 220, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[8512] = { RecipeID = 223, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[8513] = { RecipeID = 224, RecipeLevel = 1, SkillID = 239}
+SkillRecipeTable[8514] = { RecipeID = 229, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[8515] = { RecipeID = 232, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[8516] = { RecipeID = 233, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[8517] = { RecipeID = 234, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[8518] = { RecipeID = 235, RecipeLevel = 1, SkillID = 238}
+SkillRecipeTable[8519] = { RecipeID = 236, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[8520] = { RecipeID = 237, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[8521] = { RecipeID = 239, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[8522] = { RecipeID = 240, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[8523] = { RecipeID = 241, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[8524] = { RecipeID = 243, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[8525] = { RecipeID = 244, RecipeLevel = 1, SkillID = 252}
+SkillRecipeTable[8526] = { RecipeID = 246, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[8527] = { RecipeID = 247, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[8528] = { RecipeID = 248, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[8529] = { RecipeID = 249, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[8530] = { RecipeID = 253, RecipeLevel = 1, SkillID = 257}
+SkillRecipeTable[8531] = { RecipeID = 254, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[8532] = { RecipeID = 256, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[8533] = { RecipeID = 257, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[8534] = { RecipeID = 258, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[8535] = { RecipeID = 259, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[8536] = { RecipeID = 262, RecipeLevel = 1, SkillID = 235}
+SkillRecipeTable[8537] = { RecipeID = 263, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[8538] = { RecipeID = 264, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[8539] = { RecipeID = 267, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[8540] = { RecipeID = 268, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[8541] = { RecipeID = 270, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[8542] = { RecipeID = 271, RecipeLevel = 1, SkillID = 232}
+SkillRecipeTable[8543] = { RecipeID = 272, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[8544] = { RecipeID = 275, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[8545] = { RecipeID = 276, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[8546] = { RecipeID = 277, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[8547] = { RecipeID = 278, RecipeLevel = 1, SkillID = 254}
+SkillRecipeTable[8548] = { RecipeID = 281, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[8549] = { RecipeID = 283, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[8550] = { RecipeID = 284, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[8551] = { RecipeID = 287, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[8552] = { RecipeID = 288, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[8553] = { RecipeID = 289, RecipeLevel = 1, SkillID = 241}
+SkillRecipeTable[8554] = { RecipeID = 290, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[8555] = { RecipeID = 291, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[8556] = { RecipeID = 292, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[8557] = { RecipeID = 293, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[8558] = { RecipeID = 295, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[8559] = { RecipeID = 296, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[8560] = { RecipeID = 297, RecipeLevel = 1, SkillID = 233}
+SkillRecipeTable[8561] = { RecipeID = 302, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[8562] = { RecipeID = 303, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[8563] = { RecipeID = 304, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[8564] = { RecipeID = 306, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[8565] = { RecipeID = 307, RecipeLevel = 1, SkillID = 261}
+SkillRecipeTable[8566] = { RecipeID = 308, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[8567] = { RecipeID = 309, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[8568] = { RecipeID = 310, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[8569] = { RecipeID = 313, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[8570] = { RecipeID = 314, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[8571] = { RecipeID = 315, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[8572] = { RecipeID = 316, RecipeLevel = 1, SkillID = 249}
+SkillRecipeTable[8573] = { RecipeID = 318, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[8574] = { RecipeID = 322, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[8575] = { RecipeID = 324, RecipeLevel = 1, SkillID = 248}
+SkillRecipeTable[8576] = { RecipeID = 326, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[8577] = { RecipeID = 329, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[8578] = { RecipeID = 331, RecipeLevel = 1, SkillID = 441}
+SkillRecipeTable[8579] = { RecipeID = 334, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[8580] = { RecipeID = 337, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[8581] = { RecipeID = 338, RecipeLevel = 1, SkillID = 400}
+SkillRecipeTable[8582] = { RecipeID = 341, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[8583] = { RecipeID = 342, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[8584] = { RecipeID = 343, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[8585] = { RecipeID = 344, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[8586] = { RecipeID = 345, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[8587] = { RecipeID = 346, RecipeLevel = 1, SkillID = 428}
+SkillRecipeTable[8588] = { RecipeID = 349, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[8589] = { RecipeID = 350, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[8590] = { RecipeID = 351, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[8591] = { RecipeID = 352, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[8592] = { RecipeID = 353, RecipeLevel = 1, SkillID = 412}
+SkillRecipeTable[8593] = { RecipeID = 355, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[8594] = { RecipeID = 356, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[8595] = { RecipeID = 357, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[8596] = { RecipeID = 358, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[8597] = { RecipeID = 360, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[8598] = { RecipeID = 361, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[8599] = { RecipeID = 362, RecipeLevel = 1, SkillID = 415}
+SkillRecipeTable[8600] = { RecipeID = 363, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[8601] = { RecipeID = 364, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[8602] = { RecipeID = 366, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[8603] = { RecipeID = 368, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[8604] = { RecipeID = 369, RecipeLevel = 1, SkillID = 423}
+SkillRecipeTable[8605] = { RecipeID = 371, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[8606] = { RecipeID = 373, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[8607] = { RecipeID = 374, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[8608] = { RecipeID = 376, RecipeLevel = 1, SkillID = 401}
+SkillRecipeTable[8609] = { RecipeID = 379, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[8610] = { RecipeID = 381, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[8611] = { RecipeID = 383, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[8612] = { RecipeID = 384, RecipeLevel = 1, SkillID = 426}
+SkillRecipeTable[8613] = { RecipeID = 387, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[8614] = { RecipeID = 389, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[8615] = { RecipeID = 390, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[8616] = { RecipeID = 391, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[8617] = { RecipeID = 392, RecipeLevel = 1, SkillID = 413}
+SkillRecipeTable[8618] = { RecipeID = 393, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[8619] = { RecipeID = 395, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[8620] = { RecipeID = 398, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[8621] = { RecipeID = 399, RecipeLevel = 1, SkillID = 418}
+SkillRecipeTable[8622] = { RecipeID = 400, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[8623] = { RecipeID = 403, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[8624] = { RecipeID = 404, RecipeLevel = 1, SkillID = 422}
+SkillRecipeTable[8625] = { RecipeID = 408, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[8626] = { RecipeID = 410, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[8627] = { RecipeID = 412, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[8628] = { RecipeID = 413, RecipeLevel = 1, SkillID = 427}
+SkillRecipeTable[8629] = { RecipeID = 416, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[8630] = { RecipeID = 417, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[8631] = { RecipeID = 418, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[8632] = { RecipeID = 419, RecipeLevel = 1, SkillID = 142}
+SkillRecipeTable[8633] = { RecipeID = 421, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[8634] = { RecipeID = 422, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[8635] = { RecipeID = 423, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[8636] = { RecipeID = 424, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[8637] = { RecipeID = 425, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[8638] = { RecipeID = 427, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[8639] = { RecipeID = 428, RecipeLevel = 1, SkillID = 132}
+SkillRecipeTable[8640] = { RecipeID = 429, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[8641] = { RecipeID = 430, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[8642] = { RecipeID = 431, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[8643] = { RecipeID = 433, RecipeLevel = 1, SkillID = 188}
+SkillRecipeTable[8644] = { RecipeID = 436, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[8645] = { RecipeID = 438, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[8646] = { RecipeID = 439, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[8647] = { RecipeID = 441, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[8648] = { RecipeID = 442, RecipeLevel = 1, SkillID = 137}
+SkillRecipeTable[8649] = { RecipeID = 443, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[8650] = { RecipeID = 444, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[8651] = { RecipeID = 446, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[8652] = { RecipeID = 447, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[8653] = { RecipeID = 448, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[8654] = { RecipeID = 449, RecipeLevel = 1, SkillID = 190}
+SkillRecipeTable[8655] = { RecipeID = 450, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[8656] = { RecipeID = 451, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[8657] = { RecipeID = 453, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[8658] = { RecipeID = 456, RecipeLevel = 1, SkillID = 133}
+SkillRecipeTable[8659] = { RecipeID = 457, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[8660] = { RecipeID = 458, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[8661] = { RecipeID = 462, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[8662] = { RecipeID = 463, RecipeLevel = 1, SkillID = 180}
+SkillRecipeTable[8663] = { RecipeID = 465, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[8664] = { RecipeID = 466, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[8665] = { RecipeID = 467, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[8666] = { RecipeID = 468, RecipeLevel = 1, SkillID = 184}
+SkillRecipeTable[8667] = { RecipeID = 472, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[8668] = { RecipeID = 475, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[8669] = { RecipeID = 476, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[8670] = { RecipeID = 477, RecipeLevel = 1, SkillID = 138}
+SkillRecipeTable[8671] = { RecipeID = 479, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[8672] = { RecipeID = 481, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[8673] = { RecipeID = 482, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[8674] = { RecipeID = 484, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[8675] = { RecipeID = 485, RecipeLevel = 1, SkillID = 100}
+SkillRecipeTable[8676] = { RecipeID = 486, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[8677] = { RecipeID = 492, RecipeLevel = 1, SkillID = 179}
+SkillRecipeTable[8678] = { RecipeID = 494, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[8679] = { RecipeID = 495, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[8680] = { RecipeID = 497, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[8681] = { RecipeID = 499, RecipeLevel = 1, SkillID = 189}
+SkillRecipeTable[8682] = { RecipeID = 507, RecipeLevel = 1, SkillID = 562}
+SkillRecipeTable[8683] = { RecipeID = 545, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[8684] = { RecipeID = 546, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[8685] = { RecipeID = 547, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[8686] = { RecipeID = 549, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[8687] = { RecipeID = 551, RecipeLevel = 1, SkillID = 1578}
+SkillRecipeTable[8688] = { RecipeID = 552, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[8689] = { RecipeID = 553, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[8690] = { RecipeID = 554, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[8691] = { RecipeID = 555, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[8692] = { RecipeID = 556, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[8693] = { RecipeID = 557, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[8694] = { RecipeID = 558, RecipeLevel = 1, SkillID = 1581}
+SkillRecipeTable[8695] = { RecipeID = 561, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[8696] = { RecipeID = 564, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[8697] = { RecipeID = 565, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[8698] = { RecipeID = 566, RecipeLevel = 1, SkillID = 1579}
+SkillRecipeTable[8699] = { RecipeID = 568, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[8700] = { RecipeID = 569, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[8701] = { RecipeID = 572, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[8702] = { RecipeID = 573, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[8703] = { RecipeID = 574, RecipeLevel = 1, SkillID = 1593}
+SkillRecipeTable[8704] = { RecipeID = 577, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[8705] = { RecipeID = 578, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[8706] = { RecipeID = 579, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[8707] = { RecipeID = 580, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[8708] = { RecipeID = 581, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[8709] = { RecipeID = 582, RecipeLevel = 1, SkillID = 1600}
+SkillRecipeTable[8710] = { RecipeID = 583, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[8711] = { RecipeID = 584, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[8712] = { RecipeID = 587, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[8713] = { RecipeID = 588, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[8714] = { RecipeID = 589, RecipeLevel = 1, SkillID = 1645}
+SkillRecipeTable[8715] = { RecipeID = 591, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8716] = { RecipeID = 592, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8717] = { RecipeID = 593, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8718] = { RecipeID = 594, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8719] = { RecipeID = 595, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8720] = { RecipeID = 596, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8721] = { RecipeID = 597, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8722] = { RecipeID = 598, RecipeLevel = 1, SkillID = 1646}
+SkillRecipeTable[8723] = { RecipeID = 599, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[8724] = { RecipeID = 601, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[8725] = { RecipeID = 602, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[8726] = { RecipeID = 603, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[8727] = { RecipeID = 604, RecipeLevel = 1, SkillID = 1651}
+SkillRecipeTable[8728] = { RecipeID = 606, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[8729] = { RecipeID = 607, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[8730] = { RecipeID = 608, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[8731] = { RecipeID = 609, RecipeLevel = 1, SkillID = 1656}
+SkillRecipeTable[8732] = { RecipeID = 611, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[8733] = { RecipeID = 612, RecipeLevel = 1, SkillID = 1664}
+SkillRecipeTable[8734] = { RecipeID = 617, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[8735] = { RecipeID = 620, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[8736] = { RecipeID = 621, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[8737] = { RecipeID = 623, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[8738] = { RecipeID = 624, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[8739] = { RecipeID = 625, RecipeLevel = 1, SkillID = 1665}
+SkillRecipeTable[8740] = { RecipeID = 628, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[8741] = { RecipeID = 629, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[8742] = { RecipeID = 630, RecipeLevel = 1, SkillID = 1668}
+SkillRecipeTable[9846] = { RecipeID = 718, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9847] = { RecipeID = 719, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9848] = { RecipeID = 720, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9849] = { RecipeID = 721, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9850] = { RecipeID = 722, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9851] = { RecipeID = 723, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9852] = { RecipeID = 724, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9853] = { RecipeID = 725, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9854] = { RecipeID = 726, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9855] = { RecipeID = 727, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9856] = { RecipeID = 728, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9857] = { RecipeID = 729, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9858] = { RecipeID = 730, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9859] = { RecipeID = 731, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9860] = { RecipeID = 732, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9861] = { RecipeID = 733, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9862] = { RecipeID = 734, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9863] = { RecipeID = 735, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9864] = { RecipeID = 736, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9865] = { RecipeID = 737, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9866] = { RecipeID = 738, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9867] = { RecipeID = 739, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9868] = { RecipeID = 740, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9869] = { RecipeID = 741, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9870] = { RecipeID = 742, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9871] = { RecipeID = 743, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9872] = { RecipeID = 744, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9873] = { RecipeID = 745, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9874] = { RecipeID = 746, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9875] = { RecipeID = 747, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9876] = { RecipeID = 748, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9877] = { RecipeID = 749, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9878] = { RecipeID = 750, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9879] = { RecipeID = 751, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9880] = { RecipeID = 752, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9881] = { RecipeID = 753, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9882] = { RecipeID = 754, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9883] = { RecipeID = 755, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9884] = { RecipeID = 756, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9885] = { RecipeID = 757, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9886] = { RecipeID = 758, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9887] = { RecipeID = 759, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9888] = { RecipeID = 760, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9889] = { RecipeID = 761, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9890] = { RecipeID = 762, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9891] = { RecipeID = 763, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9892] = { RecipeID = 764, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9893] = { RecipeID = 765, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9894] = { RecipeID = 766, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9895] = { RecipeID = 767, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9896] = { RecipeID = 768, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9897] = { RecipeID = 769, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9898] = { RecipeID = 770, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9899] = { RecipeID = 771, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9900] = { RecipeID = 772, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9901] = { RecipeID = 773, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9902] = { RecipeID = 774, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9903] = { RecipeID = 775, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9904] = { RecipeID = 776, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9905] = { RecipeID = 777, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9906] = { RecipeID = 778, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9907] = { RecipeID = 779, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9908] = { RecipeID = 780, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9909] = { RecipeID = 781, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9910] = { RecipeID = 782, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9911] = { RecipeID = 783, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9912] = { RecipeID = 784, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9913] = { RecipeID = 785, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9914] = { RecipeID = 786, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9915] = { RecipeID = 787, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9916] = { RecipeID = 788, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9917] = { RecipeID = 789, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9918] = { RecipeID = 790, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9919] = { RecipeID = 791, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[9920] = { RecipeID = 792, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[9921] = { RecipeID = 793, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[9922] = { RecipeID = 794, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[9923] = { RecipeID = 795, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[9924] = { RecipeID = 796, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[9925] = { RecipeID = 797, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[9926] = { RecipeID = 798, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9927] = { RecipeID = 799, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9928] = { RecipeID = 800, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9929] = { RecipeID = 801, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9930] = { RecipeID = 802, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9931] = { RecipeID = 803, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9932] = { RecipeID = 804, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9933] = { RecipeID = 805, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[9934] = { RecipeID = 718, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9935] = { RecipeID = 719, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9936] = { RecipeID = 720, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9937] = { RecipeID = 721, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9938] = { RecipeID = 722, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9939] = { RecipeID = 723, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9940] = { RecipeID = 724, RecipeLevel = 1, SkillID = 2235}
+SkillRecipeTable[9941] = { RecipeID = 725, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9942] = { RecipeID = 726, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9943] = { RecipeID = 728, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9944] = { RecipeID = 729, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9945] = { RecipeID = 730, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9946] = { RecipeID = 731, RecipeLevel = 1, SkillID = 2214}
+SkillRecipeTable[9947] = { RecipeID = 732, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9948] = { RecipeID = 733, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9949] = { RecipeID = 734, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9950] = { RecipeID = 735, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9951] = { RecipeID = 736, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9952] = { RecipeID = 737, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9953] = { RecipeID = 738, RecipeLevel = 1, SkillID = 2226}
+SkillRecipeTable[9954] = { RecipeID = 739, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9955] = { RecipeID = 741, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9956] = { RecipeID = 742, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9957] = { RecipeID = 743, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9958] = { RecipeID = 744, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9959] = { RecipeID = 745, RecipeLevel = 1, SkillID = 2232}
+SkillRecipeTable[9960] = { RecipeID = 746, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9961] = { RecipeID = 747, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9962] = { RecipeID = 748, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9963] = { RecipeID = 749, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9964] = { RecipeID = 750, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9965] = { RecipeID = 751, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9966] = { RecipeID = 752, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9967] = { RecipeID = 753, RecipeLevel = 1, SkillID = 2215}
+SkillRecipeTable[9968] = { RecipeID = 754, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9969] = { RecipeID = 755, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9970] = { RecipeID = 756, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9971] = { RecipeID = 757, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9972] = { RecipeID = 758, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9973] = { RecipeID = 759, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9974] = { RecipeID = 760, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9975] = { RecipeID = 761, RecipeLevel = 1, SkillID = 2216}
+SkillRecipeTable[9976] = { RecipeID = 762, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9977] = { RecipeID = 763, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9978] = { RecipeID = 764, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9979] = { RecipeID = 766, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9980] = { RecipeID = 767, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9981] = { RecipeID = 768, RecipeLevel = 1, SkillID = 2211}
+SkillRecipeTable[9982] = { RecipeID = 769, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9983] = { RecipeID = 771, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9984] = { RecipeID = 772, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9985] = { RecipeID = 773, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9986] = { RecipeID = 774, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9987] = { RecipeID = 775, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9988] = { RecipeID = 776, RecipeLevel = 1, SkillID = 2212}
+SkillRecipeTable[9989] = { RecipeID = 777, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9990] = { RecipeID = 778, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9991] = { RecipeID = 779, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9992] = { RecipeID = 780, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9993] = { RecipeID = 781, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9994] = { RecipeID = 783, RecipeLevel = 1, SkillID = 2233}
+SkillRecipeTable[9995] = { RecipeID = 784, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9996] = { RecipeID = 786, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9997] = { RecipeID = 787, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9998] = { RecipeID = 788, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[9999] = { RecipeID = 789, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[10000] = { RecipeID = 790, RecipeLevel = 1, SkillID = 2220}
+SkillRecipeTable[10001] = { RecipeID = 791, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[10002] = { RecipeID = 793, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[10003] = { RecipeID = 794, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[10004] = { RecipeID = 795, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[10005] = { RecipeID = 797, RecipeLevel = 1, SkillID = 2209}
+SkillRecipeTable[10006] = { RecipeID = 799, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[10007] = { RecipeID = 801, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[10008] = { RecipeID = 802, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[10009] = { RecipeID = 803, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[10010] = { RecipeID = 805, RecipeLevel = 1, SkillID = 2230}
+SkillRecipeTable[10874] = { RecipeID = 819, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10875] = { RecipeID = 820, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10876] = { RecipeID = 821, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10877] = { RecipeID = 822, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10878] = { RecipeID = 823, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10879] = { RecipeID = 824, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10880] = { RecipeID = 825, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10881] = { RecipeID = 826, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[10882] = { RecipeID = 827, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[10883] = { RecipeID = 828, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[10884] = { RecipeID = 829, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[10885] = { RecipeID = 830, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[10886] = { RecipeID = 831, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[10887] = { RecipeID = 832, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[10888] = { RecipeID = 833, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[10889] = { RecipeID = 834, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10890] = { RecipeID = 835, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10891] = { RecipeID = 836, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10892] = { RecipeID = 837, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10893] = { RecipeID = 838, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10894] = { RecipeID = 839, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10895] = { RecipeID = 840, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10896] = { RecipeID = 841, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10897] = { RecipeID = 842, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[10898] = { RecipeID = 843, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10899] = { RecipeID = 844, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10900] = { RecipeID = 845, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10901] = { RecipeID = 846, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10902] = { RecipeID = 847, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10903] = { RecipeID = 848, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10904] = { RecipeID = 849, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10905] = { RecipeID = 850, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[10906] = { RecipeID = 851, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10907] = { RecipeID = 852, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10908] = { RecipeID = 853, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10909] = { RecipeID = 854, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10910] = { RecipeID = 855, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10911] = { RecipeID = 856, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10912] = { RecipeID = 857, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10913] = { RecipeID = 858, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[10914] = { RecipeID = 859, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10915] = { RecipeID = 860, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10916] = { RecipeID = 861, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10917] = { RecipeID = 862, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10918] = { RecipeID = 863, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10919] = { RecipeID = 864, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10920] = { RecipeID = 865, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10921] = { RecipeID = 866, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10922] = { RecipeID = 867, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[10923] = { RecipeID = 868, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10924] = { RecipeID = 869, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10925] = { RecipeID = 870, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10926] = { RecipeID = 871, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10927] = { RecipeID = 872, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10928] = { RecipeID = 873, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10929] = { RecipeID = 874, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10930] = { RecipeID = 875, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[10931] = { RecipeID = 876, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10932] = { RecipeID = 877, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10933] = { RecipeID = 878, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10934] = { RecipeID = 879, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10935] = { RecipeID = 880, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10936] = { RecipeID = 881, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10937] = { RecipeID = 882, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10938] = { RecipeID = 883, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[10939] = { RecipeID = 884, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10940] = { RecipeID = 885, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10941] = { RecipeID = 886, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10942] = { RecipeID = 887, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10943] = { RecipeID = 888, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10944] = { RecipeID = 889, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10945] = { RecipeID = 890, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10946] = { RecipeID = 891, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[10947] = { RecipeID = 892, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10948] = { RecipeID = 893, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10949] = { RecipeID = 894, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10950] = { RecipeID = 895, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10951] = { RecipeID = 896, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10952] = { RecipeID = 897, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10953] = { RecipeID = 898, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10954] = { RecipeID = 899, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[10955] = { RecipeID = 900, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[10956] = { RecipeID = 901, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[10957] = { RecipeID = 902, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[10958] = { RecipeID = 903, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[10959] = { RecipeID = 904, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[10960] = { RecipeID = 905, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[10961] = { RecipeID = 906, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[10962] = { RecipeID = 907, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[10963] = { RecipeID = 908, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[10964] = { RecipeID = 909, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[10965] = { RecipeID = 910, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[10966] = { RecipeID = 911, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[10967] = { RecipeID = 912, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[10968] = { RecipeID = 913, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[11443] = { RecipeID = 820, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[11444] = { RecipeID = 821, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[11445] = { RecipeID = 823, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[11446] = { RecipeID = 825, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[11447] = { RecipeID = 826, RecipeLevel = 1, SkillID = 3087}
+SkillRecipeTable[11448] = { RecipeID = 827, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[11449] = { RecipeID = 828, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[11450] = { RecipeID = 829, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[11451] = { RecipeID = 830, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[11452] = { RecipeID = 832, RecipeLevel = 1, SkillID = 3091}
+SkillRecipeTable[11453] = { RecipeID = 834, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[11454] = { RecipeID = 835, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[11455] = { RecipeID = 836, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[11456] = { RecipeID = 837, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[11457] = { RecipeID = 838, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[11458] = { RecipeID = 839, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[11459] = { RecipeID = 840, RecipeLevel = 1, SkillID = 3093}
+SkillRecipeTable[11460] = { RecipeID = 844, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[11461] = { RecipeID = 845, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[11462] = { RecipeID = 846, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[11463] = { RecipeID = 847, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[11464] = { RecipeID = 848, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[11465] = { RecipeID = 849, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[11466] = { RecipeID = 850, RecipeLevel = 1, SkillID = 3095}
+SkillRecipeTable[11467] = { RecipeID = 851, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[11468] = { RecipeID = 853, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[11469] = { RecipeID = 854, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[11470] = { RecipeID = 855, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[11471] = { RecipeID = 856, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[11472] = { RecipeID = 857, RecipeLevel = 1, SkillID = 3096}
+SkillRecipeTable[11473] = { RecipeID = 859, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[11474] = { RecipeID = 860, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[11475] = { RecipeID = 861, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[11476] = { RecipeID = 862, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[11477] = { RecipeID = 863, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[11478] = { RecipeID = 864, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[11479] = { RecipeID = 865, RecipeLevel = 1, SkillID = 3098}
+SkillRecipeTable[11480] = { RecipeID = 868, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[11481] = { RecipeID = 869, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[11482] = { RecipeID = 871, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[11483] = { RecipeID = 872, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[11484] = { RecipeID = 873, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[11485] = { RecipeID = 874, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[11486] = { RecipeID = 875, RecipeLevel = 1, SkillID = 3105}
+SkillRecipeTable[11487] = { RecipeID = 876, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[11488] = { RecipeID = 877, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[11489] = { RecipeID = 878, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[11490] = { RecipeID = 880, RecipeLevel = 1, SkillID = 3107}
+SkillRecipeTable[11491] = { RecipeID = 884, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[11492] = { RecipeID = 885, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[11493] = { RecipeID = 886, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[11494] = { RecipeID = 889, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[11495] = { RecipeID = 890, RecipeLevel = 1, SkillID = 3108}
+SkillRecipeTable[11496] = { RecipeID = 892, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[11497] = { RecipeID = 893, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[11498] = { RecipeID = 894, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[11499] = { RecipeID = 895, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[11500] = { RecipeID = 896, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[11501] = { RecipeID = 897, RecipeLevel = 1, SkillID = 3113}
+SkillRecipeTable[11502] = { RecipeID = 900, RecipeLevel = 1, SkillID = 3114}
+SkillRecipeTable[11503] = { RecipeID = 907, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[11504] = { RecipeID = 908, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[11505] = { RecipeID = 909, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[11506] = { RecipeID = 912, RecipeLevel = 1, SkillID = 3115}
+SkillRecipeTable[11507] = { RecipeID = 913, RecipeLevel = 1, SkillID = 3115}

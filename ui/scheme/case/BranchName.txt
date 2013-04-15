@@ -1,0 +1,7 @@
+ProfessionID	BranchID	Name
+5	1	刺绣
+5	2	印染
+6	1	武器铸造
+6	2	制甲铸造
+7	1	万花医术
+7	2	江湖医术

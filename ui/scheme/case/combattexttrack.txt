@@ -1,0 +1,5 @@
+TrackID	szDesc	PointList	Self	Other	Damage_Physics	Damage_SolarMagic	Damage_NeutralMagic	Damage_LunarMagic	Damage_Posion	Damage_Reflectied	Damage_Therapy	Damage_StealLife	Damage_Absorb	Damage_Shield	Damage_Parry	Damage_Insight	StateText	Buff	DeBuff
+1	≤‚ ‘πÏº£1	1,2,3,4,6,7,5,	1	1	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0
+2	sdfsdfsdfsdfasdfadf	8,9,10,12,	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	»˝∫≈πÏº£≈∂	14,17,15,	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	≤‚ ‘πÏº£4	16,11,	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

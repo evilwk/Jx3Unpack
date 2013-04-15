@@ -1,0 +1,14 @@
+Level(配置等级)	Desc	FullScreen（窗口最大化）	Panauision（宽屏模式）	ExclusiveMode （独占模式）	Width（分辨率）	Height（分辨率）	nRefreshRate（刷新率）	MultiSampleType（抗锯齿）	FXAA	FXAALevel	ForceShaderModel（着色器）	MDLRenderLimit（同屏人数）	ClientSFXLimit（同屏特效） 	OptimizeQiChang(屏蔽气场)	OptimizeUniform（玩家同模）	OptimizeRide(坐骑同模)	OptimizeWeapon(武器同模)	EnableScaleOutput（低分辨率渲染）	ScaleOutputSmooth（平滑处理）	ScaleOutputSize（渲染尺寸）	RenderGrass（地表细节）	GrassAnimation（草地动画）	GrassAlphaBlend（透明度混合渲染）	ShockWaveEnable（屏幕扭曲）	DOF（景深）	HDR（高动态范围光照）	BloomEnable（全屏柔光）	GodRay(体积光)	MotionBlur（动态模糊）	WaterDetail（水面精度0-4,config.ini）	TextureScale（贴图精度3-1，1的时候进度最高）	Anisotropy（材质过滤1-16）	CameraDistance（远景显示20000-80000，每格以万为单位）	VegetationDensity（植被密度8-1， 1为最密）	ShadowType（阴影质量0-3）	TerrainDetail（地形精度）
+0	是否屏蔽选项 1不屏蔽 0屏蔽	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	1	0	0	0	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0
+1	是否加入配置选项（1为加入）	0	0	0	0	0	0	1	1	0	0	1	1	1	1	1	1	0	0	0	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0
+2	默认	1	0	1	1024	768	60	0	1	0	0	120	120	0	0	0	0	0	0	512	1	1	0	0	0	0	1	0	0	0	1	8	40000	1	0	0
+3	低配							0	0	0	1	30	30	1	0	0	0	0	0	512	0	0	0	0	0	0	0	0	0	0	2	4	40000	1	0	0
+4	中配							0	0	0	0	60	60	1	0	0	0	0	0	512	1	1	0	0	0	0	1	0	0	0	1	8	40000	1	0	0
+5	高配							0	0	0	0	120	100	0	0	0	0	0	0	512	1	1	1	0	0	0	1	0	0	2	1	16	60000	1	2	0
+6	超高							0	1	0	0	1000	1000	0	0	0	0	0	0	512	1	1	1	1	0	0	0	1	0	3	1	16	80000	1	3	0
+7	电影级画面							4	0	0	0	1000	1000	0	0	0	0	0	0	512	1	1	1	1	0	1	0	1	0	3	1	16	80000	1	3	0
+100	是否是档的应用项	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	1	1	1
+101	第一档																													0	3	1	30000	8	0	0
+102	第二档																													1	2	4	40000	4	1	0
+103	第三档																													2	1	8	60000	2	2	0
+104	第四档																													3	1	16	80000	1	3	0

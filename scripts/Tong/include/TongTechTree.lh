@@ -1,0 +1,403 @@
+---------------------------------------------------------------------->
+-- 脚本名称:	scripts/Tong/include/TongTechTree.lh
+-- 更新时间:	02/18/11 11:39:30
+-- 更新用户:	Lilin1
+-- 脚本说明:	
+----------------------------------------------------------------------<
+
+
+-- 修改此脚本必须同步修改 center_scripts\TongTechTree.lh
+
+TongTechTreeNode = {}
+
+TONG_TECH_INDEX = {
+	ZhaoXianNaShi 		= 0,	-- 招贤纳士
+	FengGuanBaiJiang 	= 1,	-- 封官拜将
+	CangZhenFang		= 2,	-- 建设藏珍坊
+	ShengShouFang		= 3,	-- 建设圣手坊
+	ZhenYingTieWei		= 4,	-- 阵营铁卫
+	JiShaoChengDuo		= 5, 	-- 积少成多
+	ZhouErFuShi			= 6, 	-- 周而复始
+	BaiShouQiJia		= 7, 	-- 白手起家
+	NianNianYouYu		= 8, 	-- 年年有余
+	YinBaoGe			= 9, 	-- 隐宝阁
+	ShenGongGe			= 10, 	-- 神工阁
+	DuoCaiDuoSe			= 11, 	-- 多彩多色
+	MeiLunMeiHuan		= 12, 	-- 美轮美奂
+	ChiBianTianXia		= 13, 	-- 吃遍天下
+	WuMeiJiaLian		= 14, 	-- 物美价廉
+	YuHuaXuanGong		= 15, 	-- 玉华玄宫
+	TianJiBaoDian		= 16, 	-- 天机宝殿
+	XianRenZhiLu		= 17, 	-- 仙人指路
+	ShiBanGongBei		= 18, 	-- 事半功倍
+	FuGuiWuXiangWang	= 19, 	-- 富贵勿相忘
+	XiaoZhuKuaiPao 	= 20, 	-- 小猪快跑
+	BuBuShengLian		= 21, 	-- 步步生莲
+	JinTianXiuDi			= 22, 	-- 锦天绣地
+	QiZhenYiBao		= 23, 	-- 奇珍异宝
+	ChunHuaQiuShi		= 24, 	-- 春华秋实
+	XingJiaLiYe			= 25, 	-- 兴家立业
+	WuGuFengDeng		= 26, 	-- 五谷丰登
+	YuanFeiYuYue		= 27, 	-- 鸢飞鱼跃
+	LingDanMiaoYao	= 28, 	-- 灵丹妙药
+	XiSuiFaMai		= 29, 	-- 洗髓伐脉
+	XinXinXiangRong = 30, -- 欣欣向荣
+	
+	GongFangLevel		= 62, 	-- 工房等级
+	DanFangLevel		= 63, 	-- 丹房等级
+}
+
+-- 工房等级
+TongTechTreeNode[TONG_TECH_INDEX.GongFangLevel] = {
+	Max = 5,
+	Cost = 0,
+	Point = 0,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {}
+}
+
+-- 丹房等级
+TongTechTreeNode[TONG_TECH_INDEX.DanFangLevel] = {
+	Max = 5,
+	Cost = 0,
+	Point = 0,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {}
+}
+
+-- 招贤纳士
+TongTechTreeNode[TONG_TECH_INDEX.ZhaoXianNaShi] = {
+	Max = 7,
+	Cost = 40,
+	Point = 100,
+	CostFactor = 20,
+	PointFactor = 70,
+	Dependence = {}
+}
+
+-- 封官拜将
+TongTechTreeNode[TONG_TECH_INDEX.FengGuanBaiJiang] = {
+	Max = 5,
+	Cost = 40,
+	Point = 100,
+	CostFactor = 20,
+	PointFactor = 70,
+	Dependence = {[TONG_TECH_INDEX.ZhaoXianNaShi] = 5}
+}
+
+-- 建设藏珍坊
+TongTechTreeNode[TONG_TECH_INDEX.CangZhenFang] = {
+	Max = 1,
+	Cost = 600,
+	Point = 1800,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.FengGuanBaiJiang] = 5}
+}
+
+-- 建设圣手坊
+TongTechTreeNode[TONG_TECH_INDEX.ShengShouFang] = {
+	Max = 1,
+	Cost = 600,
+	Point = 1800,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.FengGuanBaiJiang] = 5}
+}
+
+-- 阵营铁卫
+TongTechTreeNode[TONG_TECH_INDEX.ZhenYingTieWei] = {
+	Max = 4,
+	Cost = 300,
+	Point = 1000,
+	CostFactor = 150,
+	PointFactor = 600,
+	Dependence = {[TONG_TECH_INDEX.JiShaoChengDuo] = 2} 
+}
+
+-- 积少成多
+TongTechTreeNode[TONG_TECH_INDEX.JiShaoChengDuo] = {
+	Max = 3,
+	Cost = 350,
+	Point = 2000,
+	CostFactor = 200,
+	PointFactor = 2200,
+	Dependence = {[TONG_TECH_INDEX.GongFangLevel] = 1} 
+}
+
+-- 周而复始
+TongTechTreeNode[TONG_TECH_INDEX.ZhouErFuShi] = {
+	Max = 4,
+	Cost = 400,
+	Point = 1600,
+	CostFactor = 250,
+	PointFactor = 600,
+	Dependence = {[TONG_TECH_INDEX.ChiBianTianXia] = 3} 
+}
+
+-- 白手起家
+TongTechTreeNode[TONG_TECH_INDEX.BaiShouQiJia] = {
+	Max = 3,
+	Cost = 200,
+	Point = 200,
+	CostFactor = 150,
+	PointFactor = 300,
+	Dependence = {[TONG_TECH_INDEX.FengGuanBaiJiang] = 5} 
+}
+
+-- 年年有余
+TongTechTreeNode[TONG_TECH_INDEX.NianNianYouYu] = {
+	Max = 4,
+	Cost = 600,
+	Point = 1500,
+	CostFactor = 300,
+	PointFactor = 1400,
+	Dependence = {[TONG_TECH_INDEX.WuMeiJiaLian] = 2, [TONG_TECH_INDEX.BaiShouQiJia] = 3} 
+}
+
+-- 隐宝阁
+TongTechTreeNode[TONG_TECH_INDEX.YinBaoGe] = {
+	Max = 1,
+	Cost = 2700,
+	Point = 10000,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.JiShaoChengDuo] = 3} 
+}
+
+-- 神工阁
+TongTechTreeNode[TONG_TECH_INDEX.ShenGongGe] = {
+	Max = 1,
+	Cost = 2700,
+	Point = 10000,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.ChiBianTianXia] = 3} 
+}
+
+-- 多彩多色
+TongTechTreeNode[TONG_TECH_INDEX.DuoCaiDuoSe] = {
+	Max = 3,
+	Cost = 600,
+	Point = 8000,
+	CostFactor = 700,
+	PointFactor = 6500,
+	Dependence = {[TONG_TECH_INDEX.GongFangLevel] = 2} 
+}
+
+-- 美轮美奂
+TongTechTreeNode[TONG_TECH_INDEX.MeiLunMeiHuan] = {
+	Max = 3,
+	Cost = 500,
+	Point = 1500,
+	CostFactor = 550,
+	PointFactor = 2200,
+	Dependence = {[TONG_TECH_INDEX.DuoCaiDuoSe] = 2} 
+}
+
+-- 吃遍天下
+TongTechTreeNode[TONG_TECH_INDEX.ChiBianTianXia] = {
+	Max = 5,
+	Cost = 260,
+	Point = 1600,
+	CostFactor = 40,
+	PointFactor = 500,
+	Dependence = {[TONG_TECH_INDEX.DanFangLevel] = 1} 
+}
+
+-- 物美价廉
+TongTechTreeNode[TONG_TECH_INDEX.WuMeiJiaLian] = {
+	Max = 3,
+	Cost = 600,
+	Point = 8000,
+	CostFactor = 700,
+	PointFactor = 6500,
+	Dependence = {[TONG_TECH_INDEX.DanFangLevel] = 2} 
+}
+
+-- 玉华玄宫
+TongTechTreeNode[TONG_TECH_INDEX.YuHuaXuanGong] = {
+	Max = 1,
+	Cost = 2700,
+	Point = 10000,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.DuoCaiDuoSe] = 3} 
+}
+
+-- 天机宝殿
+TongTechTreeNode[TONG_TECH_INDEX.TianJiBaoDian] = {
+	Max = 1,
+	Cost = 2700,
+	Point = 10000,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.WuMeiJiaLian] = 3} 
+}
+
+-- 仙人指路
+TongTechTreeNode[TONG_TECH_INDEX.XianRenZhiLu] = {
+	Max = 3,
+	Cost = 800,
+	Point = 8000,
+	CostFactor = 800,
+	PointFactor = 13000,
+	Dependence = {[TONG_TECH_INDEX.GongFangLevel] = 3} 
+}
+
+-- 事半功倍
+TongTechTreeNode[TONG_TECH_INDEX.ShiBanGongBei] = {
+	Max = 3,
+	Cost = 800,
+	Point = 8000,
+	CostFactor = 800,
+	PointFactor = 13000,
+	Dependence = {[TONG_TECH_INDEX.DanFangLevel] = 3} 
+}
+
+-- 富贵勿相忘
+TongTechTreeNode[TONG_TECH_INDEX.FuGuiWuXiangWang] = {
+	Max = 3,
+	Cost = 800,
+	Point = 4000,
+	CostFactor = 800,
+	PointFactor = 2000,
+	Dependence = {[TONG_TECH_INDEX.ShiBanGongBei] = 2} 
+}
+
+-- 小猪快跑
+TongTechTreeNode[TONG_TECH_INDEX.XiaoZhuKuaiPao] = {
+	Max = 1,
+	Cost = 700,
+	Point = 1900,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.ZhaoXianNaShi] = 5}
+}
+
+-- 步步生莲
+TongTechTreeNode[TONG_TECH_INDEX.BuBuShengLian] = {
+	Max = 3,
+	Cost = 400,
+	Point = 2200,
+	CostFactor = 300,
+	PointFactor = 300,
+	Dependence = {[TONG_TECH_INDEX.XiaoZhuKuaiPao] = 1}
+}
+
+-- 锦天绣地
+TongTechTreeNode[TONG_TECH_INDEX.JinTianXiuDi] = {
+	Max = 1,
+	Cost = 1400,
+	Point = 4800,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.XiaoZhuKuaiPao] = 1}
+}
+
+-- 奇珍异宝
+TongTechTreeNode[TONG_TECH_INDEX.QiZhenYiBao] = {
+	Max = 3,
+	Cost = 1000,
+	Point = 4300,
+	CostFactor = 500,
+	PointFactor = 500,
+	Dependence = {[TONG_TECH_INDEX.YuanFeiYuYue] = 1}
+}
+
+-- 春华秋实
+TongTechTreeNode[TONG_TECH_INDEX.ChunHuaQiuShi] = {
+	Max = 3,
+	Cost = 900,
+	Point = 3500,
+	CostFactor = 300,
+	PointFactor = 300,
+	Dependence = {[TONG_TECH_INDEX.JinTianXiuDi] = 1}
+}
+
+-- 兴家立业
+TongTechTreeNode[TONG_TECH_INDEX.XingJiaLiYe] = {
+	Max = 3,
+	Cost = 350,
+	Point = 2000,
+	CostFactor = 200,
+	PointFactor = 2200,
+	Dependence = {[TONG_TECH_INDEX.CangZhenFang] = 1}
+}
+
+-- 五谷丰登
+TongTechTreeNode[TONG_TECH_INDEX.WuGuFengDeng] = {
+	Max = 3,
+	Cost = 1000,
+	Point = 4300,
+	CostFactor = 500,
+	PointFactor = 500,
+	Dependence = {[TONG_TECH_INDEX.ChunHuaQiuShi] = 1}
+}
+
+-- 鸢飞鱼跃
+TongTechTreeNode[TONG_TECH_INDEX.YuanFeiYuYue] = {
+	Max = 3,
+	Cost = 900,
+	Point = 3500,
+	CostFactor = 300,
+	PointFactor = 300,
+	Dependence = {[TONG_TECH_INDEX.BuBuShengLian] = 1}
+}
+
+-- 灵丹妙药
+TongTechTreeNode[TONG_TECH_INDEX.LingDanMiaoYao] = {
+	Max = 3,
+	Cost = 350,
+	Point = 2000,
+	CostFactor = 200,
+	PointFactor = 2200,
+	Dependence = {[TONG_TECH_INDEX.ShengShouFang] = 1}
+}
+
+-- 洗髓伐脉
+TongTechTreeNode[TONG_TECH_INDEX.XiSuiFaMai] = {
+	Max = 1,
+	Cost = 2500,
+	Point = 9100,
+	CostFactor = 0,
+	PointFactor = 0,
+	Dependence = {[TONG_TECH_INDEX.YuanFeiYuYue] = 1, [TONG_TECH_INDEX.DanFangLevel] = 1}
+}
+
+-- 欣欣向荣
+TongTechTreeNode[TONG_TECH_INDEX.XinXinXiangRong] = {
+	Max = 3,
+	Cost = 1000,
+	Point = 4300,
+	CostFactor = 500,
+	PointFactor = 500,
+	Dependence = {[TONG_TECH_INDEX.ChunHuaQiuShi] = 1}
+}
+
+function GetTongTechTreeNodeCost(Node, nValue)
+	local nCost = 0
+	
+	while nValue > 0 do
+		nCost = nCost + (nValue - 1) * Node.CostFactor
+		nValue = nValue - 1
+	end
+	nCost = nCost + Node.Cost
+    
+    return nCost
+end
+
+function GetTongTechTreeNodeDevelopmentPoint(Node, nValue)
+	local nDevelopmentPoint = 0
+	
+	while nValue > 0 do
+		nDevelopmentPoint = nDevelopmentPoint + (nValue - 1) * Node.PointFactor
+		nValue = nValue - 1
+	end
+	nDevelopmentPoint = nDevelopmentPoint + Node.Point
+    
+    return nDevelopmentPoint
+end
+

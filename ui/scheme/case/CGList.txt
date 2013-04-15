@@ -1,0 +1,5 @@
+ID	Desc	BgPath(按钮背景图路径)	Normal	Highlight（高亮帧）	Disable（不可用帧）	CGPath（CG文件存放位置）	DowloadUrl（CG下载网址）
+0			0	0	0		
+1	一代宗师	ui\Image\button\CGButton.UITex	0	1	2	ui\Video\JX3CG02.avi	http://jx3.xoyo.com/zt/cgdl/index.shtml
+2	巴蜀风云	ui\Image\button\CommonButton_1.UITex	124	125	123	ui\Video\JX3CG01.avi	http://jx3.xoyo.com/zt/cgdl/index.shtml
+3	剑侠情缘	ui\Image\button\CommonButton_1.UITex	120	121	122	ui\Video\JX3CG.avi	http://jx3.xoyo.com/zt/cgdl/index.shtml

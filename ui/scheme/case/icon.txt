@@ -1,0 +1,3503 @@
+ID	FileName	Frame	Kind	SubKind	Tag1	Tag2
+0	QuestPuzzle10.UITex	0	道具	任务特殊		
+1	QuestItem.UITex	0	道具	任务特殊		
+2	QuestItem.UITex	1	道具	任务特殊		
+3	QuestItem.UITex	2	道具	任务特殊		
+4	QuestItem.UITex	3	道具	任务特殊		
+5	QuestItem.UITex	4	道具	任务特殊		
+6	skill_jianghu_jichuanqi.UITex	0	技能	通用		
+7	skill_jianghu_jichubifa.UITex	0	技能	通用		
+8	skill_jianghu_jichugunfa.UITex	0	技能	通用		
+9	skill_jianghu_jichujianfa.UITex	0	技能	通用		
+10	skill_jianghu_jichuqiangfa.UITex	0	技能	通用		
+11	skill_jianghu_jichuquanzhang.UITex	0	技能	通用		
+12	skill_jianghu_jichushuangbing.UITex	0	技能	通用		
+13	skill_jianghu_jichuneigong.UITex	0	技能	通用		
+14	skill_jianghu_anqigongji.UITex	0	技能	通用		
+15	skill_jianghu_bigongji.UITex	0	技能	通用		
+16	skill_jianghu_gungongji.UITex	0	技能	通用		
+17	skill_jianghu_jiangongji.UITex	0	技能	通用		
+18	skill_jianghu_qianggongji.UITex	0	技能	通用		
+19	skill_jianghu_quanzhanggongji.UITex	0	技能	通用		
+20	skill_jianghu_shuangbinggongji.UITex	0	技能	通用		
+21	skill_jianghu_neigongdazuo.UITex	0	技能	通用		
+22	skill_jianghu_qinggong.UITex	0	技能	通用		
+23	wpn_bullet_w_04.UITex	0	武器	弓弦暗器		
+24	wpn_longdis_w_07.UITex	0	武器	投掷囊	飞刀袋	
+25	wpn_bullet_b_05.UITex	0	武器	弓弦暗器		
+26	wpn_brush_w_uni01.UITex	0	武器	笔		
+27	wpn_brush_w_uni02.UITex	0	武器	笔		
+28	wpn_brush_b_uni02.UITex	0	武器	笔		
+29	wpn_wand_w_uni01.UITex	0	武器	棍	棒	木
+30	wpn_wand_w_uni02.UITex	0	武器	棍	棒	木
+31	wpn_wand_b_uni02.UITex	0	武器	棍	棒	银
+32	wpn_sword_w_uni01.UITex	0	武器	剑		木
+33	wpn_sword_w_uni02.UITex	0	武器	剑		
+34	wpn_sword_b_uni02.UITex	0	武器	剑		
+35	wpn_spear_w_uni01.UITex	0	武器	枪		
+36	wpn_spear_w_uni02.UITex	0	武器	枪		
+37	wpn_spear_b_uni02.UITex	0	武器	枪		
+38	wpn_fist_w_uni01.UITex	0	武器	拳套		
+39	wpn_fist_w_uni02.UITex	0	武器	拳套		
+40	wpn_fist_b_uni02.UITex	0	武器	拳套		
+41	wpn_double_w_uni01.UITex	0	武器	双兵		
+42	wpn_double_w_uni02.UITex	0	武器	双兵		
+43	wpn_double_b_uni02.UITex	0	武器	双兵		
+44	def_xinshou_w_m_coat.UITex	0	防具	上衣		
+45	def_xinshou_w_m_pants.UITex	0	防具	裤子		
+46	def_jianghu1_w_ud_head.UITex	0	防具	帽子		
+47	def_jianghu2_w_ud_head.UITex	0	防具	帽子		
+48	def_jianghu3_w_ud_head.UITex	0	防具	帽子		
+49	def_jianghu1_w_ud_coat.UITex	0	防具	上衣		
+50	def_jianghu2_w_ud_coat.UITex	0	防具	上衣		
+51	def_jianghu3_w_ud_coat.UITex	0	防具	上衣		
+52	def_jianghu1_w_ud_belt.UITex	0	防具	腰带		
+53	def_jianghu2_w_ud_belt.UITex	0	防具	腰带		
+54	def_jianghu3_w_ud_belt.UITex	0	防具	腰带		
+55	def_jianghu1_w_ud_pants.UITex	0	防具	裤子		
+56	def_jianghu2_w_ud_pants.UITex	0	防具	裤子		
+57	def_jianghu3_w_ud_pants.UITex	0	防具	裤子		
+58	def_jianghu1_w_ud_cuff.UITex	0	防具	护臂		
+59	def_jianghu2_w_ud_cuff.UITex	0	防具	护臂		
+60	def_jianghu3_w_ud_cuff.UITex	0	防具	护臂		
+61	def_jianghu1_w_ud_shoes.UITex	0	防具	鞋		
+62	def_jianghu2_w_ud_shoes.UITex	0	防具	鞋		
+63	def_jianghu3_w_ud_shoes.UITex	0	防具	鞋		
+64	forcedrop01.UITex	0	道具	未分类		
+65	animalstuff01.UITex	0	道具	动物与器官		
+66	animalstuff02.UITex	0	道具	动物与器官		
+67	animalstuff08.UITex	0	道具	动物与器官		
+68	animalstuff52.UITex	0	道具	动物与器官		
+69	animalstuff03.UITex	0	道具	动物与器官		
+70	animalstuff16.UITex	0	道具	动物与器官		
+71	animalstuff09.UITex	0	道具	动物与器官		
+72	animalstuff04.UITex	0	道具	动物与器官		
+73	animalstuff50.UITex	0	道具	动物与器官		
+74	foundry27.UITex	0	道具	动物与器官		
+75	foundry26.UITex	0	道具	动物与器官		
+76	animalstuff07.UITex	0	道具	动物与器官		
+77	animalstuff18.UITex	0	道具	动物与器官		
+78	animalstuff11.UITex	0	道具	动物与器官		
+79	leather04.UITex	0	道具	皮料		
+80	skill_jianghu_erduantiao.UITex	0	技能	通用		
+81	animalstuff12.UITex	0	道具	动物与器官		
+82	animalstuff14.UITex	0	道具	动物与器官		
+83	animalstuff15.UITex	0	道具	动物与器官		
+84	animalstuff21.UITex	0	道具	动物与器官		
+85	animalstuff17.UITex	0	道具	动物与器官		
+86	animalstuff35.UITex	0	道具	动物与器官		
+87	food07.UITex	0	道具	食物与食材		
+88	cookspecial01.UITex	0	道具	食物与食材		
+89	m4new17.UITex	0	道具	动物与器官		
+90	bag01.UITex	0	道具	包裹		
+91	bag22.UITex	0	道具	包裹		
+92	book02.UITex	0	道具	书籍信纸		
+93	cloth01.UITex	0	道具	布料与线团		
+94	coin01.UITex	0	道具	钱币		
+95	coin02.UITex	0	道具	钱币		
+96	coin03.UITex	0	道具	钱币		
+97	coin04.UITex	0	道具	钱币		
+98	coin05.UITex	0	道具	钱币		
+99	coin06.UITex	0	道具	钱币		
+100	food24.UITex	0	道具	食物与食材		
+101	forcedrop09.UITex	0	道具	未分类		
+102	leather01.UITex	0	道具	皮料		
+103	m4new01.UITex	0	道具	植物		
+104	m4new02.UITex	0	道具	植物		
+105	m4new03.UITex	0	道具	食物与食材		
+106	m4new04.UITex	0	道具	布料与线团		
+107	m4new05.UITex	0	道具	动物与器官		
+108	m4new06.UITex	0	道具	未分类		
+109	m4new07.UITex	0	道具	未分类		
+110	m4new08.UITex	0	道具	未分类		
+111	m4new09.UITex	0	道具	药品		
+112	m4new10.UITex	0	道具	植物		
+113	m4new11.UITex	0	道具	未分类		
+114	m4new12.UITex	0	道具	植物		
+115	m4new13.UITex	0	道具	未分类		
+116	m4new14.UITex	0	道具	未分类		
+117	m4new15.UITex	0	道具	未分类		
+118	tool01.UITex	0	道具	未分类		
+119	tool02.UITex	0	道具	未分类		
+120	tool03.UITex	0	道具	未分类		
+121	tool04.UITex	0	道具	未分类		
+122	tool05.UITex	0	道具	未分类		
+123	tool06.UITex	0	道具	未分类		
+124	veget01.UITex	0	道具	植物		
+125	m5wanhua16.UITex	0	道具	未分类		
+126	veget09.UITex	0	道具	植物		
+127	m4new16.UITex	0	道具	未分类		
+128	meat13.UITex	0	道具	动物与器官		
+129	medic01.UITex	0	道具	植物		
+130	potion01.UITex	0	道具	药品		
+131	skill_jianghu_taolu_xinshou.UITex	0	技能	江湖		
+132	m5wanhua01.UITex	0	道具	植物		
+133	m5wanhua02.UITex	0	道具	动物与器官		
+134	m5wanhua03.UITex	0	道具	未分类		
+135	m5wanhua04.UITex	0	道具	未分类		
+136	m5wanhua05.UITex	0	道具	未分类		
+137	m5wanhua06.UITex	0	道具	矿石与金属锭		
+138	m5wanhua07.UITex	0	道具	未分类		
+139	m5wanhua08.UITex	0	道具	食物与食材		
+140	m5wanhua09.UITex	0	道具	植物		
+141	m5wanhua10.UITex	0	道具	未分类		
+142	m5wanhua11.UITex	0	道具	未分类		
+143	m5wanhua12.UITex	0	道具	未分类		
+144	m5wanhua13.UITex	0	道具	未分类		
+145	m5wanhua14.UITex	0	道具	未分类		
+146	m5wanhua15.UITex	0	道具	植物		
+147	QuestPuzzle01.UITex	0	道具	任务特殊		
+148	QuestPuzzle02.UITex	0	道具	任务特殊		
+149	QuestPuzzle03.UITex	0	道具	任务特殊		
+150	QuestPuzzle04.UITex	0	道具	任务特殊		
+151	QuestPuzzle05.UITex	0	道具	任务特殊		
+152	QuestPuzzle06.UITex	0	道具	任务特殊		
+153	QuestPuzzle07.UITex	0	道具	任务特殊		
+154	QuestPuzzle08.UITex	0	道具	任务特殊		
+155	QuestPuzzle09.UITex	0	道具	任务特殊		
+156	QuestPuzzle10.UITex	0	道具	任务特殊		
+157	questwanhua172_1.UITex	0	道具	任务特殊		
+158	questwanhua172_2.UITex	0	道具	任务特殊		
+159	questwanhua172_3.UITex	0	道具	任务特殊		
+160	questwanhua172_4.UITex	0	道具	任务特殊		
+161	questwanhua172_5.UITex	0	道具	任务特殊		
+162	questwanhua172_6.UITex	0	道具	任务特殊		
+163	questwanhua172_7.UITex	0	道具	任务特殊		
+164	questwanhua160_1.UITex	0	道具	任务特殊		
+165	questwanhua160_2.UITex	0	道具	任务特殊		
+166	questwanhua160_3.UITex	0	道具	任务特殊		
+167	m5yangzhou01.UITex	0	道具	未分类		
+168	m5yangzhou02.UITex	0	道具	动物与器官		
+169	m5yangzhou03.UITex	0	道具	未分类		
+170	m5yangzhou04.UITex	0	道具	未分类		
+171	m5yangzhou05.UITex	0	道具	动物与器官		
+172	m5yangzhou06.UITex	0	道具	未分类		
+173	m5yangzhou07.UITex	0	道具	未分类		
+174	m5yangzhou08.UITex	0	道具	植物		
+175	m5yangzhou09.UITex	0	道具	书籍信纸		
+176	m5yangzhou10.UITex	0	道具	动物与器官		
+177	leather05.UITex	0	道具	皮料		
+178	meat02.UITex	0	道具	动物与器官		
+179	meat07.UITex	0	道具	动物与器官		
+180	meat10.UITex	0	道具	动物与器官		
+181	veget10.UITex	0	道具	植物		
+182	veget13.UITex	0	道具	植物		
+183	cookspecial02.UITex	0	道具	食物与食材		
+184	cookspecial03.UITex	0	道具	食物与食材		
+185	cookspecial04.UITex	0	道具	食物与食材		
+186	cookspecial05.UITex	0	道具	食物与食材		
+187	cloth04.UITex	0	道具	布料与线团		
+188	cloth07.UITex	0	道具	布料与线团		
+189	cloth11.UITex	0	道具	布料与线团		
+190	cloth12.UITex	0	道具	布料与线团		
+191	cloth13.UITex	0	道具	布料与线团		
+192	thread01.UITex	0	道具	布料与线团		
+193	thread02.UITex	0	道具	布料与线团		
+194	thread03.UITex	0	道具	布料与线团		
+195	thread05.UITex	0	道具	布料与线团		
+196	thread06.UITex	0	道具	布料与线团		
+197	dye01.UITex	0	道具	矿石与金属锭		
+198	dye02.UITex	0	道具	矿石与金属锭		
+199	dye03.UITex	0	道具	矿石与金属锭		
+200	foundry01.UITex	0	道具	矿石与金属锭		
+201	foundry02.UITex	0	道具	矿石与金属锭		
+202	foundry05.UITex	0	道具	矿石与金属锭		
+203	foundry08.UITex	0	道具	矿石与金属锭		
+204	foundry09.UITex	0	道具	矿石与金属锭		
+205	foundry14.UITex	0	道具	矿石与金属锭		
+206	foundry19.UITex	0	道具	矿石与金属锭		
+207	foundry20.UITex	0	道具	矿石与金属锭		
+208	foundry21.UITex	0	道具	矿石与金属锭		
+209	foundry25.UITex	0	道具	矿石与金属锭		
+210	foundry29.UITex	0	道具	矿石与金属锭		
+211	foundry30.UITex	0	道具	矿石与金属锭		
+212	ingot01.UITex	0	道具	矿石与金属锭		
+213	ingot02.UITex	0	道具	矿石与金属锭		
+214	ingot04.UITex	0	道具	矿石与金属锭		
+215	ingot05.UITex	0	道具	矿石与金属锭		
+216	ingot06.UITex	0	道具	矿石与金属锭		
+217	medic02.UITex	0	道具	植物		
+218	medic03.UITex	0	道具	植物		
+219	medic04.UITex	0	道具	植物		
+220	medic05.UITex	0	道具	植物		
+221	medic06.UITex	0	道具	植物		
+222	medic07.UITex	0	道具	植物		
+223	medic08.UITex	0	道具	植物		
+224	medic09.UITex	0	道具	植物		
+225	medic10.UITex	0	道具	植物		
+226	medic11.UITex	0	道具	植物		
+227	medic12.UITex	0	道具	植物		
+228	medic13.UITex	0	道具	植物		
+229	medic14.UITex	0	道具	植物		
+230	medic15.UITex	0	道具	植物		
+231	medic19.UITex	0	道具	皮料		
+232	medic21.UITex	0	道具	植物		
+233	medic22.UITex	0	道具	植物		
+234	medic24.UITex	0	道具	植物		
+235	medic25.UITex	0	道具	植物		
+236	medic26.UITex	0	道具	植物		
+237	medic27.UITex	0	道具	药品		
+238	medic28.UITex	0	道具	药品		
+239	medic29.UITex	0	道具	药品		
+240	medic30.UITex	0	道具	药品		
+241	book01.UITex	0	道具	书籍信纸		
+242	book05.UITex	0	道具	书籍信纸		
+243	book07.UITex	0	道具	书籍信纸		
+244	book10.UITex	0	道具	书籍信纸		
+245	recipebook04.UITex	0	道具	书籍信纸		
+246	recipebook69.UITex	0	道具	书籍信纸		
+247	recipebook70.UITex	0	道具	书籍信纸		
+248	recipebook71.UITex	0	道具	书籍信纸		
+249	potion03.UITex	0	道具	药品		
+250	potion04.UITex	0	道具	药品		
+251	potion07.UITex	0	道具	药品		
+252	potion12.UITex	0	道具	药品		
+253	potion12_1.UITex	0	道具	药品		
+254	potion12_2.UITex	0	道具	药品		
+255	potion35.UITex	0	道具	药品		
+256	potion41.UITex	0	道具	药品		
+257	potion42.UITex	0	道具	药品		
+258	potion54.UITex	0	道具	药品		
+259	food01.UITex	0	道具	食物与食材		
+260	food02.UITex	0	道具	食物与食材		
+261	food04.UITex	0	道具	食物与食材		
+262	food05.UITex	0	道具	食物与食材		
+263	food06.UITex	0	道具	食物与食材		
+264	food10.UITex	0	道具	食物与食材		
+265	food26.UITex	0	道具	食物与食材		
+266	food27.UITex	0	道具	食物与食材		
+267	animalstuff10.UITex	0	道具	动物与器官		
+268	animalstuff19.UITex	0	道具	动物与器官		
+269	animalstuff20.UITex	0	道具	动物与器官		
+270	animalstuff22.UITex	0	道具	动物与器官		
+271	animalstuff25.UITex	0	道具	动物与器官		
+272	animalstuff26.UITex	0	道具	动物与器官		
+273	animalstuff30.UITex	0	道具	动物与器官		
+274	animalstuff31.UITex	0	道具	动物与器官		
+275	animalstuff32.UITex	0	道具	动物与器官		
+276	animalstuff33.UITex	0	道具	动物与器官		
+277	animalstuff36.UITex	0	道具	动物与器官		
+278	animalstuff37.UITex	0	道具	食物与食材		
+279	animalstuff39.UITex	0	道具	动物与器官		
+280	animalstuff41.UITex	0	道具	动物与器官		
+281	animalstuff53.UITex	0	道具	动物与器官		
+282	animalstuff54.UITex	0	道具	动物与器官		
+283	animalstuff55.UITex	0	道具	动物与器官		
+284	animalstuff56.UITex	0	道具	动物与器官		
+285	animalstuff57.UITex	0	道具	动物与器官		
+286	animalstuff58.UITex	0	道具	动物与器官		
+287	forcedrop03.UITex	0	道具	未分类		
+288	forcedrop04.UITex	0	道具	未分类		
+289	forcedrop06.UITex	0	道具	食物与食材		
+290	forcedrop07.UITex	0	道具	未分类		
+291	forcedrop08.UITex	0	道具	未分类		
+292	forcedrop10.UITex	0	道具	书籍信纸		
+293	forcedrop11.UITex	0	道具	书籍信纸		
+294	forcedrop13.UITex	0	道具	书籍信纸		
+295	forcedrop14.UITex	0	道具	包裹		
+296	forcedrop15.UITex	0	道具	未分类		
+297	forcedrop20.UITex	0	道具	未分类		
+298	forcedrop21.UITex	0	道具	未分类		
+299	forcedrop26.UITex	0	道具	书籍信纸		
+300	forcedrop27.UITex	0	道具	未分类		
+301	forcedrop29.UITex	0	道具	未分类		
+302	mapdrop06.UITex	0	道具	未分类		
+303	mapdrop07.UITex	0	道具	未分类		
+304	mapdrop15.UITex	0	道具	药品		
+305	lianhuanwu19.UITex	0	道具	未分类		
+306	qita01.UITex	0	道具	未分类		
+307	eba02.UITex	0	道具	未分类		
+308	eba03.UITex	0	道具	未分类		
+309	zhongtiao03.UITex	0	道具	未分类		
+310	yinyuanhui01.UITex	0	道具	书籍信纸		
+311	wanhua12.UITex	0	道具	未分类		
+312	qixiu07.UITex	0	道具	未分类		
+313	qixiu09.UITex	0	道具	未分类		
+314	zhongtiao06.UITex	0	道具	未分类		
+315	lianhuanwu36.UITex	0	道具	未分类		
+316	Kftiance.UITex	0	道具	任务特殊		
+317	Kftiance.UITex	0	道具	任务特殊		
+318	Kfjianghu.UITex	0	道具	任务特殊		
+319	BgWanhua.UITex	0	道具	任务特殊		
+320	BgWanhua.UITex	0	道具	任务特殊		
+321	BgWanhua.UITex	0	道具	任务特殊		
+322	BgWanhua.UITex	0	道具	任务特殊		
+323	foundry17.UITex	0	道具	矿石与金属锭		
+324	skill_wanhua_hot.UITex	0	技能	通用		
+325	skill_wanhua_bimianneigong.UITex	0	技能	通用		
+326	skill_wanhua_fuhuo.UITex	0	技能	通用		
+327	skill_wanhua_huifushaoliang.UITex	0	技能	通用		
+328	skill_wanhua_huifutuanti.UITex	0	技能	通用		
+329	skill_wanhua_huixinyiji.UITex	0	技能	通用		
+330	skill_wanhua_jiedu.UITex	0	技能	通用		
+331	skill_wanhua_jiexue.UITex	0	技能	通用		
+332	skill_wanhua_maxue.UITex	0	技能	通用		
+333	skill_wanhua_neigongshunfa.UITex	0	技能	通用		
+334	skill_wanhua_neigongyinchang.UITex	0	技能	通用		
+335	skill_wanhua_neilinixing.UITex	0	技能	通用		
+336	skill_wanhua_qianghuajingmai.UITex	0	技能	通用		
+337	skill_wanhua_qunliao.UITex	0	技能	通用		
+338	skill_wanhua_wanhuaxue.UITex	0	技能	通用		
+339	skill_wanhua_wufashifang.UITex	0	技能	通用		
+340	skill_wanhua_xiaoxue.UITex	0	技能	通用		
+341	skill_wanhua_zengjiashangxian.UITex	0	技能	通用		
+342	skill_wanhua_neilitisheng.UITex	0	技能	通用		
+343	skill_wanhua_dianxueshanghai.UITex	0	技能	通用		
+344	skill_wanhua_zengjianeili.UITex	0	技能	通用		
+345	skill_wanhua_zengjiazhiliao.UITex	0	技能	通用		
+346	skill_wanhua_zhixue.UITex	0	技能	通用		
+347	skill_wanhua_zifengjingmai.UITex	0	技能	通用		
+348	skill_wanhua_zouxue.UITex	0	技能	通用		
+349	quest_chunyang612_1.UITex	0	道具	任务特殊		
+350	quest_chunyang612_2.UITex	0	道具	任务特殊		
+351	m5yangzhou11.UITex	0	道具	未分类		
+352	m5yangzhou12.UITex	0	道具	未分类		
+353	m5yangzhou13.UITex	0	道具	未分类		
+354	m5yangzhou14.UITex	0	道具	未分类		
+355	m5yangzhou15.UITex	0	道具	动物与器官		
+356	m6shaolin01.UITex	0	道具	动物与器官		
+357	m6shaolin02.UITex	0	道具	未分类		
+358	m6shaolin03.UITex	0	道具	未分类		
+359	m6shaolin04.UITex	0	道具	未分类		
+360	m6shaolin05.UITex	0	道具	食物与食材		
+361	m6shaolin06.UITex	0	道具	未分类		
+362	m6shaolin07.UITex	0	道具	未分类		
+363	m6shaolin08.UITex	0	道具	未分类		
+364	m6shaolin09.UITex	0	道具	未分类		
+365	m6shaolin10.UITex	0	道具	书籍信纸		
+366	m6shaolin11.UITex	0	道具	未分类		
+367	m6shaolin12.UITex	0	道具	未分类		
+368	m6shaolin13.UITex	0	道具	未分类		
+369	m6shaolin14.UITex	0	道具	食物与食材		
+370	animalstuff27.UITex	0	道具	动物与器官		
+371	animalstuff28.UITex	0	道具	动物与器官		
+372	animalstuff29.UITex	0	道具	动物与器官		
+373	animalstuff40.UITex	0	道具	动物与器官		
+374	animalstuff43.UITex	0	道具	包裹		
+375	forcedrop18.UITex	0	道具	布料与线团		
+376	mapdrop14.UITex	0	道具	未分类		
+377	lianhuanwu05.UITex	0	道具	未分类		
+378	qita06.UITex	0	道具	未分类		
+379	wanhua08.UITex	0	道具	食物与食材		
+380	tiance04.UITex	0	道具	未分类		
+381	tianzhu01.UITex	0	道具	未分类		
+382	shaolin01.UITex	0	道具	未分类		
+383	qixiu04.UITex	0	道具	未分类		
+384	tiance11.UITex	0	道具	未分类		
+385	tianzhu05.UITex	0	道具	未分类		
+386	shaolin05.UITex	0	道具	未分类		
+387	mingjiao06.UITex	0	道具	药品		
+388	biaoju09.UITex	0	道具	书籍信纸		
+389	wpn_sword_w_uni05.UITex	0	武器	剑		
+390	skill_wanhua01.UITex	0	技能	万花		
+391	skill_wanhua02.UITex	0	技能	通用		
+392	skill_wanhua03.UITex	0	技能	通用		
+393	skill_wanhua04.UITex	0	技能	通用		
+394	skill_wanhua05.UITex	0	技能	万花		
+395	skill_wanhua06.UITex	0	技能	万花		
+396	skill_wanhua07.UITex	0	技能	万花		
+397	skill_wanhua08.UITex	0	技能	通用		
+398	skill_wanhua09.UITex	0	技能	万花		
+399	skill_wanhua10.UITex	0	技能	通用		
+400	skill_wanhua11.UITex	0	技能	万花		
+401	skill_wanhua12.UITex	0	技能	通用		
+402	skill_wanhua13.UITex	0	技能	万花		
+403	skill_wanhua14.UITex	0	技能	万花		
+404	skill_wanhua15.UITex	0	技能	万花		
+405	skill_wanhua16.UITex	0	技能	万花		
+406	skill_wanhua17.UITex	0	技能	万花		
+407	skill_wanhua18.UITex	0	技能	万花		
+408	skill_wanhua19.UITex	0	技能	万花		
+409	skill_wanhua20.UITex	0	技能	万花		
+410	skill_wanhua21.UITex	0	技能	万花		
+411	skill_wanhua22.UITex	0	技能	万花		
+412	skill_wanhua23.UITex	0	技能	万花		
+413	skill_wanhua24.UITex	0	技能	万花		
+414	skill_wanhua25.UITex	0	技能	万花		
+415	skill_wanhua26.UITex	0	技能	万花		
+416	skill_shaolin01.UITex	0	技能	少林		
+417	skill_shaolin02.UITex	0	技能	少林		
+418	skill_shaolin03.UITex	0	技能	少林		
+419	skill_shaolin04.UITex	0	技能	少林		
+420	skill_shaolin05.UITex	0	技能	少林		
+421	skill_shaolin06.UITex	0	技能	少林		
+422	skill_shaolin07.UITex	0	技能	少林		
+423	skill_shaolin08.UITex	0	技能	少林		
+424	skill_shaolin09.UITex	0	技能	少林		
+425	skill_shaolin10.UITex	0	技能	少林		
+426	skill_shaolin11.UITex	0	技能	少林		
+427	skill_shaolin12.UITex	0	技能	少林		
+428	skill_shaolin13.UITex	0	技能	少林		
+429	skill_shaolin14.UITex	0	技能	少林		
+430	skill_shaolin15.UITex	0	技能	少林		
+431	skill_shaolin16.UITex	0	技能	少林		
+432	skill_shaolin17.UITex	0	技能	少林		
+433	skill_shaolin18.UITex	0	技能	少林		
+434	skill_shaolin19.UITex	0	技能	少林		
+435	skill_shaolin20.UITex	0	技能	少林		
+436	skill_shaolin21.UITex	0	技能	少林		
+437	skill_shaolin22.UITex	0	技能	少林		
+438	skill_shaolin23.UITex	0	技能	少林		
+439	skill_shaolin24.UITex	0	技能	少林		
+440	skill_shaolin25.UITex	0	技能	少林		
+441	skill_shaolin26.UITex	0	技能	少林		
+442	skill_shaolin27.UITex	0	技能	少林		
+443	skill_shaolin28.UITex	0	技能	少林		
+444	skill_shaolin29.UITex	0	技能	少林		
+445	skill_shaolin30.UITex	0	技能	少林		
+446	skill_shaolin31.UITex	0	技能	少林		
+447	skill_shaolin32.UITex	0	技能	少林		
+448	def_shaolin_belt1_w.UITex	0	防具	腰带		
+449	def_shaolin_belt2_w.UITex	0	防具	腰带		
+450	def_shaolin_belt3_w.UITex	0	防具	腰带		
+451	def_shaolin_coat1_w.UITex	0	防具	上衣		
+452	def_shaolin_coat2_w.UITex	0	防具	上衣		
+453	def_shaolin_coat3_w.UITex	0	防具	上衣		
+454	def_shaolin_cuff1_w.UITex	0	防具	护臂		
+455	def_shaolin_cuff2_w.UITex	0	防具	护臂		
+456	def_shaolin_cuff3_w.UITex	0	防具	护臂		
+457	def_shaolin_head1_w.UITex	0	防具	帽子		
+458	def_shaolin_pants1_w.UITex	0	防具	裤子		
+459	def_shaolin_shoes1_w.UITex	0	防具	鞋		
+460	def_shaolin_shoes2_w.UITex	0	防具	鞋		
+461	def_shaolin_shoes3_w.UITex	0	防具	鞋		
+462	def_uni_belt1_w.UITex	0	防具	腰带		
+463	def_uni_belt2_w.UITex	0	防具	腰带		
+464	def_uni_belt3_w.UITex	0	防具	腰带		
+465	def_uni_belt4_w.UITex	0	防具	腰带		
+466	def_uni_coat1_w.UITex	0	防具	上衣		
+467	def_uni_coat2_w.UITex	0	防具	上衣		
+468	def_uni_coat3_w.UITex	0	防具	上衣		
+469	def_uni_coat4_w.UITex	0	防具	上衣		
+470	def_uni_coat5_w.UITex	0	防具	上衣		
+471	def_uni_coat6_w.UITex	0	防具	上衣		
+472	def_uni_cuff1_w.UITex	0	防具	护臂		
+473	def_uni_cuff2_w.UITex	0	防具	护臂		
+474	def_uni_cuff3_w.UITex	0	防具	护臂		
+475	def_uni_cuff4_w.UITex	0	防具	护臂		
+476	def_uni_head1_w.UITex	0	防具	帽子		
+477	def_uni_head2_w.UITex	0	防具	帽子		
+478	def_uni_head3_w.UITex	0	防具	帽子		
+479	def_uni_pants1_w.UITex	0	防具	裤子		
+480	def_uni_pants2_w.UITex	0	防具	裤子		
+481	def_uni_pants3_w.UITex	0	防具	裤子		
+482	def_uni_shoes1_w.UITex	0	防具	鞋		
+483	def_uni_shoes2_w.UITex	0	防具	鞋		
+484	def_uni_shoes3_w.UITex	0	防具	鞋		
+485	def_uni_shoes4_w.UITex	0	防具	鞋		
+486	def_wanhua_belt1_w.UITex	0	防具	腰带		
+487	def_wanhua_belt2_w.UITex	0	防具	腰带		
+488	def_wanhua_belt3_w.UITex	0	防具	腰带		
+489	def_wanhua_coat1_w.UITex	0	防具	上衣		
+490	def_wanhua_coat2_w.UITex	0	防具	上衣		
+491	def_wanhua_coat3_w.UITex	0	防具	上衣		
+492	def_wanhua_cuff1_w.UITex	0	防具	护臂		
+493	def_wanhua_cuff2_w.UITex	0	防具	护臂		
+494	def_wanhua_cuff3_w.UITex	0	防具	护臂		
+495	def_wanhua_head1_w.UITex	0	防具	帽子		
+496	def_wanhua_head2_w.UITex	0	防具	帽子		
+497	def_wanhua_head3_w.UITex	0	防具	帽子		
+498	def_wanhua_pants1_w.UITex	0	防具	裤子		
+499	def_wanhua_shoes1_w.UITex	0	防具	鞋		
+500	def_wanhua_shoes2_w.UITex	0	防具	鞋		
+501	def_wanhua_shoes3_w.UITex	0	防具	鞋		
+502	wpn_class_brush1_w.UITex	0	武器	笔		
+503	wpn_class_brush2_w.UITex	0	武器	笔		
+504	wpn_class_brush3_w.UITex	0	武器	笔		
+505	wpn_class_wand1_w.UITex	0	武器	棍	棒	金
+506	wpn_class_wand2_w.UITex	0	武器	棍	棒	铜
+507	wpn_class_wand3_w.UITex	0	武器	棍	棒	铜
+508	wpn_uni_brush1_w.UITex	0	武器	笔		
+509	wpn_uni_brush2_w.UITex	0	武器	笔		
+510	wpn_uni_brush3_w.UITex	0	武器	笔		
+511	wpn_uni_double1_w.UITex	0	武器	双兵		
+512	wpn_uni_double2_w.UITex	0	武器	双兵		
+513	wpn_uni_double3_w.UITex	0	武器	双兵		
+514	wpn_uni_fist1_w.UITex	0	武器	拳套		
+515	wpn_uni_fist2_w.UITex	0	武器	拳套		
+516	wpn_uni_fist3_w.UITex	0	武器	拳套		
+517	wpn_uni_spear1_w.UITex	0	武器	枪		
+518	wpn_uni_spear2_w.UITex	0	武器	枪		
+519	wpn_uni_spear3_w.UITex	0	武器	枪		
+520	wpn_uni_sword1_w.UITex	0	武器	剑		
+521	wpn_uni_sword2_w.UITex	0	武器	剑		
+522	wpn_uni_sword3_w.UITex	0	武器	剑		
+523	wpn_uni_wand1_w.UITex	0	武器	棍	棒	铜
+524	wpn_uni_wand2_w.UITex	0	武器	棍	棒	木
+525	wpn_uni_wand3_w.UITex	0	武器	棍	棒	
+526	skill_uni01.UITex	0	技能	江湖		
+527	skill_uni02.UITex	0	技能	江湖		
+528	skill_uni03.UITex	0	技能	江湖		
+529	skill_uni04.UITex	0	技能	江湖		
+530	skill_uni05.UITex	0	技能	江湖		
+531	skill_uni06.UITex	0	技能	江湖		
+532	skill_uni07.UITex	0	技能	江湖		
+533	skill_uni08.UITex	0	技能	江湖		
+534	skill_uni09.UITex	0	技能	江湖		
+535	skill_uni10.UITex	0	技能	江湖		
+536	skill_uni11.UITex	0	技能	江湖		
+537	skill_uni12.UITex	0	技能	江湖		
+538	bag02.UITex	0	道具	包裹		
+539	bag03.UITex	0	道具	包裹		
+540	cloth03.UITex	0	道具	布料与线团		
+541	cloth08.UITex	0	道具	布料与线团		
+542	cloth10.UITex	0	道具	布料与线团		
+543	cloth19.UITex	0	道具	布料与线团		
+544	cookspecial06.UITex	0	道具	食物与食材		
+545	food03.UITex	0	道具	食物与食材		
+546	food08.UITex	0	道具	食物与食材		
+547	food09.UITex	0	道具	食物与食材		
+548	food11.UITex	0	道具	食物与食材		
+549	food12.UITex	0	道具	食物与食材		
+550	food13.UITex	0	道具	食物与食材		
+551	food17.UITex	0	道具	食物与食材		
+552	food19.UITex	0	道具	食物与食材		
+553	food25.UITex	0	道具	食物与食材		
+554	leather02.UITex	0	道具	皮料		
+555	leather09.UITex	0	道具	皮料		
+556	meat01.UITex	0	道具	动物与器官		
+557	meat03.UITex	0	道具	动物与器官		
+558	meat04.UITex	0	道具	动物与器官		
+559	medic16.UITex	0	道具	动物与器官		
+560	medic31.UITex	0	道具	药品		
+561	potion05.UITex	0	道具	药品		
+562	potion09.UITex	0	道具	药品		
+563	potion13.UITex	0	道具	药品		
+564	potion28.UITex	0	道具	药品		
+565	potion30.UITex	0	道具	药品		
+566	potion32.UITex	0	道具	药品		
+567	potion37.UITex	0	道具	药品		
+568	potion39.UITex	0	道具	药品		
+569	potion48.UITex	0	道具	药品		
+570	potion50.UITex	0	道具	药品		
+571	potion55.UITex	0	道具	药品		
+572	undone.UITex	0	道具	缺资源		
+573	veget03.UITex	0	道具	植物		
+574	veget05.UITex	0	道具	植物		
+575	veget06.UITex	0	道具	植物		
+576	veget07.UITex	0	道具	植物		
+577	veget11.UITex	0	道具	植物		
+578	veget12.UITex	0	道具	植物		
+579	mail01.UITex	0	道具	邮箱保留图标		
+580	mail02.UITex	0	道具	邮箱保留图标		
+581	mail03.UITex	0	道具	邮箱保留图标		
+582	mail04.UITex	0	道具	邮箱保留图标		
+583	leather11.UITex	0	道具	皮料		
+584	koudao_cangbaotu_2.UITex	0	道具	任务特殊		
+585	Sc_luodao01.UITex	0	道具	食物与食材		
+586	Sc_luodao02.UITex	0	道具	食物与食材		
+587	Sc_luodao03.UITex	0	道具	动物与器官		
+588	Sc_luodao04.UITex	0	道具	矿石与金属锭		
+589	Sc_luodao05.UITex	0	道具	未分类		
+590	Sc_luodao06.UITex	0	道具	食物与食材		
+591	Sc_luodao07.UITex	0	道具	布料与线团		
+592	Sc_luodao08.UITex	0	道具	布料与线团		
+593	Sc_luodao09.UITex	0	道具	未分类		
+594	Sc_luodao10.UITex	0	道具	包裹		
+595	Sc_luodao11.UITex	0	道具	未分类		
+596	Sc_chunyang01.UITex	0	道具	未分类		
+597	Sc_chunyang02.UITex	0	道具	未分类		
+598	Sc_chunyang03.UITex	0	道具	布料与线团		
+599	Sc_chunyang04.UITex	0	道具	未分类		
+600	Sc_chunyang05.UITex	0	道具	未分类		
+601	Sc_chunyang06.UITex	0	道具	植物		
+602	Sc_chunyang07.UITex	0	道具	植物		
+603	Sc_chunyang08.UITex	0	道具	未分类		
+604	Sc_koudao01.UITex	0	道具	包裹		
+605	Sc_koudao02.UITex	0	道具	植物		
+606	Sc_koudao03.UITex	0	道具	植物		
+607	skill_chunyang01.UITex	0	技能	纯阳		
+608	skill_chunyang02.UITex	0	技能	纯阳		
+609	skill_chunyang03.UITex	0	技能	纯阳		
+610	skill_chunyang04.UITex	0	技能	纯阳		
+611	skill_chunyang05.UITex	0	技能	纯阳		
+612	skill_chunyang06.UITex	0	技能	纯阳		
+613	skill_chunyang07.UITex	0	技能	纯阳		
+614	skill_chunyang08.UITex	0	技能	纯阳		
+615	skill_chunyang09.UITex	0	技能	纯阳		
+616	skill_chunyang10.UITex	0	技能	纯阳		
+617	skill_chunyang11.UITex	0	技能	纯阳		
+618	skill_chunyang12.UITex	0	技能	纯阳		
+619	skill_chunyang13.UITex	0	技能	纯阳		
+620	skill_chunyang14.UITex	0	技能	纯阳		
+621	skill_chunyang15.UITex	0	技能	纯阳		
+622	skill_chunyang16.UITex	0	技能	纯阳		
+623	skill_chunyang17.UITex	0	技能	纯阳		
+624	skill_chunyang18.UITex	0	技能	纯阳		
+625	skill_chunyang19.UITex	0	技能	纯阳		
+626	skill_chunyang20.UITex	0	技能	纯阳		
+627	skill_chunyang21.UITex	0	技能	纯阳		
+628	skill_chunyang22.UITex	0	技能	纯阳		
+629	skill_chunyang23.UITex	0	技能	纯阳		
+630	skill_chunyang24.UITex	0	技能	纯阳		
+631	skill_chunyang25.UITex	0	技能	纯阳		
+632	skill_tiance01.UITex	0	技能	天策		
+633	skill_tiance02.UITex	0	技能	天策		
+634	skill_tiance03.UITex	0	技能	天策		
+635	skill_tiance04.UITex	0	技能	天策		
+636	skill_tiance05.UITex	0	技能	天策		
+637	skill_tiance06.UITex	0	技能	天策		
+638	skill_tiance07.UITex	0	技能	天策		
+639	skill_tiance08.UITex	0	技能	天策		
+640	skill_tiance09.UITex	0	技能	天策		
+641	skill_tiance10.UITex	0	技能	天策		
+642	skill_tiance11.UITex	0	技能	天策		
+643	skill_tiance12.UITex	0	技能	天策		
+644	skill_tiance13.UITex	0	技能	天策		
+645	skill_tiance14.UITex	0	技能	天策		
+646	skill_tiance15.UITex	0	技能	天策		
+647	skill_tiance16.UITex	0	技能	天策		
+648	skill_tiance17.UITex	0	技能	天策		
+649	skill_tiance18.UITex	0	技能	天策		
+650	skill_tiance19.UITex	0	技能	天策		
+651	skill_tiance20.UITex	0	技能	天策		
+652	skill_tiance21.UITex	0	技能	天策		
+653	skill_tiance22.UITex	0	技能	天策		
+654	skill_tiance23.UITex	0	技能	天策		
+655	skill_tiance24.UITex	0	技能	天策		
+656	skill_tiance25.UITex	0	技能	天策		
+657	skill_tiance26.UITex	0	技能	天策		
+658	DropItemNew01.UITex	0	道具	未分类		
+659	DropItemNew02.UITex	0	道具	包裹		
+660	DropItemNew03.UITex	0	道具	未分类		
+661	DropItemNew04.UITex	0	道具	未分类		
+662	DropItemNew05.UITex	0	道具	未分类		
+663	DropItemNew06.UITex	0	道具	未分类		
+664	DropItemNew07.UITex	0	道具	动物与器官		
+665	DropItemNew08.UITex	0	道具	动物与器官		
+666	DropItemNew09.UITex	0	道具	未分类		
+667	DropItemNew10.UITex	0	道具	动物与器官		
+668	DropItemNew11.UITex	0	道具	未分类		
+669	DropItemNew12.UITex	0	道具	布料与线团		
+670	DropItemNew13.UITex	0	道具	未分类		
+671	DropItemNew14.UITex	0	道具	未分类		
+672	DropItemNew15.UITex	0	道具	未分类		
+673	DropItemNew16.UITex	0	道具	未分类		
+674	DropItemNew17.UITex	0	道具	未分类		
+675	DropItemNew18.UITex	0	道具	未分类		
+676	DropItemNew19.UITex	0	道具	动物与器官		
+677	DropItemNew20.UITex	0	道具	未分类		
+678	DropItemNew21.UITex	0	道具	未分类		
+679	DropItemNew22.UITex	0	道具	未分类		
+680	DropItemNew23.UITex	0	道具	未分类		
+681	DropItemNew24.UITex	0	道具	未分类		
+682	DropItemNew25.UITex	0	道具	未分类		
+683	DropItemNew26.UITex	0	道具	未分类		
+684	DropItemNew27.UITex	0	道具	未分类		
+685	DropItemNew28.UITex	0	道具	未分类		
+686	DropItemNew29.UITex	0	道具	未分类		
+687	DropItemNew30.UITex	0	道具	未分类		
+688	DropItemNew31.UITex	0	道具	未分类		
+689	DropItemNew32.UITex	0	道具	未分类		
+690	DropItemNew33.UITex	0	道具	布料与线团		
+691	DropItemNew34.UITex	0	道具	布料与线团		
+692	DropItemNew35.UITex	0	道具	未分类		
+693	DropItemNew36.UITex	0	道具	未分类		
+694	DropItemNew37.UITex	0	道具	未分类		
+695	DropItemNew38.UITex	0	道具	未分类		
+696	DropItemNew39.UITex	0	道具	未分类		
+697	DropItemNew40.UITex	0	道具	未分类		
+698	DropItemNew41.UITex	0	道具	未分类		
+699	DropItemNew42.UITex	0	道具	未分类		
+700	DropItemNew43.UITex	0	道具	未分类		
+701	DropItemNew44.UITex	0	道具	未分类		
+702	DropItemNew45.UITex	0	道具	未分类		
+703	DropItemNew46.UITex	0	道具	未分类		
+704	DropItemNew47.UITex	0	道具	未分类		
+705	DropItemNew48.UITex	0	道具	未分类		
+706	DropItemNew49.UITex	0	道具	植物		
+707	DropItemNew50.UITex	0	道具	布料与线团		
+708	DropItemNew51.UITex	0	道具	未分类		
+709	DropItemNew52.UITex	0	道具	布料与线团		
+710	DropItemNew53.UITex	0	道具	动物与器官		
+711	DropItemNew54.UITex	0	道具	动物与器官		
+712	DropItemNew55.UITex	0	道具	未分类		
+713	DropItemNew56.UITex	0	道具	未分类		
+714	DropItemNew57.UITex	0	道具	动物与器官		
+715	DropItemNew58.UITex	0	道具	皮料		
+716	DropItemNew59.UITex	0	道具	动物与器官		
+717	DropItemNew60.UITex	0	道具	未分类		
+718	DropItemNew61.UITex	0	道具	未分类		
+719	DropItemNew62.UITex	0	道具	未分类		
+720	DropItemNew63.UITex	0	道具	动物与器官		
+721	DropItemNew64.UITex	0	道具	未分类		
+722	DropItemNew65.UITex	0	道具	未分类		
+723	DropItemNew66.UITex	0	道具	未分类		
+724	DropItemNew67.UITex	0	道具	未分类		
+725	DropItemNew68.UITex	0	道具	未分类		
+726	DropItemNew69.UITex	0	道具	未分类		
+727	DropItemNew70.UITex	0	道具	未分类		
+728	DropItemNew71.UITex	0	道具	动物与器官		
+729	DropItemNew72.UITex	0	道具	未分类		
+730	DropItemNew73.UITex	0	道具	动物与器官		
+731	DropItemNew74.UITex	0	道具	未分类		
+732	DropItemNew75.UITex	0	道具	未分类		
+733	DropItemNew76.UITex	0	道具	未分类		
+734	DropItemNew77.UITex	0	道具	动物与器官		
+735	DropItemNew78.UITex	0	道具	动物与器官		
+736	DropItemNew79.UITex	0	道具	未分类		
+737	DropItemNew80.UITex	0	道具	动物与器官		
+738	wpn_brush01.UITex	0	武器	笔		木
+739	wpn_brush02.UITex	0	武器	笔		木
+740	wpn_brush03.UITex	0	武器	笔		木
+741	wpn_brush04.UITex	0	武器	笔		木
+742	wpn_brush05.UITex	0	武器	笔		铜
+743	wpn_brush06.UITex	0	武器	笔		铜
+744	wpn_brush07.UITex	0	武器	笔		铜
+745	wpn_brush08.UITex	0	武器	笔		铜
+746	wpn_brush09.UITex	0	武器	笔		铁
+747	wpn_brush10.UITex	0	武器	笔		铁
+748	wpn_brush11.UITex	0	武器	笔		铁
+749	wpn_brush12.UITex	0	武器	笔		铁
+750	wpn_brush13.UITex	0	武器	笔		银
+751	wpn_brush14.UITex	0	武器	笔		银
+752	wpn_brush15.UITex	0	武器	笔		银
+753	wpn_brush16.UITex	0	武器	笔		银
+754	wpn_brush17.UITex	0	武器	笔		金
+755	wpn_brush18.UITex	0	武器	笔		金
+756	wpn_brush19.UITex	0	武器	笔		金
+757	wpn_brush20.UITex	0	武器	笔		金
+758	wpn_bullet01.UITex	0	武器	弓弦暗器	石子	
+759	wpn_bullet02.UITex	0	武器	弓弦暗器	石子	
+760	wpn_bullet03.UITex	0	武器	弓弦暗器	钉子	
+761	wpn_bullet04.UITex	0	武器	弓弦暗器	钉子	
+762	wpn_bullet05.UITex	0	武器	弓弦暗器	飞刀	
+763	wpn_bullet06.UITex	0	武器	弓弦暗器	飞刀	
+764	wpn_bullet07.UITex	0	武器	弓弦暗器	飞刀	
+765	wpn_bullet08.UITex	0	武器	弓弦暗器	飞镖	
+766	wpn_bullet09.UITex	0	武器	弓弦暗器	飞镖	
+767	wpn_bullet10.UITex	0	武器	弓弦暗器	飞镖	
+768	wpn_bullet11.UITex	0	武器	弓弦暗器	飞镖	
+769	wpn_bullet12.UITex	0	武器	弓弦暗器	小箭	
+770	wpn_bullet13.UITex	0	武器	弓弦暗器	小箭	
+771	wpn_bullet14.UITex	0	武器	弓弦暗器	铁珠	
+772	wpn_bullet15.UITex	0	武器	弓弦暗器	铁珠	
+773	wpn_double01.UITex	0	武器	双兵	双剑	木
+774	wpn_double02.UITex	0	武器	双兵	双剑	木
+775	wpn_double03.UITex	0	武器	双兵	双剑	木
+776	wpn_double04.UITex	0	武器	双兵	双剑	铁
+777	wpn_double05.UITex	0	武器	双兵	双剑	铁
+778	wpn_double06.UITex	0	武器	双兵	双剑	铁
+779	wpn_double07.UITex	0	武器	双兵	双剑	铜
+780	wpn_double08.UITex	0	武器	双兵	双剑	铜
+781	wpn_double09.UITex	0	武器	双兵	双剑	铜
+782	wpn_double10.UITex	0	武器	双兵	双剑	银
+783	wpn_double11.UITex	0	武器	双兵	双剑	银
+784	wpn_double12.UITex	0	武器	双兵	双剑	银
+785	wpn_double13.UITex	0	武器	双兵	双剑	金
+786	wpn_double14.UITex	0	武器	双兵	双剑	金
+787	wpn_double15.UITex	0	武器	双兵	双剑	金
+788	wpn_double16.UITex	0	武器	双兵	双环	
+789	wpn_double17.UITex	0	武器	双兵	双环	
+790	wpn_double18.UITex	0	武器	双兵	双钩	
+791	wpn_double19.UITex	0	武器	双兵	双钩	
+792	wpn_double20.UITex	0	武器	双兵	双刀	
+793	wpn_double21.UITex	0	武器	双兵	双刀	
+794	wpn_double22.UITex	0	武器	双兵	双扇	
+795	wpn_double22b.UITex	0	武器	双兵	双扇	
+796	wpn_double23.UITex	0	武器	双兵	双扇	
+797	wpn_double23b.UITex	0	武器	双兵	双扇	
+798	wpn_longdis01.UITex	0	武器	投掷囊	弹弓	木
+799	wpn_longdis02.UITex	0	武器	投掷囊	弹弓	木
+800	wpn_longdis03.UITex	0	武器	投掷囊	弹弓	木
+801	wpn_longdis04.UITex	0	武器	投掷囊	弹弓	木
+802	wpn_longdis05.UITex	0	武器	投掷囊	飞刀袋	
+803	wpn_longdis06.UITex	0	武器	投掷囊	飞刀袋	
+804	wpn_longdis07.UITex	0	武器	投掷囊	飞刀袋	
+805	wpn_longdis08.UITex	0	武器	投掷囊	飞刀袋	
+806	wpn_longdis09.UITex	0	武器	投掷囊	暗器袋、暗器囊	
+807	wpn_longdis10.UITex	0	武器	投掷囊	暗器袋、暗器囊	
+808	wpn_longdis11.UITex	0	武器	投掷囊	暗器袋、暗器囊	
+809	wpn_longdis12.UITex	0	武器	投掷囊	暗器袋、暗器囊	
+810	wpn_longdis13.UITex	0	武器	投掷囊	袖箭	
+811	wpn_longdis14.UITex	0	武器	投掷囊	袖箭	
+812	wpn_longdis15.UITex	0	武器	投掷囊	手弩	
+813	wpn_longdis16.UITex	0	武器	投掷囊	手弩	
+814	wpn_longdis17.UITex	0	武器	投掷囊	发射机关	
+815	wpn_longdis18.UITex	0	武器	投掷囊	发射机关	
+816	wpn_longdis19.UITex	0	武器	弓弦暗器	发射机关	
+817	wpn_longdis20.UITex	0	武器	弓弦暗器	发射机关	
+818	wpn_longdis21.UITex	0	武器	投掷囊	抛兜	
+819	wpn_longdis22.UITex	0	武器	投掷囊	抛兜	
+820	wpn_longdis23.UITex	0	武器	投掷囊	抛兜	
+821	wpn_longdis24.UITex	0	武器	投掷囊	抛兜	
+822	wpn_spear01.UITex	0	武器	枪		铜
+823	wpn_spear02.UITex	0	武器	枪		铜
+824	wpn_spear03.UITex	0	武器	枪		铜
+825	wpn_spear04.UITex	0	武器	枪		铜
+826	wpn_spear05.UITex	0	武器	枪		铁
+827	wpn_spear06.UITex	0	武器	枪		铁
+828	wpn_spear07.UITex	0	武器	枪		铁
+829	wpn_spear08.UITex	0	武器	枪		铁
+830	wpn_spear09.UITex	0	武器	枪		银
+831	wpn_spear10.UITex	0	武器	枪		银
+832	wpn_spear11.UITex	0	武器	枪		银
+833	wpn_spear12.UITex	0	武器	枪		银
+834	wpn_spear13.UITex	0	武器	枪		金
+835	wpn_spear14.UITex	0	武器	枪		金
+836	wpn_spear15.UITex	0	武器	枪		金
+837	wpn_spear16.UITex	0	武器	枪		金
+838	wpn_sword01.UITex	0	武器	剑		木
+839	wpn_sword02.UITex	0	武器	剑		木
+840	wpn_sword03.UITex	0	武器	剑		木
+841	wpn_sword04.UITex	0	武器	剑		
+842	wpn_sword05.UITex	0	武器	剑		铜
+843	wpn_sword06.UITex	0	武器	剑		铜
+844	wpn_sword07.UITex	0	武器	剑		铜
+845	wpn_sword08.UITex	0	武器	剑		铜
+846	wpn_sword09.UITex	0	武器	剑		铁
+847	wpn_sword10.UITex	0	武器	剑		铁
+848	wpn_sword11.UITex	0	武器	剑		铁
+849	wpn_sword12.UITex	0	武器	剑		铁
+850	wpn_sword13.UITex	0	武器	剑		银
+851	wpn_sword14.UITex	0	武器	剑		银
+852	wpn_sword15.UITex	0	武器	剑		银
+853	wpn_sword16.UITex	0	武器	剑		银
+854	wpn_sword17.UITex	0	武器	剑		金
+855	wpn_sword18.UITex	0	武器	剑		金
+856	wpn_sword19.UITex	0	武器	剑		金
+857	wpn_sword20.UITex	0	武器	剑		金
+858	wpn_wand01.UITex	0	武器	棍	棒	木
+859	wpn_wand02.UITex	0	武器	棍	棒	木
+860	wpn_wand03.UITex	0	武器	棍	棒	木
+861	wpn_wand04.UITex	0	武器	棍	棒	木
+862	wpn_wand05.UITex	0	武器	棍	棒	铜
+863	wpn_wand06.UITex	0	武器	棍	棒	铜
+864	wpn_wand07.UITex	0	武器	棍	棒	铜
+865	wpn_wand08.UITex	0	武器	棍	棒	铜
+866	wpn_wand09.UITex	0	武器	棍	棒	铁
+867	wpn_wand10.UITex	0	武器	棍	棒	铁
+868	wpn_wand11.UITex	0	武器	棍	棒	铁
+869	wpn_wand12.UITex	0	武器	棍	棒	铁
+870	wpn_wand13.UITex	0	武器	棍	棒	银
+871	wpn_wand14.UITex	0	武器	棍	棒	银
+872	wpn_wand15.UITex	0	武器	棍	棒	银
+873	wpn_wand16.UITex	0	武器	棍	棒	银
+874	wpn_wand17.UITex	0	武器	棍	棒	金
+875	wpn_wand18.UITex	0	武器	棍	棒	金
+876	wpn_wand19.UITex	0	武器	棍	棒	金
+877	wpn_wand20.UITex	0	武器	棍	棒	金
+878	system01.UITex	0	道具	系统		
+879	system02.UITex	0	道具	系统		
+880	system03.UITex	0	道具	系统		
+881	system04.UITex	0	道具	系统		
+882	system05.UITex	0	道具	系统		
+883	system06.UITex	0	道具	系统		
+884	system07.UITex	0	道具	系统		
+885	system08.UITex	0	道具	系统		
+886	skill_qixiu01.UITex	0	技能	七秀		
+887	skill_qixiu02.UITex	0	技能	七秀		
+888	skill_qixiu03.UITex	0	技能	七秀		
+889	skill_qixiu04.UITex	0	技能	七秀		
+890	skill_qixiu05.UITex	0	技能	七秀		
+891	skill_qixiu06.UITex	0	技能	七秀		
+892	skill_qixiu07.UITex	0	技能	七秀		
+893	skill_qixiu08.UITex	0	技能	七秀		
+894	skill_qixiu09.UITex	0	技能	七秀		
+895	skill_qixiu10.UITex	0	技能	七秀		
+896	skill_qixiu11.UITex	0	技能	七秀		
+897	skill_qixiu12.UITex	0	技能	七秀		
+898	skill_qixiu13.UITex	0	技能	七秀		
+899	skill_qixiu14.UITex	0	技能	七秀		
+900	skill_qixiu15.UITex	0	技能	七秀		
+901	skill_qixiu16.UITex	0	技能	七秀		
+902	skill_qixiu17.UITex	0	技能	七秀		
+903	skill_qixiu18.UITex	0	技能	七秀		
+904	skill_qixiu19.UITex	0	技能	七秀		
+905	skill_qixiu20.UITex	0	技能	七秀		
+906	skill_qixiu21.UITex	0	技能	七秀		
+907	skill_qixiu22.UITex	0	技能	七秀		
+908	skill_qixiu23.UITex	0	技能	七秀		
+909	skill_qixiu24.UITex	0	技能	七秀		
+910	skill_qixiu25.UITex	0	技能	七秀		
+911	skill_qixiu26.UITex	0	技能	七秀		
+912	skill_qixiu27.UITex	0	技能	七秀		
+913	skill_qixiu28.UITex	0	技能	七秀		
+914	skill_qixiu29.UITex	0	技能	七秀		
+915	skill_qixiu30.UITex	0	技能	七秀		
+916	quest_7201.UITex	0	道具	未分类		
+917	quest_7202.UITex	0	道具	未分类		
+918	quest_7203.UITex	0	道具	动物与器官		
+919	quest_7204.UITex	0	道具	未分类		
+920	quest_7205.UITex	0	道具	未分类		
+921	quest_7206.UITex	0	防具	鞋		
+922	quest_7207.UITex	0	道具	植物		
+923	quest_7208.UITex	0	道具	未分类		
+924	quest_7209.UITex	0	道具	动物与器官		
+925	quest_7210.UITex	0	道具	未分类		
+926	quest_7211.UITex	0	道具	矿石与金属锭		
+927	quest_7212.UITex	0	武器	弓弦暗器		
+928	quest_7213.UITex	0	道具	未分类		
+929	quest_7214.UITex	0	道具	动物与器官		
+930	quest_7215.UITex	0	防具	帽子		
+931	quest_7216.UITex	0	道具	未分类		
+932	horse_01.UITex	0	防具	马匹相关		
+933	quest_7217.UITex	0	道具	未分类		
+934	craftstuff_01.UITex	0	道具	布料与线团		
+935	craftstuff_02.UITex	0	道具	药品		
+936	craftstuff_03.UITex	0	道具	矿石与金属锭		
+937	craftstuff_04.UITex	0	道具	植物		
+938	craftstuff_05.UITex	0	道具	皮料		
+939	craftstuff_06.UITex	0	道具	动物与器官		
+940	craftstuff_07.UITex	0	道具	皮料		
+941	craftstuff_08.UITex	0	道具	矿石与金属锭		
+942	craftstuff_09.UITex	0	道具	药品		
+943	craftstuff_10.UITex	0	道具	药品		
+944	craftstuff_11.UITex	0	道具	皮料		
+945	craftstuff_12.UITex	0	道具	皮料		
+946	craftstuff_13.UITex	0	道具	动物与器官		
+947	craftstuff_14.UITex	0	道具	皮料		
+948	craftstuff_15.UITex	0	防具	帽子		
+949	craftstuff_16.UITex	0	道具	矿石与金属锭		
+950	craftstuff_17.UITex	0	道具	皮料		
+951	craftstuff_18.UITex	0	道具	动物与器官		
+952	craftstuff_19.UITex	0	道具	布料与线团		
+953	craftstuff_20.UITex	0	道具	植物		
+954	craftstuff_21.UITex	0	道具	矿石与金属锭		
+955	craftstuff_22.UITex	0	道具	皮料		
+956	craftstuff_23.UITex	0	道具	布料与线团		
+957	craftstuff_24.UITex	0	道具	植物		
+958	craftstuff_25.UITex	0	道具	植物		
+959	craftstuff_26.UITex	0	道具	布料与线团		
+960	craftstuff_27.UITex	0	道具	皮料		
+961	craftstuff_28.UITex	0	道具	动物与器官		
+962	craftstuff_29.UITex	0	道具	植物		
+963	craftstuff_30.UITex	0	道具	布料与线团		
+964	craftstuff_31.UITex	0	道具	植物		
+965	craftstuff_32.UITex	0	道具	药品		
+966	craftstuff_33.UITex	0	道具	植物		
+967	craftstuff_34.UITex	0	道具	植物		
+968	craftstuff_35.UITex	0	道具	药品		
+969	craftstuff_36.UITex	0	道具	皮料		
+970	craftstuff_37.UITex	0	道具	布料与线团		
+971	craftstuff_38.UITex	0	道具	皮料		
+972	craftstuff_39.UITex	0	武器	弓弦暗器		
+973	craftstuff_40.UITex	0	道具	植物		
+974	craftstuff_41.UITex	0	道具	植物		
+975	craftstuff_42.UITex	0	道具	布料与线团		
+976	craftstuff_43.UITex	0	道具	药品		
+977	craftstuff_44.UITex	0	道具	皮料		
+978	craftstuff_45.UITex	0	道具	动物与器官		
+979	craftstuff_46.UITex	0	道具	皮料		
+980	reputation_01.UITex	0	防具	帽子		
+981	reputation_02.UITex	0	道具	未分类		
+982	reputation_03.UITex	0	道具	未分类		
+983	reputation_04.UITex	0	武器	弓弦暗器		
+984	reading_01.UITex	0	道具	阅读		
+985	reading_02.UITex	0	道具	阅读		
+986	reading_03.UITex	0	道具	阅读		
+987	reading_04.UITex	0	道具	阅读		
+988	reading_05.UITex	0	道具	阅读		
+989	reading_06.UITex	0	道具	阅读		
+990	reading_07.UITex	0	道具	阅读		
+991	reading_08.UITex	0	道具	阅读		
+992	reading_09.UITex	0	道具	阅读		
+993	reading_10.UITex	0	道具	阅读		
+994	reading_11.UITex	0	道具	阅读		
+995	reading_12.UITex	0	道具	阅读		
+996	reading_13.UITex	0	道具	阅读		
+997	reading_14.UITex	0	道具	阅读		
+998	reading_15.UITex	0	道具	阅读		
+999	reading_16.UITex	0	道具	阅读		
+1000	reading_17.UITex	0	道具	阅读		
+1001	reading_18.UITex	0	道具	阅读		
+1002	reading_19.UITex	0	道具	阅读		
+1003	reading_20.UITex	0	道具	阅读		
+1004	reading_21.UITex	0	道具	阅读		
+1005	reading_22.UITex	0	道具	阅读		
+1006	reading_23.UITex	0	道具	阅读		
+1007	reading_24.UITex	0	道具	阅读		
+1008	reading_25.UITex	0	道具	阅读		
+1009	reading_26.UITex	0	道具	阅读		
+1010	reading_27.UITex	0	道具	阅读		
+1011	reading_28.UITex	0	道具	阅读		
+1012	reading_29.UITex	0	道具	阅读		
+1013	reading_30.UITex	0	道具	阅读		
+1014	reading_31.UITex	0	道具	阅读		
+1015	reading_32.UITex	0	道具	阅读		
+1016	reading_33.UITex	0	道具	阅读		
+1017	reading_34.UITex	0	道具	阅读		
+1018	reading_35.UITex	0	道具	阅读		
+1019	reading_36.UITex	0	道具	阅读		
+1020	reading_37.UITex	0	道具	阅读		
+1021	def_belt01.UITex	0	防具	腰带		布
+1022	def_belt02.UITex	0	防具	腰带		布
+1023	def_belt03.UITex	0	防具	腰带		布
+1024	def_belt04.UITex	0	防具	腰带		布
+1025	def_belt05.UITex	0	防具	腰带		皮
+1026	def_belt06.UITex	0	防具	腰带		皮
+1027	def_belt07.UITex	0	防具	腰带		皮
+1028	def_belt08.UITex	0	防具	腰带		皮
+1029	def_belt09.UITex	0	防具	腰带		铜
+1030	def_belt10.UITex	0	防具	腰带		铜
+1031	def_belt11.UITex	0	防具	腰带		铁
+1032	def_belt12.UITex	0	防具	腰带		铁
+1033	def_belt13.UITex	0	防具	腰带		银
+1034	def_belt14.UITex	0	防具	腰带		银
+1035	def_belt15.UITex	0	防具	腰带		金
+1036	def_belt16.UITex	0	防具	腰带		金
+1037	def_coat01.UITex	0	防具	上衣	长袍	布
+1038	def_coat02.UITex	0	防具	上衣	长袍	布
+1039	def_coat03.UITex	0	防具	上衣	长袍	布
+1040	def_coat04.UITex	0	防具	上衣	长袍	布
+1041	def_coat05.UITex	0	防具	上衣	长袍	皮
+1042	def_coat06.UITex	0	防具	上衣	长袍	皮
+1043	def_coat07.UITex	0	防具	上衣	长袍	皮
+1044	def_coat08.UITex	0	防具	上衣	长袍	皮
+1045	def_coat09.UITex	0	防具	上衣	短衣	布
+1046	def_coat10.UITex	0	防具	上衣	短衣	布
+1047	def_coat11.UITex	0	防具	上衣	短衣	布
+1048	def_coat12.UITex	0	防具	上衣	短衣	布
+1049	def_coat13.UITex	0	防具	上衣	短衣	皮
+1050	def_coat14.UITex	0	防具	上衣	短衣	皮
+1051	def_coat15.UITex	0	防具	上衣	短衣	皮
+1052	def_coat16.UITex	0	防具	上衣	短衣	皮
+1053	def_coat17.UITex	0	防具	上衣	铠甲	皮
+1054	def_coat18.UITex	0	防具	上衣	铠甲	皮
+1055	def_coat19.UITex	0	防具	上衣	铠甲	皮
+1056	def_coat20.UITex	0	防具	上衣	铠甲	皮
+1057	def_coat21.UITex	0	防具	上衣	铠甲	铜
+1058	def_coat22.UITex	0	防具	上衣	铠甲	铜
+1059	def_coat23.UITex	0	防具	上衣	铠甲	金
+1060	def_coat24.UITex	0	防具	上衣	铠甲	金
+1061	def_coat25.UITex	0	防具	上衣	铠甲	铁
+1062	def_coat26.UITex	0	防具	上衣	铠甲	铁
+1063	def_coat27.UITex	0	防具	上衣	铠甲	银
+1064	def_coat28.UITex	0	防具	上衣	铠甲	银
+1065	def_cuff01.UITex	0	防具	护臂	缠手	布
+1066	def_cuff02.UITex	0	防具	护臂	缠手	布
+1067	def_cuff03.UITex	0	防具	护臂	缠手	布
+1068	def_cuff04.UITex	0	防具	护臂	缠手	布
+1069	def_cuff05.UITex	0	防具	护臂	缠手	皮
+1070	def_cuff06.UITex	0	防具	护臂	缠手	皮
+1071	def_cuff07.UITex	0	防具	护臂	缠手	皮
+1072	def_cuff08.UITex	0	防具	护臂	缠手	皮
+1073	def_cuff09.UITex	0	防具	护臂	手套	布
+1074	def_cuff10.UITex	0	防具	护臂	手套	布
+1075	def_cuff11.UITex	0	防具	护臂	手套	布
+1076	def_cuff12.UITex	0	防具	护臂	手套	布
+1077	def_cuff13.UITex	0	防具	护臂	手套	皮
+1078	def_cuff14.UITex	0	防具	护臂	手套	皮
+1079	def_cuff15.UITex	0	防具	护臂	手套	皮
+1080	def_cuff16.UITex	0	防具	护臂	手套	皮
+1081	def_cuff17.UITex	0	防具	护臂	手套	铜
+1082	def_cuff18.UITex	0	防具	护臂	手套	铜
+1083	def_cuff19.UITex	0	防具	护臂	手套	铁
+1084	def_cuff20.UITex	0	防具	护臂	手套	铁
+1085	def_cuff21.UITex	0	防具	护臂	手套	银
+1086	def_cuff22.UITex	0	防具	护臂	手套	银
+1087	def_cuff23.UITex	0	防具	护臂	手套	金
+1088	def_cuff24.UITex	0	防具	护臂	手套	金
+1089	def_cuff25.UITex	0	防具	护臂	护腕	布
+1090	def_cuff26.UITex	0	防具	护臂	护腕	布
+1091	def_cuff27.UITex	0	防具	护臂	护腕	布
+1092	def_cuff28.UITex	0	防具	护臂	护腕	布
+1093	def_cuff29.UITex	0	防具	护臂	护腕	皮
+1094	def_cuff30.UITex	0	防具	护臂	护腕	皮
+1095	def_cuff31.UITex	0	防具	护臂	护腕	皮
+1096	def_cuff32.UITex	0	防具	护臂	护腕	皮
+1097	def_cuff33.UITex	0	防具	护臂	护腕	铜
+1098	def_cuff34.UITex	0	防具	护臂	护腕	铜
+1099	def_cuff35.UITex	0	防具	护臂	护腕	铁
+1100	def_cuff36.UITex	0	防具	护臂	护腕	铁
+1101	def_cuff37.UITex	0	防具	护臂	护腕	银
+1102	def_cuff38.UITex	0	防具	护臂	护腕	银
+1103	def_cuff39.UITex	0	防具	护臂	护腕	金
+1104	def_cuff40.UITex	0	防具	护臂	护腕	金
+1105	def_head01.UITex	0	防具	帽子	软帽	布
+1106	def_head02.UITex	0	防具	帽子	软帽	布
+1107	def_head03.UITex	0	防具	帽子	软帽	布
+1108	def_head04.UITex	0	防具	帽子	软帽	布
+1109	def_head05.UITex	0	防具	帽子	软帽	皮
+1110	def_head06.UITex	0	防具	帽子	软帽	皮
+1111	def_head07.UITex	0	防具	帽子	软帽	皮
+1112	def_head08.UITex	0	防具	帽子	软帽	皮
+1113	def_head09.UITex	0	防具	帽子	头巾	布
+1114	def_head10.UITex	0	防具	帽子	头巾	布
+1115	def_head11.UITex	0	防具	帽子	头巾	布
+1116	def_head12.UITex	0	防具	帽子	头巾	布
+1117	def_head13.UITex	0	防具	帽子	头盔	铜
+1118	def_head14.UITex	0	防具	帽子	头盔	铁
+1119	def_head15.UITex	0	防具	帽子	头盔	金
+1120	def_head16.UITex	0	防具	帽子	头盔	银
+1121	def_head20.UITex	0	防具	帽子	钗	
+1122	def_head21.UITex	0	防具	帽子	钗	
+1123	def_head22.UITex	0	防具	帽子	钗	
+1124	def_head23.UITex	0	防具	帽子	钗	
+1125	def_head24.UITex	0	防具	帽子	冠	木
+1126	def_head25.UITex	0	防具	帽子	冠	木
+1127	def_head26.UITex	0	防具	帽子	冠	木
+1128	def_head27.UITex	0	防具	帽子	冠	木
+1129	def_head28.UITex	0	防具	帽子	冠	铜
+1130	def_head29.UITex	0	防具	帽子	冠	铜
+1131	def_head30.UITex	0	防具	帽子	冠	铁
+1132	def_head31.UITex	0	防具	帽子	冠	铁
+1133	def_head32.UITex	0	防具	帽子	冠	银
+1134	def_head33.UITex	0	防具	帽子	冠	银
+1135	def_head34.UITex	0	防具	帽子	冠	金
+1136	def_head35.UITex	0	防具	帽子	冠	金
+1137	def_head36.UITex	0	防具	帽子	斗笠	
+1138	def_head37.UITex	0	防具	帽子	斗笠	
+1139	def_head38.UITex	0	防具	帽子	斗笠	
+1140	def_head39.UITex	0	防具	帽子	斗笠	
+1141	def_pants01.UITex	0	防具	裤子	护腿	布
+1142	def_pants02.UITex	0	防具	裤子	护腿	布
+1143	def_pants03.UITex	0	防具	裤子	护腿	布
+1144	def_pants04.UITex	0	防具	裤子	护腿	布
+1145	def_pants05.UITex	0	防具	裤子	护腿	皮
+1146	def_pants06.UITex	0	防具	裤子	护腿	皮
+1147	def_pants07.UITex	0	防具	裤子	护腿	皮
+1148	def_pants08.UITex	0	防具	裤子	护腿	皮
+1149	def_pants09.UITex	0	防具	裤子	护腿	铜
+1150	def_pants10.UITex	0	防具	裤子	护腿	铜
+1151	def_pants11.UITex	0	防具	裤子	护腿	铁
+1152	def_pants12.UITex	0	防具	裤子	护腿	铁
+1153	def_pants13.UITex	0	防具	裤子	护腿	银
+1154	def_pants14.UITex	0	防具	裤子	护腿	银
+1155	def_pants15.UITex	0	防具	裤子	护腿	金
+1156	def_pants16.UITex	0	防具	裤子	护腿	金
+1157	def_pants17.UITex	0	防具	裤子	长裤	布
+1158	def_pants18.UITex	0	防具	裤子	长裤	布
+1159	def_pants19.UITex	0	防具	裤子	长裤	布
+1160	def_pants20.UITex	0	防具	裤子	长裤	布
+1161	def_pants21.UITex	0	防具	裤子	长裤	皮
+1162	def_pants22.UITex	0	防具	裤子	长裤	皮
+1163	def_pants23.UITex	0	防具	裤子	长裤	皮
+1164	def_pants24.UITex	0	防具	裤子	长裤	皮
+1165	def_pants25.UITex	0	防具	裤子	长裤	皮
+1166	def_pants26.UITex	0	防具	裤子	铠甲	皮
+1167	def_pants27.UITex	0	防具	裤子	铠甲	皮
+1168	def_pants28.UITex	0	防具	裤子	铠甲	皮
+1169	def_pants29.UITex	0	防具	裤子	铠甲	铜
+1170	def_pants30.UITex	0	防具	裤子	铠甲	铜
+1171	def_pants31.UITex	0	防具	裤子	铠甲	铁
+1172	def_pants32.UITex	0	防具	裤子	铠甲	铁
+1173	def_pants33.UITex	0	防具	裤子	铠甲	银
+1174	def_pants34.UITex	0	防具	裤子	铠甲	银
+1175	def_pants35.UITex	0	防具	裤子	铠甲	金
+1176	def_pants36.UITex	0	防具	裤子	铠甲	金
+1177	def_shoes01.UITex	0	防具	鞋	短鞋	布
+1178	def_shoes02.UITex	0	防具	鞋	短鞋	布
+1179	def_shoes03.UITex	0	防具	鞋	短鞋	布
+1180	def_shoes04.UITex	0	防具	鞋	短鞋	布
+1181	def_shoes05.UITex	0	防具	鞋	短鞋	皮
+1182	def_shoes06.UITex	0	防具	鞋	短鞋	皮
+1183	def_shoes07.UITex	0	防具	鞋	短鞋	皮
+1184	def_shoes08.UITex	0	防具	鞋	短鞋	皮
+1185	def_shoes09.UITex	0	防具	鞋	长靴	布
+1186	def_shoes10.UITex	0	防具	鞋	长靴	布
+1187	def_shoes11.UITex	0	防具	鞋	长靴	布
+1188	def_shoes12.UITex	0	防具	鞋	长靴	布
+1189	def_shoes13.UITex	0	防具	鞋	长靴	皮
+1190	def_shoes14.UITex	0	防具	鞋	长靴	皮
+1191	def_shoes15.UITex	0	防具	鞋	长靴	铜
+1192	def_shoes16.UITex	0	防具	鞋	长靴	铜
+1193	def_shoes17.UITex	0	防具	鞋	长靴	铁
+1194	def_shoes18.UITex	0	防具	鞋	长靴	铁
+1195	def_shoes19.UITex	0	防具	鞋	长靴	银
+1196	def_shoes20.UITex	0	防具	鞋	长靴	银
+1197	def_shoes21.UITex	0	防具	鞋	长靴	金
+1198	def_shoes22.UITex	0	防具	鞋	长靴	金
+1199	tkt_necklace01.UITex	0	饰品	项链		铁
+1200	tkt_necklace02.UITex	0	饰品	项链		铁
+1201	tkt_necklace03.UITex	0	饰品	项链		银
+1202	tkt_necklace04.UITex	0	饰品	项链		银
+1203	tkt_necklace05.UITex	0	饰品	项链		铜
+1204	tkt_necklace06.UITex	0	饰品	项链		铜
+1205	tkt_necklace07.UITex	0	饰品	项链		金
+1206	tkt_necklace08.UITex	0	饰品	项链		金
+1207	tkt_necklace09.UITex	0	饰品	项链		玉
+1208	tkt_necklace10.UITex	0	饰品	项链		玉
+1209	tkt_necklace11.UITex	0	饰品	项链		玉
+1210	tkt_necklace12.UITex	0	饰品	项链		玉
+1211	tkt_pendant01.UITex	0	饰品	腰坠	中国结	
+1212	tkt_pendant02.UITex	0	饰品	腰坠	中国结	
+1213	tkt_pendant03.UITex	0	饰品	腰坠	中国结	
+1214	tkt_pendant04.UITex	0	饰品	腰坠	中国结	
+1215	tkt_pendant05.UITex	0	饰品	腰坠	吊坠	铁
+1216	tkt_pendant06.UITex	0	饰品	腰坠	吊坠	铁
+1217	tkt_pendant07.UITex	0	饰品	腰坠	吊坠	银
+1218	tkt_pendant08.UITex	0	饰品	腰坠	吊坠	银
+1219	tkt_pendant09.UITex	0	饰品	腰坠	吊坠	铜
+1220	tkt_pendant10.UITex	0	饰品	腰坠	吊坠	铜
+1221	tkt_pendant11.UITex	0	饰品	腰坠	吊坠	金
+1222	tkt_pendant12.UITex	0	饰品	腰坠	吊坠	金
+1223	tkt_pendant13.UITex	0	饰品	腰坠	玉佩	玉
+1224	tkt_pendant14.UITex	0	饰品	腰坠	玉佩	玉
+1225	tkt_pendant15.UITex	0	饰品	腰坠	玉佩	玉
+1226	tkt_pendant16.UITex	0	饰品	腰坠	玉佩	玉
+1227	tkt_ring01.UITex	0	饰品	戒指		铁
+1228	tkt_ring02.UITex	0	饰品	戒指		铁
+1229	tkt_ring03.UITex	0	饰品	戒指		银
+1230	tkt_ring04.UITex	0	饰品	戒指		银
+1231	tkt_ring05.UITex	0	饰品	戒指		铜
+1232	tkt_ring06.UITex	0	饰品	戒指		铜
+1233	tkt_ring07.UITex	0	饰品	戒指		金
+1234	tkt_ring08.UITex	0	饰品	戒指		金
+1235	tkt_ring09.UITex	0	饰品	戒指		玉
+1236	tkt_ring10.UITex	0	饰品	戒指		玉
+1237	tkt_ring11.UITex	0	饰品	戒指		玉
+1238	tkt_ring12.UITex	0	饰品	戒指		玉
+1239	tome01.UITex	0	道具	书籍信纸		
+1240	tome02.UITex	0	道具	书籍信纸		
+1241	tome03.UITex	0	道具	书籍信纸		
+1242	tome04.UITex	0	道具	书籍信纸		
+1243	tome05.UITex	0	道具	书籍信纸		
+1244	tome06.UITex	0	道具	书籍信纸		
+1245	tome07.UITex	0	道具	书籍信纸		
+1246	tome08.UITex	0	道具	书籍信纸		
+1247	tome09.UITex	0	道具	书籍信纸		
+1248	tome10.UITex	0	道具	书籍信纸		
+1249	tome11.UITex	0	道具	书籍信纸		
+1250	tome12.UITex	0	道具	书籍信纸		
+1251	tome13.UITex	0	道具	书籍信纸		
+1252	tome14.UITex	0	道具	书籍信纸		
+1253	tome15.UITex	0	道具	书籍信纸		
+1254	tome16.UITex	0	道具	书籍信纸		
+1255	bagNew01a.UITex	0	道具	包裹		
+1256	bagNew01b.UITex	0	道具	包裹		
+1257	bagNew02a.UITex	0	道具	包裹		
+1258	bagNew02b.UITex	0	道具	包裹		
+1259	bagNew03a.UITex	0	道具	包裹		
+1260	bagNew03b.UITex	0	道具	包裹		
+1261	bagNew04a.UITex	0	道具	包裹		
+1262	bagNew04b.UITex	0	道具	包裹		
+1263	bagNew05a.UITex	0	道具	包裹		
+1264	bagNew05b.UITex	0	道具	包裹		
+1265	bagNew06a.UITex	0	道具	包裹		
+1266	bagNew06b.UITex	0	道具	包裹		
+1267	bagNew07a.UITex	0	道具	包裹		
+1268	bagNew07b.UITex	0	道具	包裹		
+1269	bagNew08a.UITex	0	道具	包裹		
+1270	bagNew08b.UITex	0	道具	包裹		
+1271	bone01.UITex	0	道具	动物与器官		
+1272	flag01.UITex	0	道具	旗子	旗	纯阳
+1273	flag02.UITex	0	道具	旗子	旗	少林
+1274	flag03.UITex	0	道具	旗子	旗	万花
+1275	flag04.UITex	0	道具	旗子	旗	七秀
+1276	flag05.UITex	0	道具	旗子	旗	天策
+1277	foodPackage01.UITex	0	道具	食物与食材		
+1278	foodPackage02.UITex	0	道具	食物与食材		
+1279	foodPackage03.UITex	0	道具	食物与食材		
+1280	foodPackage04.UITex	0	道具	食物与食材		
+1281	foodPackage05.UITex	0	道具	食物与食材		
+1282	foundingNew01a.UITex	0	道具	矿石与金属锭		
+1283	foundingNew01b.UITex	0	道具	矿石与金属锭		
+1284	foundingNew01c.UITex	0	道具	矿石与金属锭		
+1285	foundingNew01d.UITex	0	道具	矿石与金属锭		
+1286	foundingNew02a.UITex	0	道具	矿石与金属锭		
+1287	foundingNew02b.UITex	0	道具	矿石与金属锭		
+1288	foundingNew02c.UITex	0	道具	矿石与金属锭		
+1289	foundingNew02d.UITex	0	道具	矿石与金属锭		
+1290	foundingNew03a.UITex	0	道具	矿石与金属锭		
+1291	foundingNew03b.UITex	0	道具	矿石与金属锭		
+1292	foundingNew03c.UITex	0	道具	矿石与金属锭		
+1293	foundingNew03d.UITex	0	道具	矿石与金属锭		
+1294	foundingNew04a.UITex	0	道具	矿石与金属锭		
+1295	foundingNew04b.UITex	0	道具	矿石与金属锭		
+1296	foundingNew04c.UITex	0	道具	矿石与金属锭		
+1297	foundingNew04d.UITex	0	道具	矿石与金属锭		
+1298	foundingNew05a.UITex	0	道具	矿石与金属锭		
+1299	foundingNew05b.UITex	0	道具	矿石与金属锭		
+1300	foundingNew05c.UITex	0	道具	矿石与金属锭		
+1301	foundingNew05d.UITex	0	道具	矿石与金属锭		
+1302	foundingNew06.UITex	0	道具	矿石与金属锭		
+1303	foundingNew07.UITex	0	道具	矿石与金属锭		
+1304	foundingNew08.UITex	0	道具	矿石与金属锭		
+1305	foundingNew09a.UITex	0	道具	矿石与金属锭		
+1306	foundingNew09b.UITex	0	道具	矿石与金属锭		
+1307	foundingNew09c.UITex	0	道具	矿石与金属锭		
+1308	leatherNew01.UITex	0	道具	皮料		
+1309	leatherNew02.UITex	0	道具	皮料		
+1310	leatherNew03.UITex	0	道具	皮料		
+1311	leatherNew04.UITex	0	道具	皮料		
+1312	leatherNew05.UITex	0	道具	皮料		
+1313	leatherNew06.UITex	0	道具	皮料		
+1314	leatherNew07.UITex	0	道具	皮料		
+1315	leatherNew08.UITex	0	道具	皮料		
+1316	leatherNew09.UITex	0	道具	皮料		
+1317	leatherNew10.UITex	0	道具	皮料		
+1318	leatherNew11.UITex	0	道具	皮料		
+1319	leatherNew12.UITex	0	道具	皮料		
+1320	medicNew01a.UITex	0	道具	药品		
+1321	medicNew01b.UITex	0	道具	药品		
+1322	medicNew01c.UITex	0	道具	药品		
+1323	medicNew01d.UITex	0	道具	药品		
+1324	medicNew02a.UITex	0	道具	药品		
+1325	medicNew02b.UITex	0	道具	药品		
+1326	medicNew02c.UITex	0	道具	药品		
+1327	medicNew02d.UITex	0	道具	药品		
+1328	medicNew03a.UITex	0	道具	药品		
+1329	medicNew03b.UITex	0	道具	药品		
+1330	medicNew03c.UITex	0	道具	药品		
+1331	medicNew03d.UITex	0	道具	药品		
+1332	medicNew04a.UITex	0	道具	药品		
+1333	medicNew04b.UITex	0	道具	药品		
+1334	medicNew04c.UITex	0	道具	药品		
+1335	medicNew04d.UITex	0	道具	药品		
+1336	medicNew05a.UITex	0	道具	药品		
+1337	medicNew05b.UITex	0	道具	药品		
+1338	medicNew05c.UITex	0	道具	药品		
+1339	medicNew05d.UITex	0	道具	药品		
+1340	medicNew06a.UITex	0	道具	药品		
+1341	medicNew06b.UITex	0	道具	药品		
+1342	medicNew06c.UITex	0	道具	药品		
+1343	medicNew06d.UITex	0	道具	药品		
+1344	medicNew07a.UITex	0	道具	药品		
+1345	medicNew07b.UITex	0	道具	药品		
+1346	medicNew07c.UITex	0	道具	药品		
+1347	medicNew07d.UITex	0	道具	药品		
+1348	medicNew08a.UITex	0	道具	药品		
+1349	medicNew08b.UITex	0	道具	药品		
+1350	medicNew08c.UITex	0	道具	药品		
+1351	medicNew08d.UITex	0	道具	药品		
+1352	medicNew09a.UITex	0	道具	药品		
+1353	medicNew09b.UITex	0	道具	药品		
+1354	medicNew09c.UITex	0	道具	药品		
+1355	medicNew09d.UITex	0	道具	药品		
+1356	medicNew10a.UITex	0	道具	药品		
+1357	medicNew10b.UITex	0	道具	药品		
+1358	medicNew10c.UITex	0	道具	药品		
+1359	medicNew10d.UITex	0	道具	药品		
+1360	medicNew11a.UITex	0	道具	药品		
+1361	medicNew11b.UITex	0	道具	药品		
+1362	medicNew11c.UITex	0	道具	药品		
+1363	medicNew11d.UITex	0	道具	药品		
+1364	medicNew12a.UITex	0	道具	药品		
+1365	medicNew12b.UITex	0	道具	药品		
+1366	medicNew12c.UITex	0	道具	药品		
+1367	medicNew12d.UITex	0	道具	药品		
+1368	medicNew13.UITex	0	道具	药品		
+1369	medicNew14.UITex	0	道具	药品		
+1370	medicNew15.UITex	0	道具	药品		
+1371	pic01.UITex	0	道具	书籍信纸		
+1372	readingStuff01.UITex	0	道具	书籍信纸		
+1373	readingStuff02.UITex	0	道具	书籍信纸		
+1374	readingStuff03.UITex	0	道具	书籍信纸		
+1375	readingStuff04.UITex	0	道具	书籍信纸		
+1376	readingStuff05.UITex	0	道具	书籍信纸		
+1377	readingStuff06.UITex	0	道具	书籍信纸		
+1378	readingStuff07.UITex	0	道具	书籍信纸		
+1379	readingStuff08.UITex	0	道具	书籍信纸		
+1380	recipe01.UITex	0	道具	书籍信纸		
+1381	recipe02.UITex	0	道具	书籍信纸		
+1382	recipe03.UITex	0	道具	书籍信纸		
+1383	tailorNew01.UITex	0	道具	布料与线团		
+1384	tailorNew02.UITex	0	道具	布料与线团		
+1385	tailorNew03.UITex	0	道具	布料与线团		
+1386	tailorNew04.UITex	0	道具	布料与线团		
+1387	tailorNew05.UITex	0	道具	布料与线团		
+1388	tailorNew06.UITex	0	道具	布料与线团		
+1389	tailorNew07.UITex	0	道具	布料与线团		
+1390	tailorNew08.UITex	0	道具	布料与线团		
+1391	tailorNew09.UITex	0	道具	布料与线团		
+1392	tailorNew10.UITex	0	道具	布料与线团		
+1393	tailorNew11.UITex	0	道具	布料与线团		
+1394	tailorNew12.UITex	0	道具	布料与线团		
+1395	wallet01.UITex	0	道具	包裹		
+1396	wine01.UITex	0	道具	食物与食材		
+1397	wine02.UITex	0	道具	食物与食材		
+1398	wine03.UITex	0	道具	食物与食材		
+1399	wine04.UITex	0	道具	食物与食材		
+1400	wine05.UITex	0	道具	食物与食材		
+1401	QuestQixiuMenpai.UITex	0	任务特殊			
+1402	QuestQixiuMenpai.UITex	1	任务特殊			
+1403	QuestQixiuMenpai.UITex	2	任务特殊			
+1404	QuestQixiuMenpai.UITex	3	任务特殊			
+1405	QuestQixiuMenpai.UITex	4	任务特殊			
+1406	QuestQixiuMenpai.UITex	5	任务特殊			
+1407	Quest_qipan.UITex	0	任务特殊			
+1408	Quest_qipan.UITex	1	任务特殊			
+1409	Quest_qipan.UITex	2	任务特殊			
+1410	Quest_qipan.UITex	3	任务特殊			
+1411	Quest_qipan.UITex	4	任务特殊			
+1412	Quest_qipan.UITex	5	任务特殊			
+1413	Quest_qipan.UITex	6	任务特殊			
+1414	Quest_qipan.UITex	7	任务特殊			
+1415	Quest_qipan.UITex	8	任务特殊			
+1416	Quest_qipan_blue.UITex	0	任务特殊			
+1417	Quest_qipan_blue.UITex	1	任务特殊			
+1418	Quest_qipan_blue.UITex	2	任务特殊			
+1419	Quest_qipan_blue.UITex	3	任务特殊			
+1420	Quest_qipan_blue.UITex	4	任务特殊			
+1421	Quest_qipan_blue.UITex	5	任务特殊			
+1422	Quest_qipan_blue.UITex	6	任务特殊			
+1423	Quest_qipan_blue.UITex	7	任务特殊			
+1424	Quest_qipan_blue.UITex	8	任务特殊			
+1425	Quest_qipan_red.UITex	0	任务特殊			
+1426	Quest_qipan_red.UITex	1	任务特殊			
+1427	Quest_qipan_red.UITex	2	任务特殊			
+1428	Quest_qipan_red.UITex	3	任务特殊			
+1429	Quest_qipan_red.UITex	4	任务特殊			
+1430	Quest_qipan_red.UITex	5	任务特殊			
+1431	Quest_qipan_red.UITex	6	任务特殊			
+1432	Quest_qipan_red.UITex	7	任务特殊			
+1433	Quest_qipan_red.UITex	8	任务特殊			
+1434	undone.UITex	0	道具	缺资源		
+1435	undone.UITex	0	道具	缺资源		
+1436	undone.UITex	0	道具	缺资源		
+1437	system09.UITex	0	道具	系统		
+1438	skill_chunyang26.UITex	0	技能	纯阳		
+1439	skill_chunyang27.UITex	0	技能	纯阳		
+1440	skill_chunyang28.UITex	0	技能	纯阳		
+1441	skill_chunyang29.UITex	0	技能	纯阳		
+1442	skill_chunyang30.UITex	0	技能	纯阳		
+1443	skill_chunyang31.UITex	0	技能	纯阳		
+1444	skill_chunyang32.UITex	0	技能	纯阳		
+1445	skill_chunyang33.UITex	0	技能	纯阳		
+1446	skill_chunyang34.UITex	0	技能	纯阳		
+1447	skill_chunyang35.UITex	0	技能	纯阳		
+1448	skill_chunyang36.UITex	0	技能	纯阳		
+1449	skill_chunyang37.UITex	0	技能	纯阳		
+1450	skill_chunyang38.UITex	0	技能	纯阳		
+1451	skill_chunyang39.UITex	0	技能	纯阳		
+1452	skill_chunyang40.UITex	0	技能	纯阳		
+1453	skill_chunyang41.UITex	0	技能	纯阳		
+1454	skill_tiance27.UITex	0	技能	天策		
+1455	skill_tiance28.UITex	0	技能	天策		
+1456	skill_tiance29.UITex	0	技能	天策		
+1457	skill_tiance30.UITex	0	技能	天策		
+1458	skill_tiance31.UITex	0	技能	天策		
+1459	little_girl_icon.UITex	0	道具	任务特殊		
+1460	quest_chengbutang_1.UITex	0	道具	任务特殊		
+1461	quest_chengbutang_2.UITex	0	道具	任务特殊		
+1462	quest_chengbutang_3.UITex	0	道具	任务特殊		
+1463	quest_chengbutang_4.UITex	0	道具	任务特殊		
+1464	quest_chengbutang_5.UITex	0	道具	任务特殊		
+1465	quest_chengbutang_6.UITex	0	道具	任务特殊		
+1466	quest_chengbutang_7.UITex	0	道具	任务特殊		
+1467	quest_jinshui_chengbutang.UITex	0	道具	任务特殊		
+1468	quest_jinshui_huzuo.UITex	0	道具	任务特殊		
+1469	quest_jinshui_linbaixuan.UITex	0	道具	任务特殊		
+1470	quest_jinshui_lituhu.UITex	0	道具	任务特殊		
+1471	quest_jinshui_luoxuan.UITex	0	道具	任务特殊		
+1472	quest_jinshui_wangshi.UITex	0	道具	任务特殊		
+1473	quest_jinshui_wuhui.UITex	0	道具	任务特殊		
+1474	quest_jinshui_xiaojiaohua.UITex	0	道具	任务特殊		
+1475	quest_jinshui_xiuru.UITex	0	道具	任务特殊		
+1476	quest_jinshui_zhangtuhu.UITex	0	道具	任务特殊		
+1477	standard_female_icon.UITex	0	道具	任务特殊		
+1478	strong_male_icon.UITex	0	道具	任务特殊		
+1479	quest_jinshui_yanxiaoxia.UITex	0	道具	任务特殊		
+1480	skill_tiance32.UITex	0	技能	天策		
+1481	skill_tiance33.UITex	0	技能	天策		
+1482	skill_jianghu01.UITex	0	技能	江湖		
+1483	skill_jianghu02.UITex	0	技能	江湖		
+1484	skill_jianghu03.UITex	0	技能	江湖		
+1485	skill_jianghu04.UITex	0	技能	江湖		
+1486	skill_jianghu05.UITex	0	技能	江湖		
+1487	skill_jianghu06.UITex	0	技能	江湖		
+1488	skill_jianghu07.UITex	0	技能	江湖		
+1489	skill_jianghu08.UITex	0	技能	江湖		
+1490	skill_jianghu09.UITex	0	技能	江湖		
+1491	skill_jianghu10.UITex	0	技能	江湖		
+1492	skill_qixiu31.UITex	0	技能	七秀		
+1493	skill_qixiu32.UITex	0	技能	七秀		
+1494	skill_qixiu33.UITex	0	技能	七秀		
+1495	skill_qixiu34.UITex	0	技能	七秀		
+1496	skill_qixiu35.UITex	0	技能	七秀		
+1497	skill_qixiu36.UITex	0	技能	七秀		
+1498	skill_qixiu37.UITex	0	技能	七秀		
+1499	skill_qixiu38.UITex	0	技能	七秀		
+1500	skill_qixiu39.UITex	0	技能	七秀		
+1501	skill_qixiu40.UITex	0	技能	七秀		
+1502	skill_qixiu41.UITex	0	技能	七秀		
+1503	skill_qixiu42.UITex	0	技能	七秀		
+1504	skill_qixiu43.UITex	0	技能	七秀		
+1505	skill_qixiu44.UITex	0	技能	七秀		
+1506	skill_qixiu45.UITex	0	技能	七秀		
+1507	skill_qixiu46.UITex	0	技能	七秀		
+1508	skill_shaolin33.UITex	0	技能	少林		
+1509	skill_shaolin34.UITex	0	技能	少林		
+1510	skill_shaolin35.UITex	0	技能	少林		
+1511	skill_shaolin36.UITex	0	技能	少林		
+1512	skill_wanhua27.UITex	0	技能	万花		
+1513	skill_wanhua28.UITex	0	技能	万花		
+1514	skill_wanhua29.UITex	0	技能	万花		
+1515	skill_wanhua30.UITex	0	技能	万花		
+1516	skill_wanhua31.UITex	0	技能	万花		
+1517	skill_wanhua32.UITex	0	技能	万花		
+1518	skill_wanhua33.UITex	0	技能	万花		
+1519	skill_wanhua34.UITex	0	技能	万花		
+1520	skill_wanhua35.UITex	0	技能	万花		
+1521	skill_wanhua36.UITex	0	技能	万花		
+1522	skill_wanhua37.UITex	0	技能	万花		
+1523	skill_wanhua38.UITex	0	技能	万花		
+1524	skill_wanhua39.UITex	0	技能	万花		
+1525	skill_wanhua40.UITex	0	技能	万花		
+1526	skill_wanhua41.UITex	0	技能	万花		
+1527	skill_wanhua42.UITex	0	技能	万花		
+1528	extend01.UITex	0	防具	背部挂件	旗	浩气盟
+1529	extend02.UITex	0	防具	腰部挂件	令牌	高级朱雀
+1530	extend03.UITex	0	防具	腰部挂件	令牌	玄武
+1531	extend04.UITex	0	防具	腰部挂件	令牌	高级玄武
+1532	extend05.UITex	0	防具	腰部挂件	令牌	白虎
+1533	extend06.UITex	0	防具	腰部挂件	令牌	高级白虎
+1534	extend07.UITex	0	防具	背部挂件	旗	恶人谷
+1535	extend08.UITex	0	防具	腰部挂件	令牌	青龙
+1536	extend09.UITex	0	防具	腰部挂件	令牌	高级青龙
+1537	extend10.UITex	0	防具	腰部挂件	令牌	高级黄龙
+1538	m8changan01.UITex	0	道具	未分类		
+1539	m8changan02.UITex	0	道具	未分类		
+1540	m8changan03.UITex	0	道具	未分类		
+1541	m8changan04.UITex	0	道具	未分类		
+1542	m8changan05.UITex	0	道具	布料与线团		
+1543	m8changan06.UITex	0	道具	植物		
+1544	m8changan07.UITex	0	道具	动物与器官		
+1545	m8changan08.UITex	0	道具	动物与器官		
+1546	m8qixiu01.UITex	0	道具	植物		
+1547	m8qixiu02.UITex	0	道具	动物与器官		
+1548	m8qixiu03.UITex	0	道具	动物与器官		
+1549	tailorNew13.UITex	0	道具	未分类		
+1550	tool07.UITex	0	道具	未分类		
+1551	kfchunyang.UITex	0	道具	任务特殊		
+1552	kfqixiu.UITex	0	道具	任务特殊		
+1553	kfshaolin.UITex	0	道具	任务特殊		
+1554	kfwanhua.UITex	0	道具	任务特殊		
+1555	system10.UITex	0	道具	系统		
+1556	def_chunyang_m_001_1.UITex	0	防具	上衣		
+1557	def_chunyang_m_001_2.UITex	0	防具	裤子		
+1558	def_chunyang_m_001_3.UITex	0	防具	护臂		
+1559	def_chunyang_m_001_4.UITex	0	防具	腰带		
+1560	def_chunyang_m_001_5.UITex	0	防具	鞋		
+1561	def_chunyang_m_002_1.UITex	0	防具	上衣		
+1562	def_chunyang_m_002_2.UITex	0	防具	裤子		
+1563	def_chunyang_m_002_3.UITex	0	防具	护臂		
+1564	def_chunyang_m_002_4.UITex	0	防具	腰带		
+1565	def_chunyang_m_002_5.UITex	0	防具	鞋		
+1566	def_chunyang_w_001_1.UITex	0	防具	上衣		
+1567	def_chunyang_w_001_2.UITex	0	防具	裤子		
+1568	def_chunyang_w_001_3.UITex	0	防具	护臂		
+1569	def_chunyang_w_001_4.UITex	0	防具	腰带		
+1570	def_chunyang_w_001_5.UITex	0	防具	鞋		
+1571	def_chunyang_w_002_1.UITex	0	防具	上衣		
+1572	def_chunyang_w_002_2.UITex	0	防具	裤子		
+1573	def_chunyang_w_002_3.UITex	0	防具	护臂		
+1574	def_chunyang_w_002_4.UITex	0	防具	腰带		
+1575	def_chunyang_w_002_5.UITex	0	防具	鞋		
+1576	tkt_necklace10.UITex	0	饰品	项链		玉
+1577	def_duplicate_m_renz_2.UITex	0	防具	裤子		
+1578	def_duplicate_m_renz1_4.UITex	0	防具	腰带		
+1579	def_duplicate_m_renz1_5.UITex	0	防具	鞋		
+1580	def_duplicate_w_renz1_2.UITex	0	防具	裤子		
+1581	def_duplicate_w_renz1_4.UITex	0	防具	腰带		
+1582	def_duplicate_w_renz1_5.UITex	0	防具	鞋		
+1583	def_qixiu_001_01.UITex	0	防具	上衣		
+1584	def_qixiu_001_02.UITex	0	防具	裤子		
+1585	def_qixiu_001_03.UITex	0	防具	护臂		
+1586	def_qixiu_001_04.UITex	0	防具	腰带		
+1587	def_qixiu_001_05.UITex	0	防具	鞋		
+1588	def_qixiu_002_01.UITex	0	防具	上衣		
+1589	def_qixiu_002_02.UITex	0	防具	裤子		
+1590	def_qixiu_002_03.UITex	0	防具	护臂		
+1591	def_qixiu_002_04.UITex	0	防具	腰带		
+1592	def_qixiu_002_05.UITex	0	防具	鞋		
+1593	def_shaolin_001_01.UITex	0	防具	上衣		
+1594	def_shaolin_001_02.UITex	0	防具	裤子		
+1595	def_shaolin_001_03.UITex	0	防具	护臂		
+1596	def_shaolin_001_04.UITex	0	防具	腰带		
+1597	def_shaolin_001_05.UITex	0	防具	鞋		
+1598	def_shaolin_002_01.UITex	0	防具	上衣		
+1599	def_shaolin_002_02.UITex	0	防具	裤子		
+1600	def_shaolin_002_03.UITex	0	防具	护臂		
+1601	def_shaolin_002_04.UITex	0	防具	腰带		
+1602	def_shaolin_002_05.UITex	0	防具	鞋		
+1603	def_tiance_m_001_1.UITex	0	防具	上衣		
+1604	def_tiance_m_001_2.UITex	0	防具	裤子		
+1605	def_tiance_m_001_3.UITex	0	防具	护臂		
+1606	def_tiance_m_001_4.UITex	0	防具	腰带		
+1607	def_tiance_m_001_5.UITex	0	防具	鞋		
+1608	def_tiance_m_002_1.UITex	0	防具	上衣		
+1609	def_tiance_m_002_2.UITex	0	防具	裤子		
+1610	def_tiance_m_002_3.UITex	0	防具	护臂		
+1611	def_tiance_m_002_4.UITex	0	防具	腰带		
+1612	def_tiance_m_002_5.UITex	0	防具	鞋		
+1613	def_tiance_w_001_1.UITex	0	防具	上衣		
+1614	def_tiance_w_001_2.UITex	0	防具	裤子		
+1615	def_tiance_w_001_3.UITex	0	防具	护臂		
+1616	def_tiance_w_001_4.UITex	0	防具	腰带		
+1617	def_tiance_w_001_5.UITex	0	防具	鞋		
+1618	def_tiance_w_002_1.UITex	0	防具	上衣		
+1619	def_tiance_w_002_2.UITex	0	防具	裤子		
+1620	def_tiance_w_002_3.UITex	0	防具	护臂		
+1621	def_tiance_w_002_4.UITex	0	防具	腰带		
+1622	def_tiance_w_002_5.UITex	0	防具	鞋		
+1623	def_wanhua_m_001_1.UITex	0	防具	上衣		
+1624	def_wanhua_m_001_2.UITex	0	防具	裤子		
+1625	def_wanhua_m_001_3.UITex	0	防具	护臂		
+1626	def_wanhua_m_001_4.UITex	0	防具	腰带		
+1627	def_wanhua_m_001_5.UITex	0	防具	鞋		
+1628	def_wanhua_m_002_1.UITex	0	防具	上衣		
+1629	def_wanhua_m_002_2.UITex	0	防具	裤子		
+1630	def_wanhua_m_002_3.UITex	0	防具	护臂		
+1631	def_wanhua_m_002_4.UITex	0	防具	腰带		
+1632	def_wanhua_m_002_5.UITex	0	防具	鞋		
+1633	def_wanhua_m_shoes1_5.UITex	0	防具	鞋		
+1634	def_wanhua_w_001_1.UITex	0	防具	上衣		
+1635	def_wanhua_w_001_2.UITex	0	防具	裤子		
+1636	def_wanhua_w_001_3.UITex	0	防具	护臂		
+1637	def_wanhua_w_001_4.UITex	0	防具	腰带		
+1638	def_wanhua_w_001_5.UITex	0	防具	鞋		
+1639	def_wanhua_w_002_1.UITex	0	防具	上衣		
+1640	def_wanhua_w_002_2.UITex	0	防具	裤子		
+1641	def_wanhua_w_002_3.UITex	0	防具	护臂		
+1642	def_wanhua_w_002_4.UITex	0	防具	腰带		
+1643	def_wanhua_w_002_5.UITex	0	防具	鞋		
+1644	def_wanhua_w_shoes1_5.UITex	0	防具	鞋		
+1645	Rec_chunyang_Item_01.UITex	0	技能	阵法		
+1646	Rec_chunyang_Item_02.UITex	0	技能	阵法		
+1647	Rec_chunyang_Item_03.UITex	0	技能	阵法		
+1648	Rec_chunyang_Skill_01.UITex	0	技能	阵法		
+1649	Rec_chunyang_Skill_02.UITex	0	技能	阵法		
+1650	Rec_chunyang_Skill_03.UITex	0	技能	阵法		
+1651	Rec_qixiu_Item_01.UITex	0	技能	阵法		
+1652	Rec_qixiu_Item_02.UITex	0	技能	阵法		
+1653	Rec_qixiu_Item_03.UITex	0	技能	阵法		
+1654	Rec_qixiu_Skill_01.UITex	0	技能	阵法		
+1655	Rec_qixiu_Skill_02.UITex	0	技能	阵法		
+1656	Rec_qixiu_Skill_03.UITex	0	技能	阵法		
+1657	Rec_shaolin_Item_01.UITex	0	技能	阵法		
+1658	Rec_shaolin_Item_02.UITex	0	技能	阵法		
+1659	Rec_shaolin_Item_03.UITex	0	技能	阵法		
+1660	Rec_shaolin_Skill_01.UITex	0	技能	阵法		
+1661	Rec_shaolin_Skill_02.UITex	0	技能	阵法		
+1662	Rec_shaolin_Skill_03.UITex	0	技能	阵法		
+1663	Rec_tiance_Item_01.UITex	0	技能	阵法		
+1664	Rec_tiance_Item_02.UITex	0	技能	阵法		
+1665	Rec_tiance_Item_03.UITex	0	技能	阵法		
+1666	Rec_tiance_Skill_01.UITex	0	技能	阵法		
+1667	Rec_tiance_Skill_02.UITex	0	技能	阵法		
+1668	Rec_tiance_Skill_03.UITex	0	技能	阵法		
+1669	Rec_wanhua_Item_01.UITex	0	技能	阵法		
+1670	Rec_wanhua_Item_02.UITex	0	技能	阵法		
+1671	Rec_wanhua_Item_03.UITex	0	技能	阵法		
+1672	Rec_wanhua_Skill_01.UITex	0	技能	阵法		
+1673	Rec_wanhua_Skill_02.UITex	0	技能	阵法		
+1674	Rec_wanhua_Skill_03.UITex	0	技能	阵法		
+1675	Skill_jianghu11.UITex	0	技能	江湖		
+1676	Rec_jianghu_Item_01.UITex	0	技能	阵法		
+1677	Rec_jianghu_Item_02.UITex	0	技能	阵法		
+1678	Rec_jianghu_Item_03.UITex	0	技能	阵法		
+1679	Rec_jianghu_Skill_01.UITex	0	技能	阵法		
+1680	Rec_jianghu_Skill_02.UITex	0	技能	阵法		
+1681	Rec_jianghu_Skill_03.UITex	0	技能	阵法		
+1682	extend_Back_01.UITex	0	防具	背部挂件		
+1683	extend_Back_02.UITex	0	防具	背部挂件		
+1684	extend_Back_03.UITex	0	防具	背部挂件		
+1685	extend_Back_04.UITex	0	防具	背部挂件		
+1686	extend_Back_05.UITex	0	防具	背部挂件		
+1687	extend_Back_06.UITex	0	防具	背部挂件		
+1688	extend_Back_07.UITex	0	防具	背部挂件		
+1689	extend_Back_08.UITex	0	防具	背部挂件		
+1690	extend_back_09.UITex	0	防具	背部挂件		
+1691	extend_Back_10.UITex	0	防具	背部挂件		
+1692	extend_Back_11.UITex	0	防具	背部挂件		
+1693	extend_Back_12.UITex	0	防具	背部挂件		
+1694	extend_Back_13.UITex	0	防具	背部挂件		
+1695	extend_Waist_01.UITex	0	防具	腰部挂件		
+1696	extend_Waist_02.UITex	0	防具	腰部挂件		
+1697	extend_Waist_03.UITex	0	防具	腰部挂件		
+1698	extend_Waist_04.UITex	0	防具	腰部挂件		
+1699	extend_Waist_05.UITex	0	防具	腰部挂件		
+1700	extend_Waist_06.UITex	0	防具	腰部挂件		
+1701	extend_Waist_07.UITex	0	防具	腰部挂件		
+1702	extend_Waist_08.UITex	0	防具	腰部挂件		
+1703	extend_Waist_09.UITex	0	防具	腰部挂件		
+1704	extend_Waist_10.UITex	0	防具	腰部挂件		
+1705	extend_Waist_11.UITex	0	防具	腰部挂件		
+1706	extend_Waist_12.UITex	0	防具	腰部挂件		
+1707	wpn_wand21.UITex	0	武器	棍		
+1708	quest_longmen_shudu_baihu.UITex	0	任务特殊	<未定义>		
+1709	quest_longmen_shudu_baihu.UITex	1	任务特殊	<未定义>		
+1710	quest_longmen_shudu_baihu.UITex	2	任务特殊	<未定义>		
+1711	quest_longmen_shudu_baihu.UITex	3	任务特殊	<未定义>		
+1712	quest_longmen_shudu_baihu.UITex	4	任务特殊	<未定义>		
+1713	quest_longmen_shudu_baihu.UITex	5	任务特殊	<未定义>		
+1714	quest_longmen_shudu_baihu.UITex	6	任务特殊	<未定义>		
+1715	quest_longmen_shudu_baihu.UITex	7	任务特殊	<未定义>		
+1716	quest_longmen_shudu_baihu.UITex	8	任务特殊	<未定义>		
+1717	quest_longmen_shudu_baihu.UITex	9	任务特殊	<未定义>		
+1718	quest_longmen_shudu_baihu.UITex	10	任务特殊	<未定义>		
+1719	quest_longmen_shudu_baihu.UITex	11	任务特殊	<未定义>		
+1720	quest_longmen_shudu_baihu.UITex	12	任务特殊	<未定义>		
+1721	quest_longmen_shudu_baihu.UITex	13	任务特殊	<未定义>		
+1722	quest_longmen_shudu_baihu.UITex	14	任务特殊	<未定义>		
+1723	quest_longmen_shudu_baihu.UITex	15	任务特殊	<未定义>		
+1724	quest_longmen_shudu_bg.UITex	0	任务特殊	<未定义>		
+1725	quest_longmen_shudu_bg.UITex	1	任务特殊	<未定义>		
+1726	quest_longmen_shudu_bg.UITex	2	任务特殊	<未定义>		
+1727	quest_longmen_shudu_bg.UITex	3	任务特殊	<未定义>		
+1728	quest_longmen_shudu_bg.UITex	4	任务特殊	<未定义>		
+1729	quest_longmen_shudu_bg.UITex	5	任务特殊	<未定义>		
+1730	quest_longmen_shudu_bg.UITex	6	任务特殊	<未定义>		
+1731	quest_longmen_shudu_bg.UITex	7	任务特殊	<未定义>		
+1732	quest_longmen_shudu_bg.UITex	8	任务特殊	<未定义>		
+1733	quest_longmen_shudu_bg.UITex	9	任务特殊	<未定义>		
+1734	quest_longmen_shudu_bg.UITex	10	任务特殊	<未定义>		
+1735	quest_longmen_shudu_bg.UITex	11	任务特殊	<未定义>		
+1736	quest_longmen_shudu_bg.UITex	12	任务特殊	<未定义>		
+1737	quest_longmen_shudu_bg.UITex	13	任务特殊	<未定义>		
+1738	quest_longmen_shudu_bg.UITex	14	任务特殊	<未定义>		
+1739	quest_longmen_shudu_bg.UITex	15	任务特殊	<未定义>		
+1740	quest_longmen_shudu_qinglong.UITex	0	任务特殊	<未定义>		
+1741	quest_longmen_shudu_qinglong.UITex	1	任务特殊	<未定义>		
+1742	quest_longmen_shudu_qinglong.UITex	2	任务特殊	<未定义>		
+1743	quest_longmen_shudu_qinglong.UITex	3	任务特殊	<未定义>		
+1744	quest_longmen_shudu_qinglong.UITex	4	任务特殊	<未定义>		
+1745	quest_longmen_shudu_qinglong.UITex	5	任务特殊	<未定义>		
+1746	quest_longmen_shudu_qinglong.UITex	6	任务特殊	<未定义>		
+1747	quest_longmen_shudu_qinglong.UITex	7	任务特殊	<未定义>		
+1748	quest_longmen_shudu_qinglong.UITex	8	任务特殊	<未定义>		
+1749	quest_longmen_shudu_qinglong.UITex	9	任务特殊	<未定义>		
+1750	quest_longmen_shudu_qinglong.UITex	10	任务特殊	<未定义>		
+1751	quest_longmen_shudu_qinglong.UITex	11	任务特殊	<未定义>		
+1752	quest_longmen_shudu_qinglong.UITex	12	任务特殊	<未定义>		
+1753	quest_longmen_shudu_qinglong.UITex	13	任务特殊	<未定义>		
+1754	quest_longmen_shudu_qinglong.UITex	14	任务特殊	<未定义>		
+1755	quest_longmen_shudu_qinglong.UITex	15	任务特殊	<未定义>		
+1756	quest_longmen_shudu_xuanwu.UITex	0	任务特殊	<未定义>		
+1757	quest_longmen_shudu_xuanwu.UITex	1	任务特殊	<未定义>		
+1758	quest_longmen_shudu_xuanwu.UITex	2	任务特殊	<未定义>		
+1759	quest_longmen_shudu_xuanwu.UITex	3	任务特殊	<未定义>		
+1760	quest_longmen_shudu_xuanwu.UITex	4	任务特殊	<未定义>		
+1761	quest_longmen_shudu_xuanwu.UITex	5	任务特殊	<未定义>		
+1762	quest_longmen_shudu_xuanwu.UITex	6	任务特殊	<未定义>		
+1763	quest_longmen_shudu_xuanwu.UITex	7	任务特殊	<未定义>		
+1764	quest_longmen_shudu_xuanwu.UITex	8	任务特殊	<未定义>		
+1765	quest_longmen_shudu_xuanwu.UITex	9	任务特殊	<未定义>		
+1766	quest_longmen_shudu_xuanwu.UITex	10	任务特殊	<未定义>		
+1767	quest_longmen_shudu_xuanwu.UITex	11	任务特殊	<未定义>		
+1768	quest_longmen_shudu_xuanwu.UITex	12	任务特殊	<未定义>		
+1769	quest_longmen_shudu_xuanwu.UITex	13	任务特殊	<未定义>		
+1770	quest_longmen_shudu_xuanwu.UITex	14	任务特殊	<未定义>		
+1771	quest_longmen_shudu_xuanwu.UITex	15	任务特殊	<未定义>		
+1772	quest_longmen_shudu_zhuque.UITex	0	任务特殊	<未定义>		
+1773	quest_longmen_shudu_zhuque.UITex	1	任务特殊	<未定义>		
+1774	quest_longmen_shudu_zhuque.UITex	2	任务特殊	<未定义>		
+1775	quest_longmen_shudu_zhuque.UITex	3	任务特殊	<未定义>		
+1776	quest_longmen_shudu_zhuque.UITex	4	任务特殊	<未定义>		
+1777	quest_longmen_shudu_zhuque.UITex	5	任务特殊	<未定义>		
+1778	quest_longmen_shudu_zhuque.UITex	6	任务特殊	<未定义>		
+1779	quest_longmen_shudu_zhuque.UITex	7	任务特殊	<未定义>		
+1780	quest_longmen_shudu_zhuque.UITex	8	任务特殊	<未定义>		
+1781	quest_longmen_shudu_zhuque.UITex	9	任务特殊	<未定义>		
+1782	quest_longmen_shudu_zhuque.UITex	10	任务特殊	<未定义>		
+1783	quest_longmen_shudu_zhuque.UITex	11	任务特殊	<未定义>		
+1784	quest_longmen_shudu_zhuque.UITex	12	任务特殊	<未定义>		
+1785	quest_longmen_shudu_zhuque.UITex	13	任务特殊	<未定义>		
+1786	quest_longmen_shudu_zhuque.UITex	14	任务特殊	<未定义>		
+1787	quest_longmen_shudu_zhuque.UITex	15	任务特殊	<未定义>		
+1788	quest_longmen_shudu_check.UITex	0	任务特殊	<未定义>		
+1789	quest_longmen_shudu_p11.UITex	0	任务特殊	<未定义>		
+1790	quest_longmen_shudu_p13.UITex	0	任务特殊	<未定义>		
+1791	quest_longmen_shudu_p21.UITex	0	任务特殊	<未定义>		
+1792	quest_longmen_shudu_p23.UITex	0	任务特殊	<未定义>		
+1793	quest_longmen_shudu_p31.UITex	0	任务特殊	<未定义>		
+1794	quest_longmen_shudu_p33.UITex	0	任务特殊	<未定义>		
+1795	quest_longmen_shudu_p41.UITex	0	任务特殊	<未定义>		
+1796	quest_longmen_shudu_p43.UITex	0	任务特殊	<未定义>		
+1797	Formation_chunyang_01.UITex	0	技能	阵法		
+1798	Formation_chunyang_10.UITex	0	技能	阵法		
+1799	Formation_qixiu_01.UITex	0	技能	阵法		
+1800	Formation_qixiu_10.UITex	0	技能	阵法		
+1801	Formation_shaolin_01.UITex	0	技能	阵法		
+1802	Formation_shaolin_10.UITex	0	技能	阵法		
+1803	Formation_tiance_01.UITex	0	技能	阵法		
+1804	Formation_tiance_10.UITex	0	技能	阵法		
+1805	Formation_wanhua_01.UITex	0	技能	阵法		
+1806	Formation_wanhua_10.UITex	0	技能	阵法		
+1807	Formation_chunyang_01A.UITex	0	技能	阵法		
+1808	Formation_chunyang_10A.UITex	0	技能	阵法		
+1809	Formation_qixiu_01A.UITex	0	技能	阵法		
+1810	Formation_qixiu_10A.UITex	0	技能	阵法		
+1811	Formation_shaolin_01A.UITex	0	技能	阵法		
+1812	Formation_shaolin_10A.UITex	0	技能	阵法		
+1813	Formation_tiance_01A.UITex	0	技能	阵法		
+1814	Formation_tiance_10A.UITex	0	技能	阵法		
+1815	Formation_wanhua_01A.UITex	0	技能	阵法		
+1816	Formation_wanhua_10A.UITex	0	技能	阵法		
+1817	Formation_01.UITex	0	技能	阵法		
+1818	Formation_01A.UITex	0	技能	阵法		
+1819	quest_cloth04.UITex	0	任务特殊	<未定义>		
+1820	quest_cookspecial02.UITex	0	任务特殊	<未定义>		
+1821	quest_cookspecial03.UITex	0	任务特殊	<未定义>		
+1822	quest_cookspecial04.UITex	0	任务特殊	<未定义>		
+1823	quest_cookspecial05.UITex	0	任务特殊	<未定义>		
+1824	Rec_chunyang_01.UITex	0	技能	秘笈		
+1825	Rec_chunyang_02.UITex	0	技能	秘笈		
+1826	Rec_chunyang_03.UITex	0	技能	秘笈		
+1827	Rec_chunyang_04.UITex	0	技能	秘笈		
+1828	Rec_chunyang_05.UITex	0	技能	秘笈		
+1829	Rec_chunyang_06.UITex	0	技能	秘笈		
+1830	Rec_chunyang_07.UITex	0	技能	秘笈		
+1831	Rec_chunyang_08.UITex	0	技能	秘笈		
+1832	Rec_chunyang_09.UITex	0	技能	秘笈		
+1833	Rec_chunyang_10.UITex	0	技能	秘笈		
+1834	Rec_chunyang_11.UITex	0	技能	秘笈		
+1835	Rec_qixiu_01.UITex	0	技能	秘笈		
+1836	Rec_qixiu_02.UITex	0	技能	秘笈		
+1837	Rec_qixiu_03.UITex	0	技能	秘笈		
+1838	Rec_qixiu_04.UITex	0	技能	秘笈		
+1839	Rec_qixiu_05.UITex	0	技能	秘笈		
+1840	Rec_qixiu_06.UITex	0	技能	秘笈		
+1841	Rec_qixiu_07.UITex	0	技能	秘笈		
+1842	Rec_qixiu_08.UITex	0	技能	秘笈		
+1843	Rec_qixiu_09.UITex	0	技能	秘笈		
+1844	Rec_qixiu_10.UITex	0	技能	秘笈		
+1845	Rec_qixiu_11.UITex	0	技能	秘笈		
+1846	Rec_shaolin_01.UITex	0	技能	秘笈		
+1847	Rec_shaolin_02.UITex	0	技能	秘笈		
+1848	Rec_shaolin_03.UITex	0	技能	秘笈		
+1849	Rec_shaolin_04.UITex	0	技能	秘笈		
+1850	Rec_shaolin_05.UITex	0	技能	秘笈		
+1851	Rec_shaolin_06.UITex	0	技能	秘笈		
+1852	Rec_shaolin_07.UITex	0	技能	秘笈		
+1853	Rec_shaolin_08.UITex	0	技能	秘笈		
+1854	Rec_shaolin_09.UITex	0	技能	秘笈		
+1855	Rec_shaolin_10.UITex	0	技能	秘笈		
+1856	Rec_shaolin_11.UITex	0	技能	秘笈		
+1857	Rec_tiance_01.UITex	0	技能	秘笈		
+1858	Rec_tiance_02.UITex	0	技能	秘笈		
+1859	Rec_tiance_03.UITex	0	技能	秘笈		
+1860	Rec_tiance_04.UITex	0	技能	秘笈		
+1861	Rec_tiance_05.UITex	0	技能	秘笈		
+1862	Rec_tiance_06.UITex	0	技能	秘笈		
+1863	Rec_tiance_07.UITex	0	技能	秘笈		
+1864	Rec_tiance_08.UITex	0	技能	秘笈		
+1865	Rec_tiance_09.UITex	0	技能	秘笈		
+1866	Rec_tiance_10.UITex	0	技能	秘笈		
+1867	Rec_tiance_11.UITex	0	技能	秘笈		
+1868	Rec_wanhua_01.UITex	0	技能	秘笈		
+1869	Rec_wanhua_02.UITex	0	技能	秘笈		
+1870	Rec_wanhua_03.UITex	0	技能	秘笈		
+1871	Rec_wanhua_04.UITex	0	技能	秘笈		
+1872	Rec_wanhua_05.UITex	0	技能	秘笈		
+1873	Rec_wanhua_06.UITex	0	技能	秘笈		
+1874	Rec_wanhua_07.UITex	0	技能	秘笈		
+1875	Rec_wanhua_08.UITex	0	技能	秘笈		
+1876	Rec_wanhua_09.UITex	0	技能	秘笈		
+1877	Rec_wanhua_10.UITex	0	技能	秘笈		
+1878	Rec_wanhua_11.UITex	0	技能	秘笈		
+1879	Rec_jianghu_01.UITex	0	技能	秘笈		
+1880	Rec_jianghu_02.UITex	0	技能	秘笈		
+1881	Rec_jianghu_03.UITex	0	技能	秘笈		
+1882	Rec_jianghu_04.UITex	0	技能	秘笈		
+1883	Rec_jianghu_05.UITex	0	技能	秘笈		
+1884	Rec_jianghu_06.UITex	0	技能	秘笈		
+1885	Rec_jianghu_07.UITex	0	技能	秘笈		
+1886	Rec_jianghu_08.UITex	0	技能	秘笈		
+1887	Rec_jianghu_09.UITex	0	技能	秘笈		
+1888	Rec_jianghu_10.UITex	0	技能	秘笈		
+1889	Rec_jianghu_11.UITex	0	技能	秘笈		
+1890	system14.UITex	0	道具	系统		
+1891	horse_02.UITex	0	防具	马匹相关		
+1892	horse_03.UITex	0	防具	马匹相关		
+1893	horse_04.UITex	0	防具	马匹相关		
+1894	horse_05.UITex	0	防具	马匹相关		
+1895	horse_06.UITex	0	防具	马匹相关		
+1896	horse_07.UITex	0	防具	马匹相关		
+1897	horse_08.UITex	0	防具	马匹相关		
+1898	horse_09.UITex	0	防具	马匹相关		
+1899	skill_jianghu12.UITex	0	技能	江湖		
+1900	tkt_necklace10.UITex	0	饰品	项链		玉
+1901	quest_longmen_jiguan1.UITex	0	任务特殊	<未定义>		
+1902	quest_longmen_jiguan2.UITex	0	任务特殊	<未定义>		
+1903	quest_longmen_jiguan3.UITex	0	任务特殊	<未定义>		
+1904	quest_longmen_jiguan4.UITex	0	任务特殊	<未定义>		
+1905	quest_longmen_sha_bai.UITex	0	任务特殊	<未定义>		
+1906	quest_longmen_sha_hei.UITex	0	任务特殊	<未定义>		
+1907	quest_longmen_sha_hong.UITex	0	任务特殊	<未定义>		
+1908	quest_longmen_sha_huang.UITex	0	任务特殊	<未定义>		
+1909	quest_longmen_sha_lan.UITex	0	任务特殊	<未定义>		
+1910	quest_longmen_sha_wuse.UITex	0	任务特殊	<未定义>		
+1911	tkt_necklace10.UITex	0	饰品	项链		玉
+1912	tkt_necklace10.UITex	0	饰品	项链		玉
+1913	quest_longmen_jiguan5.UITex	0	任务特殊	<未定义>		
+1914	quest_longmen_jiguan5_kick.UITex	0	任务特殊	<未定义>		
+1915	dihuagongrenwu01.UITex	0	任务特殊	<未定义>		
+1916	dihuagongrenwu02.UITex	0	任务特殊	<未定义>		
+1917	dihuagongrenwu03.UITex	0	任务特殊	<未定义>		
+1918	dihuagongrenwu04.UITex	0	任务特殊	<未定义>		
+1919	dihuagongrenwu05.UITex	0	任务特殊	<未定义>		
+1920	dihuagongrenwu06.UITex	0	任务特殊	<未定义>		
+1921	dihuagongrenwu07.UITex	0	任务特殊	<未定义>		
+1922	dihuagongrenwu08.UITex	0	任务特殊	<未定义>		
+1923	dihuagongrenwu09.UITex	0	任务特殊	<未定义>		
+1924	dihuagongrenwu0.UITex	0	任务特殊	<未定义>		
+1925	dihuagongrenwu02_2_1.UITex	0	任务特殊	<未定义>		
+1926	dihuagongrenwu02_3.UITex	0	任务特殊	<未定义>		
+1927	dihuagongrenwu02_4_2.UITex	0	任务特殊	<未定义>		
+1928	dihuagongrenwu02_5.UITex	0	任务特殊	<未定义>		
+1929	dihuagongrenwu02_6_3.UITex	0	任务特殊	<未定义>		
+1930	dihuagongrenwu04_2.UITex	0	任务特殊	<未定义>		
+1931	dihuagongrenwu04_3.UITex	0	任务特殊	<未定义>		
+1932	dihuagongrenwu04_4_5.UITex	0	任务特殊	<未定义>		
+1933	dihuagongrenwu04_5.UITex	0	任务特殊	<未定义>		
+1934	dihuagongrenwu04_6_6.UITex	0	任务特殊	<未定义>		
+1935	dihuagongrenwu04_7.UITex	0	任务特殊	<未定义>		
+1936	dihuagongrenwu06_2_7.UITex	0	任务特殊	<未定义>		
+1937	dihuagongrenwu06_3.UITex	0	任务特殊	<未定义>		
+1938	dihuagongrenwu06_5.UITex	0	任务特殊	<未定义>		
+1939	dihuagongrenwu06_7.UITex	0	任务特殊	<未定义>		
+1940	dihuagongrenwu10.UITex	0	任务特殊	<未定义>		
+1941	wpn_spear17.UITex	0	武器	枪		
+1942	wpn_spear18.UITex	0	武器	枪		
+1943	wpn_double28.UITex	0	武器	双兵		
+1944	wpn_double29.UITex	0	武器	双兵		
+1945	wpn_double30.UITex	0	武器	双兵		
+1946	wpn_double31.UITex	0	武器	双兵		
+1947	wpn_spear19.UITex	0	武器	枪		
+1948	wpn_spear20.UITex	0	武器	枪		
+1949	wpn_spear21.UITex	0	武器	枪		
+1950	wpn_spear22.UITex	0	武器	枪		
+1951	wpn_spear23.UITex	0	武器	枪		
+1952	wpn_double24.UITex	0	武器	双兵		
+1953	wpn_double25.UITex	0	武器	双兵		
+1954	wpn_double26.UITex	0	武器	双兵		
+1955	wpn_double27.UITex	0	武器	双兵		
+1956	extend_Back_14.UITex	0	防具	背部挂件		
+1957	extend_Back_15.UITex	0	防具	背部挂件		
+1958	extend_Back_16.UITex	0	防具	背部挂件		
+1959	extend_Waist_13.UITex	0	防具	腰部挂件		
+1960	extend_Waist_14.UITex	0	防具	腰部挂件		
+1961	def_belt17.UITex	0	防具	腰带		
+1962	def_belt18.UITex	0	防具	腰带		
+1963	def_belt19.UITex	0	防具	腰带		
+1964	def_belt20.UITex	0	防具	腰带		
+1965	def_belt21.UITex	0	防具	腰带		
+1966	def_belt22.UITex	0	防具	腰带		
+1967	def_belt23.UITex	0	防具	腰带		
+1968	def_belt24.UITex	0	防具	腰带		
+1969	def_coat29.UITex	0	防具	上衣		
+1970	def_coat30.UITex	0	防具	上衣		
+1971	def_coat31.UITex	0	防具	上衣		
+1972	def_coat32.UITex	0	防具	上衣		
+1973	def_coat33.UITex	0	防具	上衣		
+1974	def_coat34.UITex	0	防具	上衣		
+1975	def_coat35.UITex	0	防具	上衣		
+1976	def_coat36.UITex	0	防具	上衣		
+1977	def_cuff41.UITex	0	防具	护臂		
+1978	def_cuff42.UITex	0	防具	护臂		
+1979	def_cuff43.UITex	0	防具	护臂		
+1980	def_cuff44.UITex	0	防具	护臂		
+1981	def_cuff45.UITex	0	防具	护臂		
+1982	def_cuff46.UITex	0	防具	护臂		
+1983	def_cuff47.UITex	0	防具	护臂		
+1984	def_cuff48.UITex	0	防具	护臂		
+1985	def_pants37.UITex	0	防具	裤子		
+1986	def_pants38.UITex	0	防具	裤子		
+1987	def_pants39.UITex	0	防具	裤子		
+1988	def_pants40.UITex	0	防具	裤子		
+1989	def_pants41.UITex	0	防具	裤子		
+1990	def_pants42.UITex	0	防具	裤子		
+1991	def_pants43.UITex	0	防具	裤子		
+1992	def_pants44.UITex	0	防具	裤子		
+1993	def_shoes23.UITex	0	防具	鞋		
+1994	def_shoes24.UITex	0	防具	鞋		
+1995	def_shoes25.UITex	0	防具	鞋		
+1996	def_shoes26.UITex	0	防具	鞋		
+1997	def_shoes27.UITex	0	防具	鞋		
+1998	def_shoes28.UITex	0	防具	鞋		
+1999	def_shoes29.UITex	0	防具	鞋		
+2000	def_shoes30.UITex	0	防具	鞋		
+2001	NormalGirl.UITex	0	道具	任务特殊		
+2002	PrettyGirl.UITex	0	道具	任务特殊		
+2003	YuRui.UITex	0	道具	任务特殊		
+2004	def_head40.UITex	0	防具	帽子		
+2005	def_head41.UITex	0	防具	帽子		
+2006	def_head42.UITex	0	防具	帽子		
+2007	def_head43.UITex	0	防具	帽子		
+2008	def_head44.UITex	0	防具	帽子		
+2009	def_head45.UITex	0	防具	帽子		
+2010	def_head46.UITex	0	防具	帽子		
+2011	def_head47.UITex	0	防具	帽子		
+2012	def_head48.UITex	0	防具	帽子		
+2013	def_head49.UITex	0	防具	帽子		
+2014	def_head50.UITex	0	防具	帽子		
+2015	def_head51.UITex	0	防具	帽子		
+2016	extend_Waist_15.UITex	0	防具	腰部挂件		
+2017	extend_Waist_16.UITex	0	防具	腰部挂件		
+2018	extend_Waist_17.UITex	0	防具	腰部挂件		
+2019	Skill_jianghu13.UITex	0	技能	通用		
+2020	Skill_jianghu14.UITex	0	技能	通用		
+2021	Skill_jianghu15.UITex	0	技能	通用		
+2022	Skill_jianghu16.UITex	0	技能	通用		
+2023	Skill_jianghu17.UITex	0	技能	通用		
+2024	Skill_jianghu18.UITex	0	技能	通用		
+2025	Skill_jianghu19.UITex	0	技能	通用		
+2026	Skill_jianghu20.UITex	0	技能	通用		
+2027	Skill_jianghu21.UITex	0	技能	通用		
+2028	Skill_jianghu22.UITex	0	技能	通用		
+2029	Skill_jianghu23.UITex	0	技能	通用		
+2030	Skill_jianghu24.UITex	0	技能	通用		
+2031	Skill_jianghu25.UITex	0	技能	通用		
+2032	Skill_jianghu26.UITex	0	技能	通用		
+2033	Skill_jianghu27.UITex	0	技能	通用		
+2034	Skill_jianghu28.UITex	0	技能	通用		
+2035	Skill_jianghu29.UITex	0	技能	通用		
+2036	Skill_jianghu30.UITex	0	技能	通用		
+2037	Skill_jianghu31.UITex	0	技能	通用		
+2038	Skill_jianghu32.UITex	0	技能	通用		
+2039	Skill_jianghu33.UITex	0	技能	通用		
+2040	Skill_venation01.UITex	0	技能	经脉		
+2041	Skill_venation02.UITex	0	技能	经脉		
+2042	Skill_venation03.UITex	0	技能	经脉		
+2043	Skill_venation04.UITex	0	技能	经脉		
+2044	Skill_venation05.UITex	0	技能	经脉		
+2045	Skill_venation06.UITex	0	技能	经脉		
+2046	Skill_venation07.UITex	0	技能	经脉		
+2047	Skill_venation08.UITex	0	技能	经脉		
+2048	Skill_venation09.UITex	0	技能	经脉		
+2049	Skill_venation10.UITex	0	技能	经脉		
+2050	Skill_venation11.UITex	0	技能	经脉		
+2051	Skill_venation12.UITex	0	技能	经脉		
+2052	def_daoz_001_01.UITex	0	防具	上衣		
+2053	def_daoz_001_02.UITex	0	防具	裤子		
+2054	def_daoz_001_03.UITex	0	防具	护臂		
+2055	def_daoz_001_04.UITex	0	防具	腰带		
+2056	def_daoz_001_05.UITex	0	防具	鞋		
+2057	def_eren_001_01.UITex	0	防具	上衣		
+2058	def_eren_001_02.UITex	0	防具	裤子		
+2059	def_eren_001_03.UITex	0	防具	护臂		
+2060	def_eren_001_04.UITex	0	防具	腰带		
+2061	def_eren_001_05.UITex	0	防具	鞋		
+2062	def_haoqi_001_01.UITex	0	防具	上衣		
+2063	def_haoqi_001_02.UITex	0	防具	裤子		
+2064	def_haoqi_001_03.UITex	0	防具	护臂		
+2065	def_haoqi_001_04.UITex	0	防具	腰带		
+2066	def_haoqi_001_05.UITex	0	防具	鞋		
+2067	def_kunlun_001_01.UITex	0	防具	上衣		
+2068	def_kunlun_001_02 .UITex	0	防具	裤子		
+2069	def_kunlun_001_03.UITex	0	防具	护臂		
+2070	def_kunlun_001_04.UITex	0	防具	腰带		
+2071	def_kunlun_001_05.UITex	0	防具	鞋		
+2072	def_qixiu_003_01.UITex	0	防具	上衣		
+2073	def_qixiu_003_02.UITex	0	防具	裤子		
+2074	def_qixiu_003_03.UITex	0	防具	护臂		
+2075	def_qixiu_003_04.UITex	0	防具	腰带		
+2076	def_qixiu_003_05.UITex	0	防具	鞋		
+2077	def_qixiu_003_06.UITex	0	防具	帽子		
+2078	def_qixiu_004_01.UITex	0	防具	上衣		
+2079	def_qixiu_004_02.UITex	0	防具	裤子		
+2080	def_qixiu_004_03.UITex	0	防具	护臂		
+2081	def_qixiu_004_04.UITex	0	防具	腰带		
+2082	def_qixiu_004_05.UITex	0	防具	鞋		
+2083	def_qixiu_004_06.UITex	0	防具	帽子		
+2084	def_shaolin_003_01.UITex	0	防具	上衣		
+2085	def_shaolin_003_02.UITex	0	防具	裤子		
+2086	def_shaolin_003_03.UITex	0	防具	护臂		
+2087	def_shaolin_003_04.UITex	0	防具	腰带		
+2088	def_shaolin_003_05.UITex	0	防具	鞋		
+2089	def_shaolin_004_01.UITex	0	防具	上衣		
+2090	def_shaolin_004_02.UITex	0	防具	裤子		
+2091	def_shaolin_004_03.UITex	0	防具	护臂		
+2092	def_shaolin_004_04.UITex	0	防具	腰带		
+2093	def_shaolin_004_05.UITex	0	防具	鞋		
+2094	def_zhanbao_001_01.UITex	0	防具	上衣		
+2095	def_zhanbao_001_02.UITex	0	防具	裤子		
+2096	def_zhanbao_001_03.UITex	0	防具	护臂		
+2097	def_zhanbao_001_04.UITex	0	防具	腰带		
+2098	def_zhanbao_001_05.UITex	0	防具	鞋		
+2099	def_zhanbao_002_01.UITex	0	防具	上衣		
+2100	def_zhanbao_002_02.UITex	0	防具	裤子		
+2101	def_zhanbao_002_03.UITex	0	防具	护臂		
+2102	def_zhanbao_002_04.UITex	0	防具	腰带		
+2103	def_zhanbao_002_05.UITex	0	防具	鞋		
+2104	def_daoju_T0.UITex	0	防具	马匹相关		
+2105	def_daoju_T1.UITex	0	防具	马匹相关		
+2106	def_daoju_T2.UITex	0	防具	马匹相关		
+2107	def_daoju_T3.UITex	0	防具	马匹相关		
+2108	extend_Waist_18.UITex	0	防具	腰部挂件		
+2109	extend_Waist_19.UITex	0	防具	腰部挂件		
+2110	Skill_venation13.UITex	0	技能	经脉		
+2111	Skill_venation14.UITex	0	技能	经脉		
+2112	Skill_venation15.UITex	0	技能	经脉		
+2113	Skill_venation16.UITex	0	技能	经脉		
+2114	Skill_venation17.UITex	0	技能	经脉		
+2115	Skill_venation18.UITex	0	技能	经脉		
+2116	system12.UITex	0	道具	系统		
+2117	friend_01.UITex	0	技能	通用		
+2118	friend_02.UITex	0	技能	通用		
+2119	friend_03.UITex	0	技能	通用		
+2120	friend_04.UITex	0	技能	通用		
+2121	friend_05.UITex	0	技能	通用		
+2122	Skill_jianghu33_03.UITex	0	技能	通用		
+2123	Skill_jianghu33_05.UITex	0	技能	通用		
+2124	Skill_jianghu33_07.UITex	0	技能	通用		
+2125	skill_jianghu_erduantiao_04.UITex	0	技能	通用		
+2126	skill_jianghu_erduantiao_07.UITex	0	技能	通用		
+2127	skill_jianghu_erduantiao_10.UITex	0	技能	通用		
+2128	skill_jianghu_erduantiao_13.UITex	0	技能	通用		
+2129	Skill_venation04_03.UITex	0	技能	通用		
+2130	Skill_venation04_05.UITex	0	技能	通用		
+2131	Skill_venation09_02.UITex	0	技能	通用		
+2132	Skill_venation09_03.UITex	0	技能	通用		
+2133	Skill_venation13_03.UITex	0	技能	通用		
+2134	Skill_venation13_05.UITex	0	技能	通用		
+2135	Skill_venation13_07.UITex	0	技能	通用		
+2136	Skill_venation13_09.UITex	0	技能	通用		
+2137	Skill_venation16_04.UITex	0	技能	通用		
+2138	Skill_venation16_07.UITex	0	技能	通用		
+2139	Skill_venation16_10.UITex	0	技能	通用		
+2140	Skill_venation16_13.UITex	0	技能	通用		
+2141	skill_wanhua_hot_02.UITex	0	技能	通用		
+2142	skill_wanhua_hot_03.UITex	0	技能	通用		
+2143	skill_wanhua_hot_04.UITex	0	技能	通用		
+2144	skill_wanhua_huifutuanti_03.UITex	0	技能	通用		
+2145	skill_wanhua_huifutuanti_04.UITex	0	技能	通用		
+2146	skill_wanhua_huifutuanti_05.UITex	0	技能	通用		
+2147	skill_wanhua_qunliao_02.UITex	0	技能	通用		
+2148	skill_wanhua_qunliao_03.UITex	0	技能	通用		
+2149	extend_Back_19.UITex	0	防具	背部挂件		
+2150	extend_Waist_20.UITex	0	防具	腰部挂件		
+2151	huodong_01.UITex	0	任务特殊	活动相关		
+2152	huodong_02.UITex	0	任务特殊	活动相关		
+2153	huodong_03.UITex	0	任务特殊	活动相关		
+2154	zhongqiuhuodong01.UITex	0	任务特殊	活动相关		
+2155	zhongqiuhuodong02.UITex	0	任务特殊	活动相关		
+2156	horse_belt_01.UITex	0	防具	马匹相关		
+2157	horse_belt_02.UITex	0	防具	马匹相关		
+2158	horse_belt_03.UITex	0	防具	马匹相关		
+2159	horse_belt_04.UITex	0	防具	马匹相关		
+2160	horse_belt_05.UITex	0	防具	马匹相关		
+2161	horse_hand_01.UITex	0	防具	马匹相关		
+2162	horse_hand_02.UITex	0	防具	马匹相关		
+2163	horse_hand_03.UITex	0	防具	马匹相关		
+2164	horse_hand_04.UITex	0	防具	马匹相关		
+2165	horse_hand_05.UITex	0	防具	马匹相关		
+2166	horse_leg_01.UITex	0	防具	马匹相关		
+2167	horse_leg_02.UITex	0	防具	马匹相关		
+2168	horse_leg_03.UITex	0	防具	马匹相关		
+2169	horse_leg_04.UITex	0	防具	马匹相关		
+2170	horse_leg_05.UITex	0	防具	马匹相关		
+2171	chengjiu01.UITex	0	技能	通用		
+2172	chengjiu02.UITex	0	技能	通用		
+2173	chengjiu03.UITex	0	技能	通用		
+2174	chengjiu04.UITex	0	技能	通用		
+2175	chengjiu05.UITex	0	技能	通用		
+2176	chengjiu06.UITex	0	技能	通用		
+2177	chengjiu07.UITex	0	技能	通用		
+2178	chengjiu08.UITex	0	技能	通用		
+2179	chengjiu09.UITex	0	技能	通用		
+2180	chengjiu10.UITex	0	技能	通用		
+2181	yinyuanhui1.UITex	0	任务特殊	活动相关		
+2182	yinyuanhui2.UITex	0	任务特殊	活动相关		
+2183	yinyuanhui3.UITex	0	任务特殊	活动相关		
+2184	yinyuanhui4.UITex	0	任务特殊	活动相关		
+2185	skill_jianghu34.UITex	0	技能	江湖		
+2186	skill_jianghu35.UITex	0	技能	江湖		
+2187	quest_yxtzf_controlall.UITex	0	任务特殊	<未定义>		
+2188	quest_yxtzf_controlall.UITex	1	任务特殊	<未定义>		
+2189	quest_yxtzf_controlall.UITex	2	任务特殊	<未定义>		
+2190	quest_yxtzf_controlall.UITex	3	任务特殊	<未定义>		
+2191	quest_yxtzf_controlall.UITex	4	任务特殊	<未定义>		
+2192	quest_yxtzf_controlall.UITex	5	任务特殊	<未定义>		
+2193	quest_yxtzf_controlall.UITex	6	任务特殊	<未定义>		
+2194	quest_yxtzf_controlall.UITex	7	任务特殊	<未定义>		
+2195	quest_yxtzf_controlall.UITex	8	任务特殊	<未定义>		
+2196	quest_yxtzf_controlall.UITex	9	任务特殊	<未定义>		
+2197	quest_yxtzf_controlall.UITex	10	任务特殊	<未定义>		
+2198	quest_yxtzf_controlall.UITex	11	任务特殊	<未定义>		
+2199	quest_yxtzf_controlall.UITex	12	任务特殊	<未定义>		
+2200	quest_yxtzf_controlall.UITex	13	任务特殊	<未定义>		
+2201	quest_yxtzf_controlall.UITex	14	任务特殊	<未定义>		
+2202	quest_yxtzf_controlall.UITex	0	任务特殊	<未定义>		
+2203	yuandanhuodong01.UITex	0	任务特殊	活动相关		
+2204	yuandanhuodong02.UITex	0	任务特殊	活动相关		
+2205	yuandanhuodong03.UITex	0	任务特殊	活动相关		
+2206	yuandanhuodong04.UITex	0	任务特殊	活动相关		
+2207	yuandanhuodong05.UITex	0	任务特殊	活动相关		
+2208	yuandanhuodong06.UITex	0	任务特殊	活动相关		
+2209	yuandanhuodong07.UITex	0	任务特殊	活动相关		
+2210	yuandanhuodong08.UITex	0	任务特殊	活动相关		
+2211	yuandanhuodong09.UITex	0	任务特殊	活动相关		
+2212	yuandanhuodong10.UITex	0	任务特殊	活动相关		
+2213	yuandanhuodong11.UITex	0	任务特殊	活动相关		
+2214	yuandanhuodong12.UITex	0	任务特殊	活动相关		
+2215	yuandanhuodong13.UITex	0	任务特殊	活动相关		
+2216	yuandanhuodong14.UITex	0	任务特殊	活动相关		
+2217	yuandanhuodong15.UITex	0	任务特殊	活动相关		
+2218	yuandanhuodong16.UITex	0	任务特殊	活动相关		
+2219	yuandanhuodong17.UITex	0	任务特殊	活动相关		
+2220	yuandanhuodong18.UITex	0	任务特殊	活动相关		
+2221	yuandanhuodong19.UITex	0	任务特殊	活动相关		
+2222	yuandanhuodong20.UITex	0	任务特殊	活动相关		
+2223	yuandanhuodong21.UITex	0	任务特殊	活动相关		
+2224	yuandanhuodong22.UITex	0	任务特殊	活动相关		
+2225	yuandanhuodong23.UITex	0	任务特殊	活动相关		
+2226	yuandanhuodong24.UITex	0	任务特殊	活动相关		
+2227	yuandanhuodong25.UITex	0	任务特殊	活动相关		
+2228	yuandanhuodong26.UITex	0	任务特殊	活动相关		
+2229	yuandanhuodong27.UITex	0	任务特殊	活动相关		
+2230	yuandanhuodong28.UITex	0	任务特殊	活动相关		
+2231	yuandanhuodong29.UITex	0	任务特殊	活动相关		
+2232	yuandanhuodong30.UITex	0	任务特殊	活动相关		
+2233	yuandanhuodong31.UITex	0	任务特殊	活动相关		
+2234	yuandanhuodong32.UITex	0	任务特殊	活动相关		
+2235	yuandanhuodong33.UITex	0	任务特殊	活动相关		
+2236	reading_38.UITex	0	道具	阅读		
+2237	system13.UITex	0	道具	系统		
+2238	wanhua_shuliandu_3.UITex	0	技能	技能书		
+2239	chunyang_book_1.UITex	0	技能	技能书		
+2240	chunyang_book_2.UITex	0	技能	技能书		
+2241	chunyang_book_3.UITex	0	技能	技能书		
+2242	chunyang_book_4.UITex	0	技能	技能书		
+2243	chunyang_book_5.UITex	0	技能	技能书		
+2244	chunyang_shuliandu_1.UITex	0	技能	技能书		
+2245	chunyang_shuliandu_2.UITex	0	技能	技能书		
+2246	chunyang_shuliandu_3.UITex	0	技能	技能书		
+2247	qixiu_book_1.UITex	0	技能	技能书		
+2248	qixiu_book_2.UITex	0	技能	技能书		
+2249	qixiu_book_3.UITex	0	技能	技能书		
+2250	qixiu_book_4.UITex	0	技能	技能书		
+2251	qixiu_book_5.UITex	0	技能	技能书		
+2252	qixiu_shuliandu_1.UITex	0	技能	技能书		
+2253	qixiu_shuliandu_2.UITex	0	技能	技能书		
+2254	qixiu_shuliandu_3.UITex	0	技能	技能书		
+2255	shaolin_book_1.UITex	0	技能	技能书		
+2256	shaolin_book_2.UITex	0	技能	技能书		
+2257	shaolin_book_3.UITex	0	技能	技能书		
+2258	shaolin_book_4.UITex	0	技能	技能书		
+2259	shaolin_book_5.UITex	0	技能	技能书		
+2260	shaolin_shuliandu_1.UITex	0	技能	技能书		
+2261	shaolin_shuliandu_2.UITex	0	技能	技能书		
+2262	shaolin_shuliandu_3.UITex	0	技能	技能书		
+2263	tiance_book_1.UITex	0	技能	技能书		
+2264	tiance_book_2.UITex	0	技能	技能书		
+2265	tiance_book_3.UITex	0	技能	技能书		
+2266	tiance_book_4.UITex	0	技能	技能书		
+2267	tiance_book_5.UITex	0	技能	技能书		
+2268	tiance_shuliandu_1.UITex	0	技能	技能书		
+2269	tiance_shuliandu_2.UITex	0	技能	技能书		
+2270	tiance_shuliandu_3.UITex	0	技能	技能书		
+2271	wanhua_book_1.UITex	0	技能	技能书		
+2272	wanhua_book_2.UITex	0	技能	技能书		
+2273	wanhua_book_3.UITex	0	技能	技能书		
+2274	wanhua_book_4.UITex	0	技能	技能书		
+2275	wanhua_book_5.UITex	0	技能	技能书		
+2276	wanhua_shuliandu_1.UITex	0	技能	技能书		
+2277	wanhua_shuliandu_2.UITex	0	技能	技能书		
+2278	chunjiehuodong01.UITex	0	任务特殊	活动相关		
+2279	chunjiehuodong02.UITex	0	任务特殊	活动相关		
+2280	chunjiehuodong03.UITex	0	任务特殊	活动相关		
+2281	chunjiehuodong04.UITex	0	任务特殊	活动相关		
+2282	chunjiehuodong05.UITex	0	任务特殊	活动相关		
+2283	chunjiehuodong06.UITex	0	任务特殊	活动相关		
+2284	chunjiehuodong07.UITex	0	任务特殊	活动相关		
+2285	chunjiehuodong08.UITex	0	任务特殊	活动相关		
+2286	chunjiehuodong09.UITex	0	任务特殊	活动相关		
+2287	chunjiehuodong10.UITex	0	任务特殊	活动相关		
+2288	chunjiehuodong11.UITex	0	任务特殊	活动相关		
+2289	chunjiehuodong12.UITex	0	任务特殊	活动相关		
+2290	chunjiehuodong13.UITex	0	任务特殊	活动相关		
+2291	chunjiehuodong14.UITex	0	任务特殊	活动相关		
+2292	chunjiehuodong15.UITex	0	任务特殊	活动相关		
+2293	chunjiehuodong16.UITex	0	任务特殊	活动相关		
+2294	chunjiehuodong17.UITex	0	任务特殊	活动相关		
+2295	chunjiehuodong18.UITex	0	任务特殊	活动相关		
+2296	chunjiehuodong19.UITex	0	任务特殊	活动相关		
+2297	chunjiehuodong20.UITex	0	任务特殊	活动相关		
+2298	chunjiehuodong21.UITex	0	任务特殊	活动相关		
+2299	chunjiehuodong22.UITex	0	任务特殊	活动相关		
+2300	chunjiehuodong23.UITex	0	任务特殊	活动相关		
+2301	chunjiehuodong24.UITex	0	任务特殊	活动相关		
+2302	chunjiehuodong25.UITex	0	任务特殊	活动相关		
+2303	chunjiehuodong26.UITex	0	任务特殊	活动相关		
+2304	chunjiehuodong27.UITex	0	任务特殊	活动相关		
+2305	baoxiang01.UITex	0	道具	包裹		
+2306	baoxiang02.UITex	0	道具	包裹		
+2307	baoxiang03.UITex	0	道具	包裹		
+2308	baoxiang04.UITex	0	道具	包裹		
+2309	baoxiang05.UITex	0	道具	包裹		
+2310	baoxiang06.UITex	0	道具	包裹		
+2311	five_element_stone_broken_1.UITex	0	道具	可挑选		
+2312	five_element_stone_dust_1.UITex	0	道具	可挑选		
+2313	five_element_stone_dust_2.UITex	0	道具	可挑选		
+2314	five_element_stone_dust_3.UITex	0	道具	可挑选		
+2315	five_element_stone_dust_4.UITex	0	道具	可挑选		
+2316	five_element_stone_dust_5.UITex	0	道具	可挑选		
+2317	five_element_stone_dust_6.UITex	0	道具	可挑选		
+2318	five_element_stone_dust_7.UITex	0	道具	其他不可用		
+2319	five_element_stone_dust_8.UITex	0	道具	可挑选		
+2320	five_element_stone_dust_9.UITex	0	道具	可挑选		
+2321	five_element_stone_dust_10.UITex	0	道具	可挑选		
+2322	five_element_stone_fire_1.UITex	0	道具	其他不可用		
+2323	five_element_stone_fire_2.UITex	0	道具	可挑选		
+2324	five_element_stone_fire_3.UITex	0	道具	可挑选		
+2325	five_element_stone_fire_4.UITex	0	道具	可挑选		
+2326	five_element_stone_fire_5.UITex	0	道具	其他不可用		
+2327	five_element_stone_fire_6.UITex	0	道具	可挑选		
+2328	five_element_stone_fire_7.UITex	0	道具	可挑选		
+2329	five_element_stone_fire_8.UITex	0	道具	其他不可用		
+2330	five_element_stone_fire_9.UITex	0	道具	可挑选		
+2331	five_element_stone_fire_10.UITex	0	道具	其他不可用		
+2332	five_element_stone_gold_1.UITex	0	道具	可挑选		
+2333	five_element_stone_gold_2.UITex	0	道具	其他不可用		
+2334	five_element_stone_gold_3.UITex	0	道具	可挑选		
+2335	five_element_stone_gold_4.UITex	0	道具	可挑选		
+2336	five_element_stone_gold_5.UITex	0	道具	其他不可用		
+2337	five_element_stone_gold_6.UITex	0	道具	可挑选		
+2338	five_element_stone_gold_7.UITex	0	道具	其他不可用		
+2339	five_element_stone_gold_8.UITex	0	道具	可挑选		
+2340	five_element_stone_gold_9.UITex	0	道具	可挑选		
+2341	five_element_stone_gold_10.UITex	0	道具	可挑选		
+2342	five_element_stone_water_1.UITex	0	道具	其他不可用		
+2343	five_element_stone_water_2.UITex	0	道具	可挑选		
+2344	five_element_stone_water_3.UITex	0	道具	可挑选		
+2345	five_element_stone_water_4.UITex	0	道具	可挑选		
+2346	five_element_stone_water_5.UITex	0	道具	可挑选		
+2347	five_element_stone_water_6.UITex	0	道具	可挑选		
+2348	five_element_stone_water_7.UITex	0	道具	可挑选		
+2349	five_element_stone_water_8.UITex	0	道具	可挑选		
+2350	five_element_stone_water_9.UITex	0	道具	可挑选		
+2351	five_element_stone_water_10.UITex	0	道具	可挑选		
+2352	five_element_stone_wood_1.UITex	0	道具	可挑选		
+2353	five_element_stone_wood_2.UITex	0	道具	可挑选		
+2354	five_element_stone_wood_3.UITex	0	道具	可挑选		
+2355	five_element_stone_wood_4.UITex	0	道具	可挑选		
+2356	five_element_stone_wood_5.UITex	0	道具	可挑选		
+2357	five_element_stone_wood_6.UITex	0	道具	其他不可用		
+2358	five_element_stone_wood_7.UITex	0	道具	可挑选		
+2359	five_element_stone_wood_8.UITex	0	道具	可挑选		
+2360	five_element_stone_wood_9.UITex	0	道具	可挑选		
+2361	five_element_stone_wood_10.UITex	0	道具	可挑选		
+2362	quest_jingmaitu.UITex	0	任务特殊	<未定义>		
+2363	cangjian_jzf_1.UITex	0	技能	藏剑		
+2364	cangjian_xzq_6.UITex	0	技能	藏剑		
+2365	cangjian_jzf_2.UITex	0	技能	藏剑		
+2366	cangjian_jzf_3.UITex	0	技能	藏剑		
+2367	cangjian_jzf_4.UITex	0	技能	藏剑		
+2368	cangjian_jzf_5.UITex	0	技能	藏剑		
+2369	cangjian_jzf_6.UITex	0	技能	藏剑		
+2370	cangjian_lfjs_1.UITex	0	技能	藏剑		
+2371	cangjian_lfjs_2.UITex	0	技能	藏剑		
+2372	cangjian_lfjs_3.UITex	0	技能	藏剑		
+2373	cangjian_lfjs_4.UITex	0	技能	藏剑		
+2374	cangjian_lfjs_5.UITex	0	技能	藏剑		
+2375	cangjian_lfjs_6.UITex	0	技能	藏剑		
+2376	cangjian_neigong_1.UITex	0	技能	藏剑		
+2377	cangjian_neigong_2.UITex	0	技能	藏剑		
+2378	cangjian_taolu_1.UITex	0	技能	藏剑		
+2379	cangjian_taolu_2.UITex	0	技能	藏剑		
+2380	cangjian_taolu_3.UITex	0	技能	藏剑		
+2381	cangjian_taolu_4.UITex	0	技能	藏剑		
+2382	cangjian_xsjf_1.UITex	0	技能	藏剑		
+2383	cangjian_xsjf_2.UITex	0	技能	藏剑		
+2384	cangjian_xsjf_3.UITex	0	技能	藏剑		
+2385	cangjian_xsjf_4.UITex	0	技能	藏剑		
+2386	cangjian_xsjf_5.UITex	0	技能	藏剑		
+2387	cangjian_xsjf_6.UITex	0	技能	藏剑		
+2388	cangjian_xzq_1.UITex	0	技能	藏剑		
+2389	cangjian_xzq_2.UITex	0	技能	藏剑		
+2390	cangjian_xzq_3.UITex	0	技能	藏剑		
+2391	cangjian_xzq_4.UITex	0	技能	藏剑		
+2392	cangjian_xzq_5.UITex	0	技能	藏剑		
+2393	huodong_wabao_01.UITex	0	任务特殊	活动相关		
+2394	huodong_wabao_02.UITex	0	任务特殊	活动相关		
+2395	huodong_wabao_03.UITex	0	任务特殊	活动相关		
+2396	huodong_wabao_04.UITex	0	任务特殊	活动相关		
+2397	huodong_wabao_05.UITex	0	任务特殊	活动相关		
+2398	huodong_wabao_06.UITex	0	任务特殊	活动相关		
+2399	huodong_wabao_07.UITex	0	任务特殊	活动相关		
+2400	huodong_wabao_08.UITex	0	任务特殊	活动相关		
+2401	huodong_wabao_09.UITex	0	任务特殊	活动相关		
+2402	huodong_wabao_10.UITex	0	任务特殊	活动相关		
+2403	huodong_wabao_11.UITex	0	任务特殊	活动相关		
+2404	huodong_wabao_12.UITex	0	任务特殊	活动相关		
+2405	huodong_wabao_13.UITex	0	任务特殊	活动相关		
+2406	huodong_wabao_14.UITex	0	任务特殊	活动相关		
+2407	huodong_wabao_15.UITex	0	任务特殊	活动相关		
+2408	huodong_wabao_16.UITex	0	任务特殊	活动相关		
+2409	huodong_wabao_17.UITex	0	任务特殊	活动相关		
+2410	def_cangjian_001_01.UITex	0	防具	上衣		
+2411	def_cangjian_001_02.UITex	0	防具	裤子		
+2412	def_cangjian_001_03.UITex	0	防具	护臂		
+2413	def_cangjian_001_04.UITex	0	防具	腰带		
+2414	def_cangjian_001_05.UITex	0	防具	鞋		
+2415	def_cangjian_001_06.UITex	0	防具	帽子		
+2416	def_cangjian_002_01.UITex	0	防具	上衣		
+2417	def_cangjian_002_02.UITex	0	防具	裤子		
+2418	def_cangjian_002_03.UITex	0	防具	护臂		
+2419	def_cangjian_002_04.UITex	0	防具	腰带		
+2420	def_cangjian_002_05.UITex	0	防具	鞋		
+2421	def_cangjian_002_06.UITex	0	防具	帽子		
+2422	def_cangjian_003_01.UITex	0	防具	上衣		
+2423	def_cangjian_003_02.UITex	0	防具	裤子		
+2424	def_cangjian_003_03.UITex	0	防具	护臂		
+2425	def_cangjian_003_04.UITex	0	防具	腰带		
+2426	def_cangjian_003_05.UITex	0	防具	鞋		
+2427	def_cangjian_003_06.UITex	0	防具	帽子		
+2428	def_cangjian_004_01.UITex	0	防具	上衣		
+2429	def_cangjian_004_02.UITex	0	防具	裤子		
+2430	def_cangjian_004_03.UITex	0	防具	护臂		
+2431	def_cangjian_004_04.UITex	0	防具	腰带		
+2432	def_cangjian_004_05.UITex	0	防具	鞋		
+2433	def_cangjian_004_06.UITex	0	防具	帽子		
+2434	def_hongyijiao_001_01.UITex	0	防具	上衣		
+2435	def_hongyijiao_001_02.UITex	0	防具	裤子		
+2436	def_hongyijiao_001_03.UITex	0	防具	护臂		
+2437	def_hongyijiao_001_04.UITex	0	防具	腰带		
+2438	def_hongyijiao_001_05.UITex	0	防具	鞋		
+2439	def_hongyijiao_001_06.UITex	0	防具	帽子		
+2440	def_hongyijiao_002_01.UITex	0	防具	上衣		
+2441	def_hongyijiao_002_02.UITex	0	防具	裤子		
+2442	def_hongyijiao_002_03.UITex	0	防具	护臂		
+2443	def_hongyijiao_002_04.UITex	0	防具	腰带		
+2444	def_hongyijiao_002_05.UITex	0	防具	鞋		
+2445	def_hongyijiao_002_06.UITex	0	防具	帽子		
+2446	def_hongyijiao_003_01.UITex	0	防具	上衣		
+2447	def_hongyijiao_003_02.UITex	0	防具	裤子		
+2448	def_hongyijiao_003_03.UITex	0	防具	护臂		
+2449	def_hongyijiao_003_04.UITex	0	防具	腰带		
+2450	def_hongyijiao_003_05.UITex	0	防具	鞋		
+2451	def_hongyijiao_003_06.UITex	0	防具	帽子		
+2452	def_hongyijiao_004_01.UITex	0	防具	上衣		
+2453	def_hongyijiao_004_02.UITex	0	防具	裤子		
+2454	def_hongyijiao_004_03.UITex	0	防具	护臂		
+2455	def_hongyijiao_004_04.UITex	0	防具	腰带		
+2456	def_hongyijiao_004_05.UITex	0	防具	鞋		
+2457	def_hongyijiao_004_06.UITex	0	防具	帽子		
+2458	wpn_cangjian_01.UITex	0	武器	橙色武器		
+2459	wpn_cangjian_02.UITex	0	武器	橙色武器		
+2460	wpn_cangjian_03.UITex	0	武器	橙色武器		
+2461	wpn_cangjian_04.UITex	0	武器	橙色武器		
+2462	wpn_cangjian_05.UITex	0	武器	橙色武器		
+2463	wpn_cangjian_06.UITex	0	武器	橙色武器		
+2464	wpn_cangjian_07.UITex	0	武器	橙色武器		
+2465	wpn_cangjian_08.UITex	0	武器	橙色武器		
+2466	wpn_cangjian_09.UITex	0	武器	橙色武器		
+2467	wpn_cangjian_10.UITex	0	武器	橙色武器		
+2468	wpn_cangjian_11.UITex	0	武器	橙色武器		
+2469	wpn_cangjian_12.UITex	0	武器	橙色武器		
+2470	wpn_cangjian_13.UITex	0	武器	重剑		
+2471	wpn_cangjian_14.UITex	0	武器	重剑		
+2472	wpn_cangjian_15.UITex	0	武器	重剑		
+2473	wpn_cangjian_16.UITex	0	武器	重剑		
+2474	wpn_cangjian_17.UITex	0	武器	重剑		
+2475	wpn_cangjian_18.UITex	0	武器	重剑		
+2476	wpn_cangjian_19.UITex	0	武器	重剑		
+2477	wpn_cangjian_20.UITex	0	武器	重剑		
+2478	wpn_cangjian_21.UITex	0	武器	重剑		
+2479	wpn_cangjian_22.UITex	0	武器	重剑		
+2480	wpn_cangjian_23.UITex	0	武器	重剑		
+2481	huodong_wabao_18.UITex	0	任务特殊	活动相关		
+2482	huodong_wabao_19.UITex	0	任务特殊	活动相关		
+2483	huodong_wabao_20.UITex	0	任务特殊	活动相关		
+2484	huodong_wabao_21.UITex	0	任务特殊	活动相关		
+2485	huodong_wabao_22.UITex	0	任务特殊	活动相关		
+2486	huodong_wabao_23.UITex	0	任务特殊	活动相关		
+2487	huodong_wabao_24.UITex	0	任务特殊	活动相关		
+2488	huodong_wabao_25.UITex	0	任务特殊	活动相关		
+2489	huodong_wabao_26.UITex	0	任务特殊	活动相关		
+2490	huodong_wabao_27.UITex	0	任务特殊	活动相关		
+2491	kfcangjian.UITex	0	道具	系统		
+2492	system14.UITex	0	道具	系统		
+2493	KaishanKnife01.UITex	0	任务特殊	<未定义>		
+2494	KaishanKnife02.UITex	0	任务特殊	<未定义>		
+2495	KaishanKnife03.UITex	0	任务特殊	<未定义>		
+2496	KaishanKnife04.UITex	0	任务特殊	<未定义>		
+2497	KaishanKnife05.UITex	0	任务特殊	<未定义>		
+2498	KaishanKnife06.UITex	0	任务特殊	<未定义>		
+2499	KaishanKnife07.UITex	0	任务特殊	<未定义>		
+2500	KaishanKnife08.UITex	0	任务特殊	<未定义>		
+2501	KaishanKnife09.UITex	0	任务特殊	<未定义>		
+2502	KaishanKnife10.UITex	0	任务特殊	<未定义>		
+2503	KaishanKnife11.UITex	0	任务特殊	<未定义>		
+2504	KaishanKnife12.UITex	0	任务特殊	<未定义>		
+2505	KaishanKnife13.UITex	0	任务特殊	<未定义>		
+2506	KaishanKnife14.UITex	0	任务特殊	<未定义>		
+2507	KaishanKnife15.UITex	0	任务特殊	<未定义>		
+2508	KaishanKnife16.UITex	0	任务特殊	<未定义>		
+2509	KaishanKnife17.UITex	0	任务特殊	<未定义>		
+2510	KaishanKnife18.UITex	0	任务特殊	<未定义>		
+2511	KaishanKnife19.UITex	0	任务特殊	<未定义>		
+2512	KaishanKnife20.UITex	0	任务特殊	<未定义>		
+2513	KaishanKnife21.UITex	0	任务特殊	<未定义>		
+2514	KaishanKnife22.UITex	0	任务特殊	<未定义>		
+2515	KaishanKnife23.UITex	0	任务特殊	<未定义>		
+2516	KaishanKnife24.UITex	0	任务特殊	<未定义>		
+2517	KaishanKnife25.UITex	0	任务特殊	<未定义>		
+2518	KaishanKnife26.UITex	0	任务特殊	<未定义>		
+2519	KaishanKnife27.UITex	0	任务特殊	<未定义>		
+2520	KaishanKnife28.UITex	0	任务特殊	<未定义>		
+2521	KaishanKnife29.UITex	0	任务特殊	<未定义>		
+2522	KaishanKnife30.UITex	0	任务特殊	<未定义>		
+2523	KaishanKnife31.UITex	0	任务特殊	<未定义>		
+2524	KaishanKnife32.UITex	0	任务特殊	<未定义>		
+2525	KaishanKnife33.UITex	0	任务特殊	<未定义>		
+2526	KaishanKnife34.UITex	0	任务特殊	<未定义>		
+2527	KaishanKnife35.UITex	0	任务特殊	<未定义>		
+2528	KaishanKnife36.UITex	0	任务特殊	<未定义>		
+2529	KaishanKnife37.UITex	0	任务特殊	<未定义>		
+2530	KaishanKnife38.UITex	0	任务特殊	<未定义>		
+2531	KaishanKnife39.UITex	0	任务特殊	<未定义>		
+2532	KaishanKnife40.UITex	0	任务特殊	<未定义>		
+2533	KaishanKnife41.UITex	0	任务特殊	<未定义>		
+2534	KaishanKnife42.UITex	0	任务特殊	<未定义>		
+2535	KaishanKnife43.UITex	0	任务特殊	<未定义>		
+2536	KaishanKnife44.UITex	0	任务特殊	<未定义>		
+2537	KaishanKnife45.UITex	0	任务特殊	<未定义>		
+2538	KaishanKnife46.UITex	0	任务特殊	<未定义>		
+2539	KaishanKnife47.UITex	0	任务特殊	<未定义>		
+2540	KaishanKnife48.UITex	0	任务特殊	<未定义>		
+2541	huodong_wabao_28.UITex	0	任务特殊	活动相关		
+2542	huodong_wabao_29.UITex	0	任务特殊	活动相关		
+2543	huodong_wabao_30.UITex	0	任务特殊	活动相关		
+2544	huodong_wabao_31.UITex	0	任务特殊	活动相关		
+2545	cangjian_pt_1.UITex	0	技能	江湖		
+2546	Formation_cangjian_01.UITex	0	技能	阵法		
+2547	Formation_cangjian_01A.UITex	0	技能	阵法		
+2548	Formation_cangjian_02.UITex	0	技能	阵法		
+2549	Formation_cangjian_03.UITex	0	技能	阵法		
+2550	Formation_cangjian_04.UITex	0	技能	阵法		
+2551	Formation_cangjian_05.UITex	0	技能	阵法		
+2552	Formation_cangjian_06.UITex	0	技能	阵法		
+2553	Formation_cangjian_07.UITex	0	技能	阵法		
+2554	Formation_cangjian_10.UITex	0	技能	阵法		
+2555	Formation_cangjian_10A.UITex	0	技能	阵法		
+2556	Rec_cangjian_01.UITex	0	技能	秘笈		
+2557	Rec_cangjian_02.UITex	0	技能	秘笈		
+2558	Rec_cangjian_03.UITex	0	技能	秘笈		
+2559	Rec_cangjian_04.UITex	0	技能	秘笈		
+2560	Rec_cangjian_05.UITex	0	技能	秘笈		
+2561	Rec_cangjian_06.UITex	0	技能	秘笈		
+2562	Rec_cangjian_07.UITex	0	技能	秘笈		
+2563	Rec_cangjian_08.UITex	0	技能	秘笈		
+2564	Rec_cangjian_09.UITex	0	技能	秘笈		
+2565	Rec_cangjian_10.UITex	0	技能	秘笈		
+2566	Rec_cangjian_11.UITex	0	技能	秘笈		
+2567	extend_back_20.UITex	0	防具	背部挂件		
+2568	extend_back_21.UITex	0	防具	背部挂件		
+2569	extend_back_22.UITex	0	防具	背部挂件		
+2570	extend_back_23.UITex	0	防具	背部挂件		
+2571	extend_waist_21.UITex	0	防具	腰部挂件		
+2572	extend_waist_22.UITex	0	防具	腰部挂件		
+2573	extend_waist_23.UITex	0	防具	腰部挂件		
+2574	baicaoyuan01.UITex	0	任务特殊	活动相关		
+2575	baicaoyuan02.UITex	0	任务特殊	活动相关		
+2576	baicaoyuan03.UITex	0	任务特殊	活动相关		
+2577	baicaoyuan04.UITex	0	任务特殊	活动相关		
+2578	baicaoyuan05.UITex	0	任务特殊	活动相关		
+2579	baicaoyuan06.UITex	0	任务特殊	活动相关		
+2580	baicaoyuan07.UITex	0	任务特殊	活动相关		
+2581	baicaoyuan08.UITex	0	任务特殊	活动相关		
+2582	baicaoyuan09.UITex	0	任务特殊	活动相关		
+2583	baicaoyuan10.UITex	0	任务特殊	活动相关		
+2584	baicaoyuan11.UITex	0	任务特殊	活动相关		
+2585	baicaoyuan12.UITex	0	任务特殊	活动相关		
+2586	baicaoyuan13.UITex	0	任务特殊	活动相关		
+2587	baicaoyuan14.UITex	0	任务特殊	活动相关		
+2588	chengsedaoju01.UITex	0	技能	通用		
+2589	chengsedaoju02.UITex	0	技能	通用		
+2590	guajian_quxiao.UITex	0	防具	背部挂件		
+2591	cangjian_jzf_7.UITex	0	技能	藏剑		
+2592	jieriqixi01.UITex	0	任务特殊	活动相关		
+2593	extend_back_24.UITex	0	防具	背部挂件		
+2594	extend_waist_24.UITex	0	防具	腰部挂件		
+2595	extend_back_25.UITex	0	防具	背部挂件		
+2596	def_head52.UITex	0	防具	帽子		
+2597	def_head53.UITex	0	防具	帽子		
+2598	ziyun.UITex	0	道具	其他不可用		
+2599	cangjian_book_1.UITex	0	技能	技能书		
+2600	cangjian_book_2.UITex	0	技能	技能书		
+2601	cangjian_book_3.UITex	0	技能	技能书		
+2602	cangjian_book_4.UITex	0	技能	技能书		
+2603	cangjian_book_5.UITex	0	技能	技能书		
+2604	cangjian_shuliandu_1.UITex	0	技能	技能书		
+2605	cangjian_shuliandu_2.UITex	0	技能	技能书		
+2606	cangjian_shuliandu_3.UITex	0	技能	技能书		
+2607	extend_back_26.UITex	0	防具	背部挂件		
+2608	extend_back_27.UITex	0	防具	背部挂件		
+2609	extend_back_28.UITex	0	防具	背部挂件		
+2610	extend_waist_25.UITex	0	防具	腰部挂件		
+2611	extend_waist_26.UITex	0	防具	腰部挂件		
+2612	extend_waist_27.UITex	0	防具	腰部挂件		
+2613	horse_10.UITex	0	防具	马匹相关		
+2614	horse_bag_01.UITex	0	防具	马匹相关		
+2615	horse_bag_02.UITex	0	防具	马匹相关		
+2616	five_element_stone_1a.UITex	0	道具	五行石新版		
+2617	five_element_stone_1b.UITex	0	道具	五行石新版		
+2618	five_element_stone_1c.UITex	0	道具	五行石新版		
+2619	five_element_stone_1d.UITex	0	道具	五行石新版		
+2620	five_element_stone_1e.UITex	0	道具	五行石新版		
+2621	five_element_stone_2a.UITex	0	道具	五行石新版		
+2622	five_element_stone_2b.UITex	0	道具	五行石新版		
+2623	five_element_stone_2c.UITex	0	道具	五行石新版		
+2624	five_element_stone_2d.UITex	0	道具	五行石新版		
+2625	five_element_stone_2e.UITex	0	道具	五行石新版		
+2626	five_element_stone_3a.UITex	0	道具	五行石新版		
+2627	five_element_stone_3b.UITex	0	道具	五行石新版		
+2628	five_element_stone_3c.UITex	0	道具	五行石新版		
+2629	five_element_stone_3d.UITex	0	道具	五行石新版		
+2630	five_element_stone_3e.UITex	0	道具	五行石新版		
+2631	five_element_stone_4a.UITex	0	道具	五行石新版		
+2632	five_element_stone_4b.UITex	0	道具	五行石新版		
+2633	five_element_stone_4c.UITex	0	道具	五行石新版		
+2634	five_element_stone_4d.UITex	0	道具	五行石新版		
+2635	five_element_stone_4e.UITex	0	道具	五行石新版		
+2636	five_element_stone_5a.UITex	0	道具	五行石新版		
+2637	five_element_stone_5b.UITex	0	道具	五行石新版		
+2638	five_element_stone_5c.UITex	0	道具	五行石新版		
+2639	five_element_stone_5d.UITex	0	道具	五行石新版		
+2640	five_element_stone_5e.UITex	0	道具	五行石新版		
+2641	five_element_stone_6a.UITex	0	道具	五行石新版		
+2642	five_element_stone_6b.UITex	0	道具	五行石新版		
+2643	five_element_stone_6c.UITex	0	道具	五行石新版		
+2644	five_element_stone_6d.UITex	0	道具	五行石新版		
+2645	five_element_stone_6e.UITex	0	道具	五行石新版		
+2646	five_element_stone_7a.UITex	0	道具	五行石新版		
+2647	five_element_stone_7b.UITex	0	道具	五行石新版		
+2648	five_element_stone_7c.UITex	0	道具	五行石新版		
+2649	five_element_stone_7d.UITex	0	道具	五行石新版		
+2650	five_element_stone_7e.UITex	0	道具	五行石新版		
+2651	five_element_stone_8a.UITex	0	道具	五行石新版		
+2652	five_element_stone_8b.UITex	0	道具	五行石新版		
+2653	five_element_stone_8c.UITex	0	道具	五行石新版		
+2654	five_element_stone_8d.UITex	0	道具	五行石新版		
+2655	five_element_stone_8e.UITex	0	道具	五行石新版		
+2656	five_element_stone_9a.UITex	0	道具	五行石新版		
+2657	five_element_stone_9b.UITex	0	道具	五行石新版		
+2658	five_element_stone_9c.UITex	0	道具	五行石新版		
+2659	five_element_stone_9d.UITex	0	道具	五行石新版		
+2660	five_element_stone_9e.UITex	0	道具	五行石新版		
+2661	five_element_stone_10a.UITex	0	道具	五行石新版		
+2662	five_element_stone_10b.UITex	0	道具	五行石新版		
+2663	five_element_stone_10c.UITex	0	道具	五行石新版		
+2664	five_element_stone_10d.UITex	0	道具	五行石新版		
+2665	five_element_stone_10e.UITex	0	道具	五行石新版		
+2666	key_xi.UITex	0	道具	包裹		
+2667	key_tie.UITex	0	道具	包裹		
+2668	key_tong.UITex	0	道具	包裹		
+2669	banghui_01.UITex	0	任务特殊	帮会活动		
+2670	banghui_02.UITex	0	任务特殊	帮会活动		
+2671	banghui_03.UITex	0	任务特殊	帮会活动		
+2672	banghui_04.UITex	0	任务特殊	帮会活动		
+2673	banghui_05.UITex	0	任务特殊	帮会活动		
+2674	banghui_06.UITex	0	任务特殊	帮会活动		
+2675	banghui_07.UITex	0	任务特殊	帮会活动		
+2676	banghui_08.UITex	0	任务特殊	帮会活动		
+2677	banghui_09.UITex	0	任务特殊	帮会活动		
+2678	banghui_10.UITex	0	任务特殊	帮会活动		
+2679	banghui_11.UITex	0	任务特殊	帮会活动		
+2680	banghui_12.UITex	0	任务特殊	帮会活动		
+2681	chunjiehuodon13.UITex	0	任务特殊	活动相关		
+2682	def_wudu_001_01.UITex	0	防具	上衣		
+2683	def_wudu_001_02.UITex	0	防具	裤子		
+2684	def_wudu_001_03.UITex	0	防具	护臂		
+2685	def_wudu_001_04.UITex	0	防具	腰带		
+2686	def_wudu_001_05.UITex	0	防具	鞋		
+2687	def_wudu_001_06.UITex	0	防具	帽子		
+2688	def_wudu_002_01.UITex	0	防具	上衣		
+2689	def_wudu_002_02.UITex	0	防具	裤子		
+2690	def_wudu_002_03.UITex	0	防具	护臂		
+2691	def_wudu_002_04.UITex	0	防具	腰带		
+2692	def_wudu_002_05.UITex	0	防具	鞋		
+2693	def_wudu_002_06.UITex	0	防具	帽子		
+2694	def_wudu_003_01.UITex	0	防具	上衣		
+2695	def_wudu_003_02.UITex	0	防具	裤子		
+2696	def_wudu_003_03.UITex	0	防具	护臂		
+2697	def_wudu_003_04.UITex	0	防具	腰带		
+2698	def_wudu_003_05.UITex	0	防具	鞋		
+2699	def_wudu_003_06.UITex	0	防具	帽子		
+2700	def_wudu_004_01.UITex	0	防具	上衣		
+2701	def_wudu_004_02.UITex	0	防具	裤子		
+2702	def_wudu_004_03.UITex	0	防具	护臂		
+2703	def_wudu_004_04.UITex	0	防具	腰带		
+2704	def_wudu_004_05.UITex	0	防具	鞋		
+2705	def_wudu_004_06.UITex	0	防具	帽子		
+2706	formation_wudu_01.UITex	0	技能	五毒		
+2707	formation_wudu_01A.UITex	0	技能	五毒		
+2708	formation_wudu_02.UITex	0	技能	五毒		
+2709	formation_wudu_03.UITex	0	技能	五毒		
+2710	formation_wudu_04.UITex	0	技能	五毒		
+2711	formation_wudu_05.UITex	0	技能	五毒		
+2712	formation_wudu_06.UITex	0	技能	五毒		
+2713	formation_wudu_07.UITex	0	技能	五毒		
+2714	formation_wudu_10.UITex	0	技能	五毒		
+2715	formation_wudu_10A.UITex	0	技能	五毒		
+2716	Rec_wudu_01.UITex	0	技能	秘笈		
+2717	Rec_wudu_02.UITex	0	技能	秘笈		
+2718	Rec_wudu_03.UITex	0	技能	秘笈		
+2719	Rec_wudu_04.UITex	0	技能	秘笈		
+2720	Rec_wudu_05.UITex	0	技能	秘笈		
+2721	Rec_wudu_06.UITex	0	技能	秘笈		
+2722	Rec_wudu_07.UITex	0	技能	秘笈		
+2723	Rec_wudu_08.UITex	0	技能	秘笈		
+2724	Rec_wudu_09.UITex	0	技能	秘笈		
+2725	Rec_wudu_10.UITex	0	技能	秘笈		
+2726	Rec_wudu_11.UITex	0	技能	秘笈		
+2727	wpn_wudu_01.UITex	0	武器	虫笛		
+2728	wpn_wudu_02.UITex	0	武器	虫笛		
+2729	wpn_wudu_03.UITex	0	武器	虫笛		
+2730	wpn_wudu_04.UITex	0	武器	虫笛		
+2731	wpn_wudu_05.UITex	0	武器	虫笛		
+2732	wpn_wudu_06.UITex	0	武器	虫笛		
+2733	wpn_wudu_07.UITex	0	武器	虫笛		
+2734	wpn_wudu_08.UITex	0	武器	虫笛		
+2735	wpn_wudu_09.UITex	0	武器	虫笛		
+2736	wpn_wudu_10.UITex	0	武器	虫笛		
+2737	wpn_wudu_11.UITex	0	武器	虫笛		
+2738	wudu_book_1.UITex	0	技能	技能书		
+2739	wudu_book_2.UITex	0	技能	技能书		
+2740	wudu_book_3.UITex	0	技能	技能书		
+2741	wudu_book_4.UITex	0	技能	技能书		
+2742	wudu_book_5.UITex	0	技能	技能书		
+2743	wudu_btxj_1.UITex	0	技能	五毒		
+2744	wudu_btxj_2.UITex	0	技能	五毒		
+2745	wudu_btxj_3.UITex	0	技能	五毒		
+2746	wudu_btxj_4.UITex	0	技能	五毒		
+2747	wudu_btxj_5.UITex	0	技能	五毒		
+2748	wudu_btxj_6.UITex	0	技能	五毒		
+2749	wudu_chongwu_1.UITex	0	技能	五毒		
+2750	wudu_chongwu_2.UITex	0	技能	五毒		
+2751	wudu_chongwu_3.UITex	0	技能	五毒		
+2752	wudu_chongwu_4.UITex	0	技能	五毒		
+2753	wudu_chongwu_5.UITex	0	技能	五毒		
+2754	wudu_chongwu_6.UITex	0	技能	五毒		
+2755	wudu_chongwu_7.UITex	0	技能	五毒		
+2756	wudu_chongwu_8.UITex	0	技能	五毒		
+2757	wudu_dhyl_1.UITex	0	技能	五毒		
+2758	wudu_dhyl_2.UITex	0	技能	五毒		
+2759	wudu_dhyl_3.UITex	0	技能	五毒		
+2760	wudu_dhyl_4.UITex	0	技能	五毒		
+2761	wudu_dhyl_5.UITex	0	技能	五毒		
+2762	wudu_dhyl_6.UITex	0	技能	五毒		
+2763	wudu_dhyl_7.UITex	0	技能	五毒		
+2764	wudu_dhyl_8.UITex	0	技能	五毒		
+2765	wudu_dhyl_9.UITex	0	技能	五毒		
+2766	wudu_neigong_1.UITex	0	技能	五毒		
+2767	wudu_neigong_2.UITex	0	技能	五毒		
+2768	wudu_ptgj_1.UITex	0	技能	五毒		
+2769	wudu_shuliandu_1.UITex	0	技能	技能书		
+2770	wudu_shuliandu_2.UITex	0	技能	技能书		
+2771	wudu_shuliandu_3.UITex	0	技能	技能书		
+2772	wudu_taolu_1.UITex	0	技能	五毒		
+2773	wudu_taolu_2.UITex	0	技能	五毒		
+2774	wudu_taolu_3.UITex	0	技能	五毒		
+2775	wudu_taolu_4.UITex	0	技能	五毒		
+2776	wudu_wgzj_1.UITex	0	技能	五毒		
+2777	wudu_wgzj_2.UITex	0	技能	五毒		
+2778	wudu_wgzj_3.UITex	0	技能	五毒		
+2779	wudu_wgzj_4.UITex	0	技能	五毒		
+2780	wudu_wgzj_5.UITex	0	技能	五毒		
+2781	wudu_wgzj_6.UITex	0	技能	五毒		
+2782	wudu_wgzj_7.UITex	0	技能	五毒		
+2783	wudu_wxtl_1.UITex	0	技能	五毒		
+2784	wudu_wxtl_2.UITex	0	技能	五毒		
+2785	wudu_wxtl_3.UITex	0	技能	五毒		
+2786	wudu_wxtl_4.UITex	0	技能	五毒		
+2787	wudu_wxtl_5.UITex	0	技能	五毒		
+2788	jieri_chunjie_01.UITex	0	任务特殊	活动相关		
+2789	jieri_chunjie_02.UITex	0	任务特殊	活动相关		
+2790	jieri_chunjie_03.UITex	0	任务特殊	活动相关		
+2791	huodong_cz_01.UITex	0	任务特殊	活动相关		
+2792	huodong_cz_02.UITex	0	任务特殊	活动相关		
+2793	huodong_cz_03.UITex	0	任务特殊	活动相关		
+2794	huodong_cz_04.UITex	0	任务特殊	活动相关		
+2795	huodong_cz_05.UITex	0	任务特殊	活动相关		
+2796	huodong_cz_06.UITex	0	任务特殊	活动相关		
+2797	huodong_cz_07.UITex	0	任务特殊	活动相关		
+2798	huodong_cz_08.UITex	0	任务特殊	活动相关		
+2799	huodong_cz_09.UITex	0	任务特殊	活动相关		
+2800	huodong_cz_10.UITex	0	任务特殊	活动相关		
+2801	ty_wudu_01.UITex	0	技能	五毒		
+2802	ty_wudu_02.UITex	0	技能	五毒		
+2803	ty_wudu_03.UITex	0	技能	五毒		
+2804	ty_wudu_04.UITex	0	技能	五毒		
+2805	ty_wudu_05.UITex	0	技能	五毒		
+2806	ty_wudu_06.UITex	0	技能	五毒		
+2807	ty_wudu_07.UITex	0	技能	五毒		
+2808	ty_wudu_08.UITex	0	技能	五毒		
+2809	ty_wudu_09.UITex	0	技能	五毒		
+2810	ty_wudu_10.UITex	0	技能	五毒		
+2811	ty_wudu_11.UITex	0	技能	五毒		
+2812	ty_wudu_12.UITex	0	技能	五毒		
+2813	ty_wudu_13.UITex	0	技能	五毒		
+2814	ty_wudu_14.UITex	0	技能	五毒		
+2815	kfwudu.UITex	0	道具	系统		
+2816	banghui_13.UITex	0	任务特殊	帮会活动		
+2817	banghui_14.UITex	0	任务特殊	帮会活动		
+2818	banghui_15.UITex	0	任务特殊	帮会活动		
+2819	banghui_16.UITex	0	任务特殊	帮会活动		
+2820	banghui_17.UITex	0	任务特殊	帮会活动		
+2821	banghui_18.UITex	0	任务特殊	帮会活动		
+2822	banghui_19.UITex	0	任务特殊	帮会活动		
+2823	banghui_20.UITex	0	任务特殊	帮会活动		
+2824	banghui_21.UITex	0	任务特殊	帮会活动		
+2825	banghui_22.UITex	0	任务特殊	帮会活动		
+2826	def_head54.UITex	0	防具	帽子		
+2827	def_head55.UITex	0	防具	帽子		
+2828	def_head56.UITex	0	防具	帽子		
+2829	extend_back_29.UITex	0	防具	背部挂件		
+2830	extend_back_30.UITex	0	防具	背部挂件		
+2831	extend_back_31.UITex	0	防具	背部挂件		
+2832	extend_back_32.UITex	0	防具	背部挂件		
+2833	tkt_necklace17.UITex	0	饰品	项链		
+2834	tkt_necklace18.UITex	0	饰品	项链		
+2835	tkt_necklace19.UITex	0	饰品	项链		
+2836	tkt_necklace20.UITex	0	饰品	项链		
+2837	tkt_necklace21.UITex	0	饰品	项链		
+2838	tkt_necklace22.UITex	0	饰品	项链		
+2839	tkt_pendant17.UITex	0	饰品	腰坠		
+2840	tkt_pendant18.UITex	0	饰品	腰坠		
+2841	tkt_pendant19.UITex	0	饰品	腰坠		
+2842	tkt_pendant20.UITex	0	饰品	腰坠		
+2843	tkt_pendant21.UITex	0	饰品	腰坠		
+2844	tkt_pendant22.UITex	0	饰品	腰坠		
+2845	tkt_ring13.UITex	0	饰品	戒指		
+2846	tkt_ring14.UITex	0	饰品	戒指		
+2847	tkt_ring15.UITex	0	饰品	戒指		
+2848	tkt_ring16.UITex	0	饰品	戒指		
+2849	tkt_ring17.UITex	0	饰品	戒指		
+2850	tkt_ring18.UITex	0	饰品	戒指		
+2851	tkt_ring19.UITex	0	饰品	戒指		
+2852	tkt_ring20.UITex	0	饰品	戒指		
+2853	tkt_ring21.UITex	0	饰品	戒指		
+2854	tkt_ring22.UITex	0	饰品	戒指		
+2855	tkt_ring23.UITex	0	饰品	戒指		
+2856	tkt_ring24.UITex	0	饰品	戒指		
+2857	wpn_brush21.UITex	0	武器	笔		
+2858	wpn_brush22.UITex	0	武器	笔		
+2859	wpn_brush23.UITex	0	武器	笔		
+2860	wpn_brush24.UITex	0	武器	笔		
+2861	wpn_brush25.UITex	0	武器	笔		
+2862	wpn_cangjian_24.UITex	0	武器	重剑		
+2863	wpn_cangjian_25.UITex	0	武器	重剑		
+2864	wpn_cangjian_26.UITex	0	武器	重剑		
+2865	wpn_cangjian_27.UITex	0	武器	重剑		
+2866	wpn_cangjian_28.UITex	0	武器	重剑		
+2867	wpn_double32.UITex	0	武器	双兵		
+2868	wpn_double33.UITex	0	武器	双兵		
+2869	wpn_spear24.UITex	0	武器	枪		
+2870	wpn_spear25.UITex	0	武器	枪		
+2871	wpn_spear26.UITex	0	武器	枪		
+2872	wpn_spear27.UITex	0	武器	枪		
+2873	wpn_spear28.UITex	0	武器	枪		
+2874	wpn_sword21.UITex	0	武器	剑		
+2875	wpn_sword22.UITex	0	武器	剑		
+2876	wpn_sword23.UITex	0	武器	剑		
+2877	wpn_sword24.UITex	0	武器	剑		
+2878	wpn_sword25.UITex	0	武器	剑		
+2879	wpn_sword26.UITex	0	武器	剑		
+2880	wpn_sword27.UITex	0	武器	剑		
+2881	wpn_sword28.UITex	0	武器	剑		
+2882	wpn_sword29.UITex	0	武器	剑		
+2883	wpn_sword30.UITex	0	武器	剑		
+2884	wpn_wand22.UITex	0	武器	棍		
+2885	wpn_wand23.UITex	0	武器	棍		
+2886	wpn_wand24.UITex	0	武器	棍		
+2887	wpn_wand25.UITex	0	武器	棍		
+2888	wpn_wand26.UITex	0	武器	棍		
+2889	wpn_wudu_12.UITex	0	武器	虫笛		
+2890	wpn_wudu_13.UITex	0	武器	虫笛		
+2891	wpn_wudu_14.UITex	0	武器	虫笛		
+2892	wpn_wudu_15.UITex	0	武器	虫笛		
+2893	wpn_wudu_16.UITex	0	武器	虫笛		
+2894	def_head57.UITex	0	防具	帽子		
+2895	def_head58.UITex	0	防具	帽子		
+2896	wpn_double34.UITex	0	武器	双兵		
+2897	wpn_double35.UITex	0	武器	双兵		
+2898	wpn_double36.UITex	0	武器	双兵		
+2899	wpn_longdis25.UITex	0	武器	投掷囊		
+2900	wpn_longdis26.UITex	0	武器	投掷囊		
+2901	wpn_longdis27.UITex	0	武器	投掷囊		
+2902	wpn_longdis28.UITex	0	武器	重剑		
+2903	wpn_longdis29.UITex	0	武器	投掷囊		
+2904	QuestPuzzle10.UITex	0	道具	任务特殊		
+2905	tf_cangjian_9.UITex	0	技能	天赋		
+2906	tf_cangjian_10.UITex	0	技能	天赋		
+2907	tf_cangjian_13.UITex	0	技能	天赋		
+2908	tf_cangjian_17.UITex	0	技能	天赋		
+2909	tf_cangjian_21.UITex	0	技能	天赋		
+2910	tf_cangjian_22.UITex	0	技能	天赋		
+2911	tf_cangjian_24.UITex	0	技能	天赋		
+2912	tf_cangjian_25.UITex	0	技能	天赋		
+2913	tf_cangjian_27.UITex	0	技能	天赋		
+2914	tf_cangjian_35.UITex	0	技能	天赋		
+2915	tf_cangjian_T1.UITex	0	技能	天赋		
+2916	tf_cangjian_T2.UITex	0	技能	天赋		
+2917	tf_cangjian_T3.UITex	0	技能	天赋		
+2918	tf_cangjian_T4.UITex	0	技能	天赋		
+2919	tf_cangjian_T5.UITex	0	技能	天赋		
+2920	tf_cangjian_T6.UITex	0	技能	天赋		
+2921	tf_cangjian_T7.UITex	0	技能	天赋		
+2922	tf_cangjian_T8.UITex	0	技能	天赋		
+2923	tf_cangjian_T9.UITex	0	技能	天赋		
+2924	tf_chunyang_5.UITex	0	技能	天赋		
+2925	tf_chunyang_6.UITex	0	技能	天赋		
+2926	tf_chunyang_8.UITex	0	技能	天赋		
+2927	tf_chunyang_9.UITex	0	技能	天赋		
+2928	tf_chunyang_12.UITex	0	技能	天赋		
+2929	tf_chunyang_14.UITex	0	技能	天赋		
+2930	tf_chunyang_17.UITex	0	技能	天赋		
+2931	tf_chunyang_24.UITex	0	技能	天赋		
+2932	tf_chunyang_25.UITex	0	技能	天赋		
+2933	tf_chunyang_28.UITex	0	技能	天赋		
+2934	tf_chunyang_35.UITex	0	技能	天赋		
+2935	tf_chunyang_T1.UITex	0	技能	天赋		
+2936	tf_chunyang_T2.UITex	0	技能	天赋		
+2937	tf_chunyang_T3.UITex	0	技能	天赋		
+2938	tf_chunyang_T4.UITex	0	技能	天赋		
+2939	tf_chunyang_T5.UITex	0	技能	天赋		
+2940	tf_chunyang_T6.UITex	0	技能	天赋		
+2941	tf_chunyang_T7.UITex	0	技能	天赋		
+2942	tf_chunyang_T8.UITex	0	技能	天赋		
+2943	tf_chunyang_T9.UITex	0	技能	天赋		
+2944	tf_qixiu_5.UITex	0	技能	天赋		
+2945	tf_qixiu_8.UITex	0	技能	天赋		
+2946	tf_qixiu_15.UITex	0	技能	天赋		
+2947	tf_qixiu_17.UITex	0	技能	天赋		
+2948	tf_qixiu_21.UITex	0	技能	天赋		
+2949	tf_qixiu_25.UITex	0	技能	天赋		
+2950	tf_qixiu_30.UITex	0	技能	天赋		
+2951	tf_qixiu_34.UITex	0	技能	天赋		
+2952	tf_qixiu_T1.UITex	0	技能	天赋		
+2953	tf_qixiu_T2.UITex	0	技能	天赋		
+2954	tf_qixiu_T3.UITex	0	技能	天赋		
+2955	tf_qixiu_T4.UITex	0	技能	天赋		
+2956	tf_qixiu_T5.UITex	0	技能	天赋		
+2957	tf_qixiu_T6.UITex	0	技能	天赋		
+2958	tf_qixiu_T7.UITex	0	技能	天赋		
+2959	tf_qixiu_T8.UITex	0	技能	天赋		
+2960	tf_qixiu_T9.UITex	0	技能	天赋		
+2961	tf_shaolin_BuGou.UITex	0	技能	天赋		
+2962	tf_shaolin_GuiQuLai.UITex	0	技能	天赋		
+2963	tf_shaolin_HuanShen.UITex	0	技能	天赋		
+2964	tf_shaolin_JinGangJue.UITex	0	技能	天赋		
+2965	tf_shaolin_NiePanShi.UITex	0	技能	天赋		
+2966	tf_shaolin_SanShi.UITex	0	技能	天赋		
+2967	tf_shaolin_T1.UITex	0	技能	天赋		
+2968	tf_shaolin_T2.UITex	0	技能	天赋		
+2969	tf_shaolin_T3.UITex	0	技能	天赋		
+2970	tf_shaolin_T4.UITex	0	技能	天赋		
+2971	tf_shaolin_T5.UITex	0	技能	天赋		
+2972	tf_shaolin_T6.UITex	0	技能	天赋		
+2973	tf_shaolin_T7.UITex	0	技能	天赋		
+2974	tf_shaolin_T8.UITex	0	技能	天赋		
+2975	tf_shaolin_T9.UITex	0	技能	天赋		
+2976	tf_shaolin_WuLiang.UITex	0	技能	天赋		
+2977	tf_shaolin_WuSe.UITex	0	技能	天赋		
+2978	tf_shaolin_XiangMo.UITex	0	技能	天赋		
+2979	tf_shaolin_ZhenRu.UITex	0	技能	天赋		
+2980	tf_shaolin_ZiZai.UITex	0	技能	天赋		
+2981	tf_tiance_BeiShui.UITex	0	技能	天赋		
+2982	tf_tiance_FengHuo.UITex	0	技能	天赋		
+2983	tf_tiance_LinHu.UITex	0	技能	天赋		
+2984	tf_tiance_LiuHou.UITex	0	技能	天赋		
+2985	tf_tiance_LongCheng.UITex	0	技能	天赋		
+2986	tf_tiance_PiLi.UITex	0	技能	天赋		
+2987	tf_tiance_QiShe.UITex	0	技能	天赋		
+2988	tf_tiance_T1.UITex	0	技能	天赋		
+2989	tf_tiance_T2.UITex	0	技能	天赋		
+2990	tf_tiance_T3.UITex	0	技能	天赋		
+2991	tf_tiance_T4.UITex	0	技能	天赋		
+2992	tf_tiance_T5.UITex	0	技能	天赋		
+2993	tf_tiance_T6.UITex	0	技能	天赋		
+2994	tf_tiance_T7.UITex	0	技能	天赋		
+2995	tf_tiance_T8.UITex	0	技能	天赋		
+2996	tf_tiance_T9.UITex	0	技能	天赋		
+2997	tf_tiance_YeZheng.UITex	0	技能	天赋		
+2998	tf_wanhua_9.UITex	0	技能	天赋		
+2999	tf_wanhua_13.UITex	0	技能	天赋		
+3000	tf_wanhua_17.UITex	0	技能	天赋		
+3001	tf_wanhua_23.UITex	0	技能	天赋		
+3002	tf_wanhua_24.UITex	0	技能	天赋		
+3003	tf_wanhua_25.UITex	0	技能	天赋		
+3004	tf_wanhua_26.UITex	0	技能	天赋		
+3005	tf_wanhua_29.UITex	0	技能	天赋		
+3006	tf_wanhua_30.UITex	0	技能	天赋		
+3007	tf_wanhua_32.UITex	0	技能	天赋		
+3008	tf_wanhua_34.UITex	0	技能	天赋		
+3009	tf_wanhua_T1.UITex	0	技能	天赋		
+3010	tf_wanhua_T2.UITex	0	技能	天赋		
+3011	tf_wanhua_T3.UITex	0	技能	天赋		
+3012	tf_wanhua_T4.UITex	0	技能	天赋		
+3013	tf_wanhua_T5.UITex	0	技能	天赋		
+3014	tf_wanhua_T6.UITex	0	技能	天赋		
+3015	tf_wanhua_T7.UITex	0	技能	天赋		
+3016	tf_wanhua_T8.UITex	0	技能	天赋		
+3017	tf_wanhua_T9.UITex	0	技能	天赋		
+3018	tf_wudu_AP.UITex	0	技能	天赋		
+3019	tf_wudu_Bingcan.UITex	0	技能	天赋		
+3020	tf_wudu_GuChong.UITex	0	技能	天赋		
+3021	tf_wudu_HpMp.UITex	0	技能	天赋		
+3022	tf_wudu_HuanGu.UITex	0	技能	天赋		
+3023	tf_wudu_HuanGuCD.UITex	0	技能	天赋		
+3024	tf_wudu_Huixue.UITex	0	技能	天赋		
+3025	tf_wudu_JianCD.UITex	0	技能	天赋		
+3026	tf_wudu_NvWa.UITex	0	技能	天赋		
+3027	tf_wudu_PetAP.UITex	0	技能	天赋		
+3028	tf_wudu_ShenShou.UITex	0	技能	天赋		
+3029	tf_wudu_T1.UITex	0	技能	天赋		
+3030	tf_wudu_T2.UITex	0	技能	天赋		
+3031	tf_wudu_T3.UITex	0	技能	天赋		
+3032	tf_wudu_T4.UITex	0	技能	天赋		
+3033	tf_wudu_T5.UITex	0	技能	天赋		
+3034	tf_wudu_T6.UITex	0	技能	天赋		
+3035	tf_wudu_T7.UITex	0	技能	天赋		
+3036	tf_wudu_T8.UITex	0	技能	天赋		
+3037	tf_wudu_T9.UITex	0	技能	天赋		
+3038	tf_wudu_ZhiLiao.UITex	0	技能	天赋		
+3039	system15.UITex	0	道具	系统		
+3040	shenghuo.UITex	0	道具	系统		
+3041	QuestPuzzle10.UITex	0	道具	任务特殊		
+3042	baoxiang07.UITex	0	道具	包裹		
+3043	baoxiang08.UITex	0	道具	包裹		
+3044	baoxiang09.UITex	0	道具	包裹		
+3045	baoxiang10.UITex	0	道具	包裹		
+3046	key_jin.UITex	0	道具	包裹		
+3047	key_yin.UITex	0	道具	包裹		
+3048	baoxiang07.UITex	0	道具	包裹		
+3049	baoxiang08.UITex	0	道具	包裹		
+3050	baoxiang09.UITex	0	道具	包裹		
+3051	baoxiang10.UITex	0	道具	包裹		
+3052	key_jin.UITex	0	道具	包裹		
+3053	key_yin.UITex	0	道具	包裹		
+3082	craft_tailor01.UITex	0	道具	布料与线团		
+3083	craft_tailor02.UITex	0	道具	布料与线团		
+3084	craft_tailor03.UITex	0	道具	布料与线团		
+3085	craft_tailor04.UITex	0	道具	布料与线团		
+3086	craft_tailor05.UITex	0	道具	布料与线团		
+3087	craft_tailor06.UITex	0	道具	布料与线团		
+3088	craft_tailor07.UITex	0	道具	布料与线团		
+3089	craft_tailor08.UITex	0	道具	布料与线团		
+3090	craft_tailor09.UITex	0	道具	布料与线团		
+3091	craft_tailor10.UITex	0	道具	布料与线团		
+3092	enchant_tailor01.UITex	0	道具	布料与线团		
+3093	enchant_tailor02.UITex	0	道具	布料与线团		
+3094	enchant_tailor03.UITex	0	道具	布料与线团		
+3095	enchant_tailor04.UITex	0	道具	布料与线团		
+3096	enchant_tailor05.UITex	0	道具	布料与线团		
+3097	enchant_tailor06.UITex	0	道具	布料与线团		
+3098	enchant_tailor07.UITex	0	道具	布料与线团		
+3099	enchant_tailor08.UITex	0	道具	布料与线团		
+3100	enchant_tailor09.UITex	0	道具	布料与线团		
+3101	enchant_tailor10.UITex	0	道具	布料与线团		
+3102	enchant_tailor11.UITex	0	道具	布料与线团		
+3103	enchant_tailor12.UITex	0	道具	布料与线团		
+3104	enchant_tailor13.UITex	0	道具	布料与线团		
+3105	medic_craft01.UITex	0	道具	植物		
+3106	medic_craft02.UITex	0	道具	植物		
+3107	medic_craft03.UITex	0	道具	植物		
+3108	medic_craft04.UITex	0	道具	植物		
+3109	medic_craft05.UITex	0	道具	植物		
+3110	wpn_chengwu_01.UITex	0	武器	橙色武器		
+3111	wpn_chengwu_02.UITex	0	武器	橙色武器		
+3112	wpn_chengwu_03.UITex	0	武器	橙色武器		
+3113	wpn_chengwu_04.UITex	0	武器	橙色武器		
+3114	wpn_chengwu_05.UITex	0	武器	橙色武器		
+3115	wpn_chengwu_06.UITex	0	武器	橙色武器		
+3116	wpn_chengwu_07.UITex	0	武器	橙色武器		
+3117	wpn_chengwu_08.UITex	0	武器	橙色武器		
+3118	wpn_chengwu_09.UITex	0	武器	橙色武器		
+3119	wpn_chengwu_10.UITex	0	武器	橙色武器		
+3120	wpn_chengwu_11.UITex	0	武器	橙色武器		
+3121	wpn_chengwu_12.UITex	0	武器	橙色武器		
+3122	wpn_chengwu_13.UITex	0	武器	橙色武器		
+3123	wpn_chengwu_14.UITex	0	武器	橙色武器		
+3124	banghui_23.UITex	0	任务特殊	帮会活动		
+3125	banghui_24.UITex	0	任务特殊	帮会活动		
+3126	banghui_25.UITex	0	任务特殊	帮会活动		
+3127	banghui_26.UITex	0	任务特殊	帮会活动		
+3128	banghui_27.UITex	0	任务特殊	帮会活动		
+3129	banghui_28.UITex	0	任务特殊	帮会活动		
+3130	chess_a.UITex	0	任务特殊	<未定义>		
+3131	chess_b.UITex	0	任务特殊	<未定义>		
+3132	chess_c.UITex	0	任务特殊	<未定义>		
+3133	chess_d.UITex	0	任务特殊	<未定义>		
+3134	chess_qipan_1.UITex	0	任务特殊	<未定义>		
+3135	chess_turn.UITex	0	任务特殊	<未定义>		
+3136	chess_turn2.UITex	0	任务特殊	<未定义>		
+3137	denglong_01.UITex	0	任务特殊	活动相关		
+3138	denglong_02.UITex	0	任务特殊	活动相关		
+3139	denglong_03.UITex	0	任务特殊	活动相关		
+3140	hehuadeng_01.UITex	0	任务特殊	活动相关		
+3141	xingyue_01.UITex	0	任务特殊	活动相关		
+3142	yuebing_01.UITex	0	任务特殊	活动相关		
+3143	yuebing_02.UITex	0	任务特殊	活动相关		
+3144	Formation_tangm_01.UITex	0	技能	阵法		
+3145	Formation_tangm_01A.UITex	0	技能	阵法		
+3146	Formation_tangm_02.UITex	0	技能	阵法		
+3147	Formation_tangm_03.UITex	0	技能	阵法		
+3148	Formation_tangm_04.UITex	0	技能	阵法		
+3149	Formation_tangm_05.UITex	0	技能	阵法		
+3150	Formation_tangm_06.UITex	0	技能	阵法		
+3151	Formation_tangm_07.UITex	0	技能	阵法		
+3152	Formation_tangm_10.UITex	0	技能	阵法		
+3153	Formation_tangm_10A.UITex	0	技能	阵法		
+3154	Rec_tangm_01.UITex	0	技能	技能书		
+3155	Rec_tangm_02.UITex	0	技能	技能书		
+3156	Rec_tangm_03.UITex	0	技能	技能书		
+3157	Rec_tangm_04.UITex	0	技能	技能书		
+3158	Rec_tangm_05.UITex	0	技能	技能书		
+3159	Rec_tangm_06.UITex	0	技能	技能书		
+3160	Rec_tangm_07.UITex	0	技能	技能书		
+3161	Rec_tangm_08.UITex	0	技能	技能书		
+3162	Rec_tangm_09.UITex	0	技能	技能书		
+3163	Rec_tangm_10.UITex	0	技能	技能书		
+3164	Rec_tangm_11.UITex	0	技能	技能书		
+3165	skill_tangm_01.UITex	0	技能	唐门		
+3166	skill_tangm_02.UITex	0	技能	唐门		
+3167	skill_tangm_03.UITex	0	技能	唐门		
+3168	skill_tangm_04.UITex	0	技能	唐门		
+3169	skill_tangm_05.UITex	0	技能	唐门		
+3170	skill_tangm_06.UITex	0	技能	唐门		
+3171	skill_tangm_07.UITex	0	技能	唐门		
+3172	skill_tangm_08.UITex	0	技能	唐门		
+3173	skill_tangm_09.UITex	0	技能	唐门		
+3174	skill_tangm_10.UITex	0	技能	唐门		
+3175	skill_tangm_11.UITex	0	技能	唐门		
+3176	skill_tangm_12.UITex	0	技能	唐门		
+3177	skill_tangm_13.UITex	0	技能	唐门		
+3178	skill_tangm_14.UITex	0	技能	唐门		
+3179	skill_tangm_15.UITex	0	技能	唐门		
+3180	skill_tangm_16.UITex	0	技能	唐门		
+3181	skill_tangm_17.UITex	0	技能	唐门		
+3182	skill_tangm_18.UITex	0	技能	唐门		
+3183	skill_tangm_19.UITex	0	技能	唐门		
+3184	skill_tangm_20.UITex	0	技能	唐门		
+3185	skill_tangm_21.UITex	0	技能	唐门		
+3186	skill_tangm_22.UITex	0	技能	唐门		
+3187	skill_tangm_23.UITex	0	技能	唐门		
+3188	skill_tangm_24.UITex	0	技能	唐门		
+3189	skill_tangm_25.UITex	0	技能	唐门		
+3190	skill_tangm_26.UITex	0	技能	唐门		
+3191	skill_tangm_27.UITex	0	技能	唐门		
+3192	skill_tangm_28.UITex	0	技能	唐门		
+3193	skill_tangm_29.UITex	0	技能	唐门		
+3194	skill_tangm_30.UITex	0	技能	唐门		
+3195	skill_tangm_31.UITex	0	技能	唐门		
+3196	skill_tangm_32.UITex	0	技能	唐门		
+3197	skill_tangm_33.UITex	0	技能	唐门		
+3198	skill_tangm_34.UITex	0	技能	唐门		
+3199	skill_tangm_35.UITex	0	技能	唐门		
+3200	skill_tangm_36.UITex	0	技能	唐门		
+3201	skill_tangm_37.UITex	0	技能	唐门		
+3202	tf_tangmen_T1.UITex	0	技能	天赋		
+3203	tf_tangmen_T2.UITex	0	技能	天赋		
+3204	tf_tangmen_T3.UITex	0	技能	天赋		
+3205	tf_tangmen_T4.UITex	0	技能	天赋		
+3206	tf_tangmen_T5.UITex	0	技能	天赋		
+3207	tf_tangmen_T6.UITex	0	技能	天赋		
+3208	tf_tangmen_T7.UITex	0	技能	天赋		
+3209	tf_tangmen_T8.UITex	0	技能	天赋		
+3210	tf_tangmen_T9.UITex	0	技能	天赋		
+3211	kftangmen.UITex	0	道具	系统		
+3212	tangmms_01.UITex	0	任务特殊	<未定义>		
+3213	tangmms_02.UITex	0	任务特殊	<未定义>		
+3214	tangmms_03.UITex	0	任务特殊	<未定义>		
+3215	tangmms_04.UITex	0	任务特殊	<未定义>		
+3216	tangmms_05.UITex	0	任务特殊	<未定义>		
+3217	tangmms_06.UITex	0	任务特殊	<未定义>		
+3218	tangmms_07.UITex	0	任务特殊	<未定义>		
+3219	tangmms_08.UITex	0	任务特殊	<未定义>		
+3220	tangmms_09.UITex	0	任务特殊	<未定义>		
+3221	skill_tangm_38.UITex	0	技能	唐门		
+3222	skill_tangm_39.UITex	0	技能	唐门		
+3223	skill_tangm_40.UITex	0	技能	唐门		
+3224	skill_tangm_41.UITex	0	技能	唐门		
+3225	skill_tangm_42.UITex	0	技能	唐门		
+3226	skill_tangm_43.UITex	0	技能	唐门		
+3227	skill_tangm_44.UITex	0	技能	唐门		
+3228	skill_tangm_45.UITex	0	技能	唐门		
+3229	skill_tangm_46.UITex	0	技能	唐门		
+3230	skill_tangm_47.UITex	0	技能	唐门		
+3231	skill_tangm_48.UITex	0	技能	唐门		
+3232	skill_tangm_49.UITex	0	技能	唐门		
+3233	skill_tangm_50.UITex	0	技能	唐门		
+3234	skill_tangm_51.UITex	0	技能	唐门		
+3235	skill_tangm_52.UITex	0	技能	唐门		
+3236	skill_tangm_53.UITex	0	技能	唐门		
+3237	skill_tangm_54.UITex	0	技能	唐门		
+3238	skill_tangm_55.UITex	0	技能	唐门		
+3239	skill_tangm_56.UITex	0	技能	唐门		
+3240	skill_tangm_57.UITex	0	技能	唐门		
+3241	skill_tangm_58.UITex	0	技能	唐门		
+3242	skill_tangm_59.UITex	0	技能	唐门		
+3243	def_tangm_01_01.UITex	0	防具	上衣		
+3244	def_tangm_01_02.UITex	0	防具	裤子		
+3245	def_tangm_01_03.UITex	0	防具	护臂		
+3246	def_tangm_01_04.UITex	0	防具	腰带		
+3247	def_tangm_01_05.UITex	0	防具	鞋		
+3248	def_tangm_01_06.UITex	0	防具	帽子		
+3249	def_tangm_02_01.UITex	0	防具	上衣		
+3250	def_tangm_02_02.UITex	0	防具	裤子		
+3251	def_tangm_02_03.UITex	0	防具	护臂		
+3252	def_tangm_02_04.UITex	0	防具	腰带		
+3253	def_tangm_02_05.UITex	0	防具	鞋		
+3254	def_tangm_02_06.UITex	0	防具	帽子		
+3255	def_tangm_03_01.UITex	0	防具	上衣		
+3256	def_tangm_03_02.UITex	0	防具	裤子		
+3257	def_tangm_03_03.UITex	0	防具	护臂		
+3258	def_tangm_03_04.UITex	0	防具	腰带		
+3259	def_tangm_03_05.UITex	0	防具	鞋		
+3260	def_tangm_03_06.UITex	0	防具	帽子		
+3261	def_tangm_04_01.UITex	0	防具	上衣		
+3262	def_tangm_04_02.UITex	0	防具	裤子		
+3263	def_tangm_04_03.UITex	0	防具	护臂		
+3264	def_tangm_04_04.UITex	0	防具	腰带		
+3265	def_tangm_04_05.UITex	0	防具	鞋		
+3266	def_tangm_04_06.UITex	0	防具	帽子		
+3267	extend_back_33.UITex	0	防具	背部挂件		
+3268	extend_back_34.UITex	0	防具	背部挂件		
+3269	extend_back_35.UITex	0	防具	背部挂件		
+3270	extend_back_36.UITex	0	防具	背部挂件		
+3271	wpn_tangm_01.UITex	0	武器	弩		
+3272	wpn_tangm_02.UITex	0	武器	弩		
+3273	wpn_tangm_03.UITex	0	武器	弩		
+3274	wpn_tangm_04.UITex	0	武器	弩		
+3275	wpn_tangm_05.UITex	0	武器	弩		
+3276	wpn_tangm_06.UITex	0	武器	弩		
+3277	wpn_tangm_07.UITex	0	武器	弩		
+3278	wpn_tangm_08.UITex	0	武器	弩		
+3279	wpn_tangm_09.UITex	0	武器	弩		
+3280	wpn_tangm_10.UITex	0	武器	弩		
+3281	wpn_tangm_11.UITex	0	武器	弩		
+3282	wpn_tangm_12.UITex	0	武器	弩		
+3283	wpn_tangm_13.UITex	0	武器	弩		
+3284	wpn_tangm_14.UITex	0	武器	弩		
+3285	wpn_tangm_15.UITex	0	武器	弩		
+3286	cute_01.UITex	0	防具	背部挂件		
+3287	system16.UITex	0	道具	系统		
+3288	skill_tangm_60.UITex	0	技能	唐门		
+3289	skill_tangm_61.UITex	0	技能	唐门		
+3290	skill_tangm_62.UITex	0	技能	唐门		
+3291	skill_tangm_63.UITex	0	技能	唐门		
+3292	skill_tangm_64.UITex	0	技能	唐门		
+3293	skill_tangm_65.UITex	0	技能	唐门		
+3294	huodong_mrt_01.UITex	0	道具	阅读		
+3295	huodong_mrt_02.UITex	0	道具	阅读		
+3296	huodong_mrt_03.UITex	0	道具	阅读		
+3297	huodong_mrt_04.UITex	0	道具	阅读		
+3298	huodong_mrt_05.UITex	0	道具	阅读		
+3299	huodong_mrt_06.UITex	0	道具	阅读		
+3300	huodong_mrt_07.UITex	0	道具	阅读		
+3301	huodong_mrt_08.UITex	0	道具	阅读		
+3302	huodong_mrt_09.UITex	0	道具	阅读		
+3303	huodong_mrt_10.UITex	0	道具	阅读		
+3304	huodong_mrt_11.UITex	0	道具	阅读		
+3305	huodong_mrt_12.UITex	0	道具	阅读		
+3306	huodong_mrt_13.UITex	0	道具	阅读		
+3307	huodong_mrt_14.UITex	0	道具	阅读		
+3308	huodong_mrt_15.UITex	0	道具	阅读		
+3309	huodong_mrt_16.UITex	0	道具	阅读		
+3310	huodong_mrt_17.UITex	0	道具	阅读		
+3311	huodong_mrt_18.UITex	0	道具	阅读		
+3312	skill_qg_01.UITex	0	技能	通用		
+3313	skill_qg_02.UITex	0	技能	通用		
+3314	skill_qg_03.UITex	0	技能	通用		
+3315	skill_qg_04.UITex	0	技能	通用		
+3316	skill_qg_05.UITex	0	技能	通用		
+3317	skill_qg_06.UITex	0	技能	通用		
+3318	skill_qg_07.UITex	0	技能	通用		
+3319	skill_qg_08.UITex	0	技能	通用		
+3320	skill_qg_09.UITex	0	技能	通用		
+3321	huodong_dz_01.UITex	0	任务特殊	活动相关		
+3322	huodong_dz_02.UITex	0	任务特殊	活动相关		
+3323	chongw_01.UITex	0	任务特殊	帮会活动		
+3324	chongw_02.UITex	0	任务特殊	帮会活动		
+3325	hanguo_01.UITex	0	道具	其他不可用		
+3326	huodong_mrt_19.UITex	0	道具	阅读		
+3327	huodong_mrt_20.UITex	0	道具	阅读		
+3328	huodong_mrt_21.UITex	0	道具	阅读		
+3329	bangh_tgs_01_1.UITex	0	任务特殊	帮会活动		
+3330	bangh_tgs_01_2.UITex	0	任务特殊	帮会活动		
+3331	bangh_tgs_02_1.UITex	0	任务特殊	帮会活动		
+3332	bangh_tgs_02_2.UITex	0	任务特殊	帮会活动		
+3333	bangh_tgs_03_1.UITex	0	任务特殊	帮会活动		
+3334	bangh_tgs_03_2.UITex	0	任务特殊	帮会活动		
+3335	bangh_tgs_04_1.UITex	0	任务特殊	帮会活动		
+3336	bangh_tgs_04_2.UITex	0	任务特殊	帮会活动		
+3337	bangh_tgs_05_1.UITex	0	任务特殊	帮会活动		
+3338	bangh_tgs_05_2.UITex	0	任务特殊	帮会活动		
+3339	bangh_tgs_06_1.UITex	0	任务特殊	帮会活动		
+3340	bangh_tgs_06_2.UITex	0	任务特殊	帮会活动		
+3341	bangh_tgs_07_1.UITex	0	任务特殊	帮会活动		
+3342	bangh_tgs_07_2.UITex	0	任务特殊	帮会活动		
+3343	bangh_tgs_08_1.UITex	0	任务特殊	帮会活动		
+3344	bangh_tgs_08_2.UITex	0	任务特殊	帮会活动		
+3345	bangh_tgs_09_1.UITex	0	任务特殊	帮会活动		
+3346	bangh_tgs_09_2.UITex	0	任务特殊	帮会活动		
+3347	bangh_tgs_10_1.UITex	0	任务特殊	帮会活动		
+3348	bangh_tgs_10_2.UITex	0	任务特殊	帮会活动		
+3349	bangh_tgs_11_1.UITex	0	任务特殊	帮会活动		
+3350	bangh_tgs_11_2.UITex	0	任务特殊	帮会活动		
+3351	bangh_tgs_12_1.UITex	0	任务特殊	帮会活动		
+3352	bangh_tgs_12_2.UITex	0	任务特殊	帮会活动		
+3353	bangh_tgs_13_1.UITex	0	任务特殊	帮会活动		
+3354	bangh_tgs_13_2.UITex	0	任务特殊	帮会活动		
+3355	bangh_tgs_14_1.UITex	0	任务特殊	帮会活动		
+3356	bangh_tgs_14_2.UITex	0	任务特殊	帮会活动		
+3357	bangh_tgs_15_1.UITex	0	任务特殊	帮会活动		
+3358	bangh_tgs_15_2.UITex	0	任务特殊	帮会活动		
+3359	bangh_tgs_16_1.UITex	0	任务特殊	帮会活动		
+3360	bangh_tgs_16_2.UITex	0	任务特殊	帮会活动		
+3361	bangh_tgs_17_1.UITex	0	任务特殊	帮会活动		
+3362	bangh_tgs_17_2.UITex	0	任务特殊	帮会活动		
+3363	bangh_tgs_18_1.UITex	0	任务特殊	帮会活动		
+3364	bangh_tgs_18_2.UITex	0	任务特殊	帮会活动		
+3365	bangh_tgs_19_1.UITex	0	任务特殊	帮会活动		
+3366	bangh_tgs_19_2.UITex	0	任务特殊	帮会活动		
+3367	bangh_tgs_20_1.UITex	0	任务特殊	帮会活动		
+3368	bangh_tgs_20_2.UITex	0	任务特殊	帮会活动		
+3369	bangh_tgs_21_1.UITex	0	任务特殊	帮会活动		
+3370	bangh_tgs_21_2.UITex	0	任务特殊	帮会活动		
+3371	bangh_tgs_22_1.UITex	0	任务特殊	帮会活动		
+3372	bangh_tgs_22_2.UITex	0	任务特殊	帮会活动		
+3373	bangh_tgs_23_1.UITex	0	任务特殊	帮会活动		
+3374	bangh_tgs_23_2.UITex	0	任务特殊	帮会活动		
+3375	bangh_tgs_24_1.UITex	0	任务特殊	帮会活动		
+3376	bangh_tgs_24_2.UITex	0	任务特殊	帮会活动		
+3377	bangh_tgs_25_1.UITex	0	任务特殊	帮会活动		
+3378	bangh_tgs_25_2.UITex	0	任务特殊	帮会活动		
+3379	bangh_tgs_26_1.UITex	0	任务特殊	帮会活动		
+3380	bangh_tgs_26_2.UITex	0	任务特殊	帮会活动		
+3381	bangh_tgs_27_1.UITex	0	任务特殊	帮会活动		
+3382	bangh_tgs_27_2.UITex	0	任务特殊	帮会活动		
+3383	biaoq_01.UITex	0	道具	任务特殊		
+3384	biaoq_02.UITex	0	道具	任务特殊		
+3385	biaoq_03.UITex	0	道具	任务特殊		
+3386	biaoq_04.UITex	0	道具	任务特殊		
+3387	biaoq_05.UITex	0	道具	任务特殊		
+3388	biaoq_06.UITex	0	道具	任务特殊		
+3389	jieri_01.UITex	0	任务特殊	活动相关		
+3390	jieri_02.UITex	0	任务特殊	活动相关		
+3391	jieri_03.UITex	0	任务特殊	活动相关		
+3392	jieri_04.UITex	0	任务特殊	活动相关		
+3393	jieri_05.UITex	0	任务特殊	活动相关		
+3394	jieri_06.UITex	0	任务特殊	活动相关		
+3395	jieri_07.UITex	0	任务特殊	活动相关		
+3396	skill_01.UITex	0	技能	通用		
+3397	skill_02.UITex	0	技能	通用		
+3398	skill_03.UITex	0	技能	通用		
+3399	skill_04.UITex	0	技能	通用		
+3400	skill_05.UITex	0	技能	通用		
+3401	skill_06.UITex	0	技能	通用		
+3402	skill_07.UITex	0	技能	通用		
+3403	skill_08.UITex	0	技能	通用		
+3404	skill_09.UITex	0	技能	通用		
+3405	skill_10.UITex	0	技能	通用		
+3406	skill_11.UITex	0	技能	通用		
+3407	skill_12.UITex	0	技能	通用		
+3408	skill_13.UITex	0	技能	通用		
+3409	skill_14.UITex	0	技能	通用		
+3410	skill_15.UITex	0	技能	通用		
+3411	skill_16.UITex	0	技能	通用		
+3412	skill_17.UITex	0	技能	通用		
+3413	skill_18.UITex	0	技能	通用		
+3414	skill_19.UITex	0	技能	通用		
+3415	skill_20.UITex	0	技能	通用		
+3416	skill_21.UITex	0	技能	通用		
+3417	skill_22.UITex	0	技能	通用		
+3418	skill_23.UITex	0	技能	通用		
+3419	skill_24.UITex	0	技能	通用		
+3420	skill_25.UITex	0	技能	通用		
+3421	skill_26.UITex	0	技能	通用		
+3422	skill_27.UITex	0	技能	通用		
+3423	skill_28.UITex	0	技能	通用		
+3424	skill_29.UITex	0	技能	通用		
+3425	skill_30.UITex	0	技能	通用		
+3426	skill_31.UITex	0	技能	通用		
+3427	skill_32.UITex	0	技能	通用		
+3428	skill_33.UITex	0	技能	通用		
+3429	skill_34.UITex	0	技能	通用		
+3430	skill_35.UITex	0	技能	通用		
+3431	skill_36.UITex	0	技能	通用		
+3432	skill_37.UITex	0	技能	通用		
+3433	skill_38.UITex	0	技能	通用		
+3434	skill_39.UITex	0	技能	通用		
+3435	skill_40.UITex	0	技能	通用		
+3436	skill_41.UITex	0	技能	通用		
+3437	skill_42.UITex	0	技能	通用		
+3438	skill_43.UITex	0	技能	通用		
+3439	skill_44.UITex	0	技能	通用		
+3440	skill_45.UITex	0	技能	通用		
+3441	skill_46.UITex	0	技能	通用		
+3442	skill_47.UITex	0	技能	通用		
+3443	skill_48.UITex	0	技能	通用		
+3444	skill_49.UITex	0	技能	通用		
+3445	skill_50.UITex	0	技能	通用		
+3446	skill_51.UITex	0	技能	通用		
+3447	skill_52.UITex	0	技能	通用		
+3448	skill_53.UITex	0	技能	通用		
+3449	skill_54.UITex	0	技能	通用		
+3450	skill_55.UITex	0	技能	通用		
+3451	skill_56.UITex	0	技能	通用		
+3452	skill_57.UITex	0	技能	通用		
+3453	skill_58.UITex	0	技能	通用		
+3454	skill_59.UITex	0	技能	通用		
+3455	skill_60.UITex	0	技能	通用		
+3456	kun_01.UITex	0	道具	药品		
+3457	kun_02.UITex	0	道具	药品		
+3458	kun_03.UITex	0	道具	药品		
+3459	kun_04.UITex	0	道具	药品		
+3460	kun_05.UITex	0	道具	药品		
+3461	kun_06.UITex	0	道具	药品		
+3462	kun_07.UITex	0	道具	药品		
+3463	kun_08.UITex	0	道具	药品		
+3464	kun_09.UITex	0	道具	药品		
+3465	kun_10.UITex	0	道具	药品		
+3466	kun_11.UITex	0	道具	药品		
+3467	kun_12.UITex	0	道具	药品		
+3468	kun_13.UITex	0	道具	药品		
+3469	kun_14.UITex	0	道具	药品		
+3470	kun_15.UITex	0	道具	药品		
+3471	kun_16.UITex	0	道具	药品		
+3472	kun_17.UITex	0	道具	药品		
+3473	kun_18.UITex	0	道具	药品		
+3474	kun_19.UITex	0	道具	药品		
+3475	kun_20.UITex	0	道具	药品		
+3476	kun_21.UITex	0	道具	药品		
+3477	kun_22.UITex	0	道具	药品		
+3478	kun_23.UITex	0	道具	药品		
+3479	kun_24.UITex	0	道具	药品		
+3480	kun_25.UITex	0	道具	药品		
+3481	kun_26.UITex	0	道具	药品		
+3482	jion_01.UITex	0	任务特殊	<未定义>		
+3483	jion_02.UITex	0	任务特殊	<未定义>		
+3484	jion_03.UITex	0	任务特殊	<未定义>		
+3485	jion_04.UITex	0	任务特殊	<未定义>		
+3486	jion_05.UITex	0	任务特殊	<未定义>		
+3487	jion_06.UITex	0	任务特殊	<未定义>		
+3488	jion_07.UITex	0	任务特殊	<未定义>		
+3489	jion_08.UITex	0	任务特殊	<未定义>		
+3490	def_lxl_001_01.UITex	0	防具	上衣		
+3491	def_lxl_001_02.UITex	0	防具	裤子		
+3492	def_lxl_001_03.UITex	0	防具	护臂		
+3493	def_lxl_001_04.UITex	0	防具	腰带		
+3494	def_lxl_001_05.UITex	0	防具	鞋		
+3495	def_lxl_001_06.UITex	0	防具	帽子		
+3496	def_tianyi_01.UITex	0	防具	上衣		
+3497	def_tianyi_02.UITex	0	防具	裤子		
+3498	def_tianyi_03.UITex	0	防具	护臂		
+3499	def_tianyi_04.UITex	0	防具	腰带		
+3500	def_tianyi_05.UITex	0	防具	鞋		
+3501	def_tianyi_06.UITex	0	防具	帽子		
+3502	extend_back_37.UITex	0	防具	背部挂件		
+3503	extend_back_38.UITex	0	防具	背部挂件		
+3504	extend_back_39.UITex	0	防具	背部挂件		
+3505	extend_back_40.UITex	0	防具	背部挂件		
+3506	extend_back_41.UITex	0	防具	背部挂件		
+3507	extend_waist_28.UITex	0	防具	腰部挂件		
+3508	extend_waist_29.UITex	0	防具	腰部挂件		
+3509	extend_waist_30.UITex	0	防具	腰部挂件		
+3510	extend_waist_31.UITex	0	防具	腰部挂件		
+3511	extend_waist_32.UITex	0	防具	腰部挂件		
+3512	Puzzle_cy_01.UITex	0	任务特殊	<未定义>		
+3513	Puzzle_cy_02.UITex	0	任务特殊	<未定义>		
+3514	Puzzle_cy_03.UITex	0	任务特殊	<未定义>		
+3515	Puzzle_cy_04.UITex	0	任务特殊	<未定义>		
+3516	Puzzle_cy_05.UITex	0	任务特殊	<未定义>		
+3517	Puzzle_cy_06.UITex	0	任务特殊	<未定义>		
+3518	Puzzle_cy_07.UITex	0	任务特殊	<未定义>		
+3519	Puzzle_cy_08.UITex	0	任务特殊	<未定义>		
+3520	Puzzle_cy_09.UITex	0	任务特殊	<未定义>		
+3521	Puzzle_qx_01.UITex	0	任务特殊	<未定义>		
+3522	Puzzle_qx_02.UITex	0	任务特殊	<未定义>		
+3523	Puzzle_qx_03.UITex	0	任务特殊	<未定义>		
+3524	Puzzle_qx_04.UITex	0	任务特殊	<未定义>		
+3525	Puzzle_qx_05.UITex	0	任务特殊	<未定义>		
+3526	Puzzle_qx_06.UITex	0	任务特殊	<未定义>		
+3527	Puzzle_qx_07.UITex	0	任务特殊	<未定义>		
+3528	Puzzle_qx_08.UITex	0	任务特殊	<未定义>		
+3529	Puzzle_qx_09.UITex	0	任务特殊	<未定义>		

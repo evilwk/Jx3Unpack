@@ -1,0 +1,5 @@
+TemplateID	Group	SkillID1	Level1	SkillID2	Level2	SkillID3	Level3	SkillID4	Level4	SkillID5	Level5	SkillID6	Level6	SkillID7	Level7	SkillID8	Level8
+0		0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+16174	3;	3368	1	3369	1	3370	1	0	0	0	0	0	0	0	0	0	0
+16175	2;	3360	1	3382	1												
+16176	2;	3360	1	3382	1												

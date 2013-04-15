@@ -1,0 +1,16 @@
+TitleRank	TitlePoint	Desc
+0	500	<Text>text="可购买230品紫色项链、腰坠和戒指" font=100 </text>
+1	2000	<Text>text="可购买230品紫色护腕" font=100 </text>
+2	5000	<Text>text="可购买230品紫色鞋子" font=100 </text>
+3	8000	<Text>text="可购买230品紫色腰带" font=100 </text>
+4	10000	<Text>text="可购买230品紫色下装" font=100 </text>
+5	12000	<Text>text="可购买230品紫色帽子" font=100 </text>
+6	15000	<Text>text="可购买230品紫色上衣" font=100 </text>
+7		<Text>text="可购买230品紫色近身武器、远程武器" font=100 </text>
+8		<Text>text="可购买255品紫色护腕" font=100 </text>
+9		<Text>text="可购买255品紫色鞋子" font=100 </text>
+10		<Text>text="可购买255品紫色腰带" font=100 </text>
+11		<Text>text="可购买255品紫色下装" font=100 </text>
+12		<Text>text="可购买255品紫色帽子" font=100 </text>
+13		<Text>text="可购买255品紫色上衣" font=100 </text>
+14		<Text>text="可购买255品紫色近身武器、远程武器" font=100 </text>

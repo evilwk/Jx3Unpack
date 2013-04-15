@@ -1,0 +1,17 @@
+nTalentID	ForceID	TalentName	TalentType	IconID	Image
+1	1	金刚	1	425	ui\Image\Talent\shaolin1.tga
+2	1	明王	2	429	ui\Image\Talent\shaolin2.tga
+3	2	墨艺	1	406	ui\Image\Talent\wanhua1.tga
+4	2	悬壶	2	412	ui\Image\Talent\wanhua2.tga
+5	3	斩绝	1	633	ui\Image\Talent\tiance1.tga
+6	3	封魂	2	632	ui\Image\Talent\tiance2.tga
+7	4	剑宗	1	619	ui\Image\Talent\chunyang1.tga
+8	4	气宗	2	627	ui\Image\Talent\chunyang2.tga
+9	5	拥雪	1	888	ui\Image\Talent\qixiu1.tga
+10	5	蝶舞	2	887	ui\Image\Talent\qixiu2.tga
+11	6	百蛊	1	2766	ui\Image\Talent\wudu1.tga
+12	6	织天	2	2767	ui\Image\Talent\wudu2.tga
+15	7	落星	1	3165	ui\Image\Talent\tangmen1.tga
+16	7	天机	2	3184	ui\Image\Talent\tangmen2.tga
+13	8	行舟	1	2376	ui\Image\Talent\cangjian1.tga
+14	8	枫晚	2	2377	ui\Image\Talent\cangjian2.tga

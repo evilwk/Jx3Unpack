@@ -1,0 +1,15 @@
+ID	Name	RecipeTabPath
+1	采金	
+2	神农	
+3	庖丁术	
+4	烹饪	/ui/Scheme/Case/recipe/cooking.tab
+5	缝纫	/ui/Scheme/Case/recipe/tailoring.tab
+6	铸造	/ui/Scheme/Case/recipe/founding.tab
+7	医术	/ui/Scheme/Case/recipe/medicine.tab
+8	读书	
+9	附魔	
+10	神农	
+11	采金	
+12	抄录	
+13	装备拆解	
+100	挖宝	

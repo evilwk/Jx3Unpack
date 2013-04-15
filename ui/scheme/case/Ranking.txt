@@ -1,0 +1,18 @@
+ID	Type	Name	key	ValueName	Desc
+0	0				
+200	0	名士五十强	Rank_Role_Repute	总声望	<text>text="总声望\\\n" font=27</text><text>text="个人积累的江湖中各种势力的声望点数总和排名。" font=18</text>
+201	0	老江湖五十强	Rank_Role_Achievement	江湖资历	<text>text="江湖资历\\\n" font=27</text><text>text="隐元秘鉴中积累的江湖资历总数排名" font=18</text>
+202	0	兵甲藏家五十强	Rank_Role_EquipmentPoint	装备总分	<text>text="装备总分\\\n" font=27</text><text>text="个人身上所有装备，按照装备部位及装备品质的总积分排名。" font=18</text>
+203	0	名师五十强	Rank_Role_MentorValue	师徒值	<text>text="师徒值\\\n" font=27</text><text>text="个人作为师傅拥有的师徒值总分数，包括已经转换成帮贡的。" font=18</text>
+204	0	阵营英雄五十强	Rank_Role_Prestige	战阶积分	<text>text="战阶积分\\\n" font=27</text><text>text="个人一周获得的战阶积分总和。" font=18</text>
+205	0	薪火相传五十强	Rank_Role_ItemMentor	薪火点	<text>text="薪火点\\\n" font=27</text><text>text="师父一周内给予徒弟装备的商店帮贡售价总积分排名。" font=18</text>
+206	1	神兵宝甲五十强	Rank_Tong_Good_EquipmentPoint	装备总分	<text>text="装备总分\\\n" font=27</text><text>text="统计帮会中所有帮众身上的装备品质，并换算成积分的排名。" font=18</text>
+207	1	爱心帮会五十强	Rank_Tong_Good_MentorValue	师徒值	<text>text="师徒值\\\n" font=27</text><text>text="统计帮会中所有当师傅的成员的师徒值总分，包括已经转换成帮贡的部分。" font=18</text>
+208	1	阵营英雄五十强	Rank_Tong_Good_Prestige	战阶积分	<text>text="战阶积分\\\n" font=27</text><text>text="统计帮会中所有加入阵营的成员，当周获得的战阶积分总和。" font=18</text>
+209	1	神兵宝甲五十强	Rank_Tong_Evil_EquipmentPoint	装备总分	<text>text="装备总分\\\n" font=27</text><text>text="统计帮会中所有帮众身上的装备品质，并换算成积分的排名。" font=18</text>
+210	1	爱心帮会五十强	Rank_Tong_Evil_MentorValue	师徒值	<text>text="师徒值\\\n" font=27</text><text>text="统计帮会中所有当师傅的成员的师徒值总分，包括已经转换成帮贡的部分。" font=18</text>
+211	1	阵营英雄五十强	Rank_Tong_Evil_Prestige	战阶积分	<text>text="战阶积分\\\n" font=27</text><text>text="统计帮会中所有加入阵营的成员，当周获得的战阶积分总和。" font=18</text>
+212	1	爱心帮会十强	Rank_Tong_Neutral_MentorValue	师徒值	<text>text="师徒值\\\n" font=27</text><text>text="统计帮会中所有当师傅的成员的师徒值总分，包括已经转换成帮贡的部分。" font=18</text>
+213	2	名剑大会2对2排名	Arena_2V2	积分	<text>text="名剑队积分\\\n" font=27</text>
+214	2	名剑大会3对3排名	Arena_3V3	积分	<text>text="名剑队积分\\\n" font=27</text>
+215	2	名剑大会5对5排名	Arena_5V5	积分	<text>text="名剑队积分\\\n" font=27</text>

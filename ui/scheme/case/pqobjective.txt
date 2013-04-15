@@ -1,0 +1,14 @@
+PQTemplateID	Objective0	Objective1	Objective2	Objective3	Objective4	Objective5	Objective6	Objective7
+0								
+1	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=10</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=11</image><text>text="    " font=70</text>						
+8	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=7</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=5</image><text>text="    " font=70</text>						
+11	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=10</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=11</image><text>text="    " font=70</text>						
+12	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=7</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=5</image><text>text="    " font=70</text>						
+15	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=10</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=11</image><text>text="    " font=70</text>						
+16	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=10</image><text>text="积分" font=76</text>							
+17	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=10</image><text>text="积分" font=76</text>							
+18	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=7</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=5</image><text>text="    " font=70</text>						
+19	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=10</image><text>text="积分" font=76</text>							
+20	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=10</image><text>text="积分" font=76</text>							
+27	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=7</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=5</image><text>text="    " font=70</text>						
+30	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=7</image><text>text="    " font=76</text>	<image>path="UI/Image/UICommon/CommonPanel2.UITex" frame=5</image><text>text="    " font=70</text>						

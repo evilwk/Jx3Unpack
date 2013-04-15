@@ -1,0 +1,88 @@
+script	kingsoft	exp	snda
+	1	1	1
+\ui\script\base.lua			
+\ui\script\VivnDetails.lua
+\ui\script\customdata.lua			
+\ui\string\string.lua			
+\ui\string\gluestring.lua			
+\ui\string\url.lua		0	0
+\ui\string\phone.lua			0
+\ui\string\eulastring.lua			0
+\ui\traits\exp\string\url.lua	0		0
+\ui\traits\snda\string\url.lua	0	0	
+\ui\traits\snda\string\phone.lua	0	0	
+\ui\traits\snda\string\eulastring.lua	0	0	
+\ui\traits\snda\script\exit_popup.lua	0	0	
+\ui\string\expressionstring.lua			
+\ui\string\loadstring.lua			
+\ui\string\toturstring.lua			
+\ui\string\hotkeystring.lua			
+\ui\string\reputationstring.lua			
+\ui\string\dungeonstring.lua			
+\ui\String\BreakthroughQuest.lua			
+\ui\script\config.lua			
+\ui\script\animation.lua			
+\ui\script\setting.lua			
+\ui\script\table.lua			
+\ui\script\class.lua			
+\ui\script\macro.lua			
+\ui\script\enum_ui.lua			
+\ui\script\enum_gameworld.lua			
+\ui\script\common.lua			
+\ui\script\login.lua			
+\ui\script\tip.lua			
+\ui\script\autotip.lua			
+\ui\script\messagebox.lua			
+\ui\script\uishell.lua			
+\ui\script\popupmenu.lua			
+\ui\script\bulletin.lua			
+\ui\script\helper.lua			
+\ui\script\autowndpos.lua			
+\ui\script\remotecommand.lua			
+\ui\script\DataAnalysis.lua			
+\ui\script\scroll.lua			
+\ui\string\auctionstring.lua			
+\ui\script\preloadimage.lua			
+\ui\config\default\popupmenupanel.lua			
+\ui\config\default\Keyboard.lua			
+\ui\config\default\loadingpanel.lua			
+\ui\config\default\logindeleterole.lua			
+\ui\config\default\loginwaiting.lua			
+\ui\config\default\loginlogo.lua			
+\ui\config\default\loginpassword.lua			
+\ui\config\default\loginsinglerole.lua			
+\ui\config\default\loginrolelist.lua			
+\ui\config\default\loginserverlist.lua			
+\ui\config\default\logincustomrole.lua			
+\ui\config\default\logincustomrolenext.lua			
+\ui\config\default\loginmessage.lua			
+\ui\config\default\logindeleterole.lua			
+\ui\script\TextFilter.lua			
+\ui\script\EmotionCommand.lua			
+\ui\config\default\loginaddonmgr.lua			
+\ui\config\default\PluginsWarning.lua			
+\ui\script\hotkeys.lua			
+\ui\config\default\loginswordlogo.lua			
+\ui\script\eula.lua			
+\ui\script\name.lua			
+\ui\script\sfx.lua			
+\ui\config\default\eulapanel.lua			
+\ui\config\default\queue.lua			
+\ui\config\default\exitpanel.lua			
+\ui\config\default\droplinepanel.lua			
+\ui\script\jianghuwordcommand.lua			
+\ui\config\default\moviepanel.lua			
+\ui\config\default\internetexplorer.lua			
+\ui\config\default\SecurityCard.lua			
+\ui\config\default\LoginWaitServerList.lua			
+\ui\string\Credits.lua			
+\ui\config\default\CreditsPanel.lua			
+\ui\config\default\LoginRename.lua			
+\ui\config\default\LoginTokenPanel.lua			
+\scripts\skill\include\SkillLearn.lh			
+\scripts\Include\SkillRecipe.lh			
+\scripts\skill\Ìì¸³\TalentTab.lua			
+\ui\script\Talent.lua			
+\ui\String\EquipInquireString.lua			
+\ui\script\followmodule.lua			
+\ui\config\default\CGSelectPanel.lua			

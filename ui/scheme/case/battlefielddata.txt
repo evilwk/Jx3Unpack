@@ -1,0 +1,11 @@
+nType	szDesc	szImage	nFrame	szTip
+0	默认		-1	默认
+0	旗帜	ui/Image/Minimap/Minimap.UITex	202	
+1	密探	ui/Image/Minimap/Minimap.UITex	200	
+2	尸将	ui/Image/Minimap/Minimap.UITex	200	
+3	宝箱	ui/Image/Minimap/Minimap.UITex	162	
+4	灰色旗帜	ui/Image/Minimap/Minimap.UITex	247	
+5	红色旗帜	ui/Image/Minimap/Minimap.UITex	202	
+6	蓝色旗帜	ui/Image/Minimap/Minimap.UITex	246	
+7	恶人镖车	ui/Image/Minimap/Minimap.UITex	243	
+8	浩气镖车	ui/Image/Minimap/Minimap.UITex	244	

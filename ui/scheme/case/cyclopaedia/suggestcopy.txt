@@ -1,0 +1,44 @@
+nLevel	dwCopyID1	dwCopyID2	dwCopyID3	dwCopyID4	dwCopyID5	dwCopyID6	dwCopyID7	dwCopyID8	dwCopyID9	dwCopyID10	dwCopyID11	dwCopyID12	dwCopyID13	dwCopyID14	dwCopyID15	dwCopyID16	dwCopyID17	dwCopyID18	dwCopyID19	dwCopyID20
+0	0	0	0	0	0	0	0	0	0	0										
+18	51																			
+19	51																			
+20	51	116																		
+21	51	116																		
+22	51	116																		
+23	51	116																		
+24	20	¡¡	¡¡																	
+25	20	17	123																	
+26	20	17	19																	
+27	20	17	19																	
+28	17	19																		
+29	19	¡¡																		
+32	14																			
+33	14																			
+34	14																			
+35	14																			
+40	18																			
+41	18																			
+42	18																			
+43	18																			
+46	26																			
+47	26																			
+48	26	28																		
+49	26	28	34																	
+50	26	28	34																	
+56	33																			
+57	33																			
+58	33																			
+59	33																			
+60	33																			
+61	33																			
+62	33																			
+63	33																			
+71	106	107																		
+72	106	107																		
+73	107	71																		
+74	71																			
+75	71	110																		
+76	110																			
+77	110	75																		
+78	75																			
+79	75																			
