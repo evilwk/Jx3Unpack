@@ -1,7 +1,7 @@
 local INI_FILE_PATH = "UI/Config/Default/AuctionItem.ini"
 local MAX_SELL_INFO_CACHE_SIZE = 60
-local PRICE_LIMITED = 2000000000
-local MAX_BID_PRICE = 999999999
+local PRICE_LIMITED = PackMoney(800000, 0, 0)
+local NO_BID_PRICE  = PackMoney(9000000, 0, 0)
 local REQUEST_DATA_COUTN  = 50
 local EXPAND_ITEM_TYPE = {}
 local tInfoRequesting = {}
@@ -123,26 +123,30 @@ function AuctionPanel.OnFrameCreate()
 
 	AuctionPanel.Init(this)
 
-	InitFrameAutoPosInfo(this, 1, nil, nil, function() CloseAuctionPanel(true) end)
+	InitFrameAutoPosInfo(this, 1, nil, nil, function() AuctionPanel.Close(true) end)
+	
+	BlackMarket.OnFrameCreate()
 end
 
 function AuctionPanel.OnFrameBreathe()
 	local player = GetClientPlayer()
 	if not player or player.nMoveState == MOVE_STATE.ON_DEATH then
-		CloseAuctionPanel()
+		AuctionPanel.Close()
 		return
 	end
 
     if AuctionPanel.dwTargetType == TARGET.NPC then
 		local npc = GetNpc(AuctionPanel.dwTargetID)
 		if not npc or not npc.CanDialog(player) then
-			CloseAuctionPanel()
+			AuctionPanel.Close()
 			return
 		end
 	end
+	BlackMarket.OnFrameBreathe()
 end
 
 function AuctionPanel.OnEvent(szEvent)
+	BlackMarket.OnEvent(szEvent)
 	if szEvent == "AUCTION_LOOKUP_RESPOND" then
 		local szDataType = ""
 		for k, v in pairs(tItemDataInfo) do
@@ -153,7 +157,7 @@ function AuctionPanel.OnEvent(szEvent)
 		end
 
 		if szDataType == "" then
-			Trace("KLUA[ERROR] ui/Config/Default/AuctionPanel.lua arg1 is error!!\n")
+			Log("KLUA[ERROR] ui/Config/Default/AuctionPanel.lua arg1 is error!!\n")
 			return
 		end
 		AuctionPanel.UnLockOperate(this, szDataType)
@@ -169,12 +173,13 @@ function AuctionPanel.OnEvent(szEvent)
 	elseif szEvent == "AUCTION_SELL_RESPOND" then
 		if arg0 == AUCTION_RESPOND_CODE.SUCCEED then
 			local hBox = this:Lookup("PageSet_Totle/Page_Auction/Wnd_Sale", "Box_Item")
-			local nBidPrice = math.floor(hBox.nBidPrice / hBox.nCount)
-			local nBuyPrice = math.floor(hBox.nBuyPrice / hBox.nCount)
-			if hBox.nBuyPrice == PRICE_LIMITED then
-				nBuyPrice = 0
+			local tBidPrice = MoneyOptDiv(hBox.tBidPrice, hBox.nCount)
+			local tBuyPrice = MoneyOptDiv(hBox.tBuyPrice, hBox.nCount)
+			if MoneyOptCmp(hBox.tBuyPrice, NO_BID_PRICE) == 0 then
+				tBuyPrice = FormatMoneyTab(0)
 			end
-			AuctionPanel.UpdateItemSellInfo(hBox.szName, nBidPrice, nBuyPrice, hBox.szTime)
+			
+			AuctionPanel.UpdateItemSellInfo(hBox.szName, tBidPrice, tBuyPrice, hBox.szTime)
 			
 			AuctionPanel.ClearBox(hBox)
 
@@ -263,6 +268,20 @@ function AuctionPanel.Init(frame)
 	ShowSortImage(hWndBid, "Bid")
 	ShowSortImage(hWndAct, "Sell")
 	
+		
+	do
+		RegisterScrollEvent("AuctionPanel")
+		
+		UnRegisterScrollAllControl("AuctionPanel")
+			
+		local szFramePath = "Normal/AuctionPanel"
+		local szWndPath = "PageSet_Totle/Page_Contraband/Wnd_Contraband"
+		RegisterScrollControl(
+			szFramePath, 
+			szWndPath.."/Btn_CUp", szWndPath.."/Btn_CDown", 
+			szWndPath.."/ScrollBar_C", 
+			{szWndPath, "Handle_CList"})
+	end
 	frame.bIniting = false
 end
 
@@ -325,7 +344,7 @@ function AuctionPanel.UpdateItemList(frame, szDataType, tItemInfo)
 			local hItem = hList:AppendItemFromIni(INI_FILE_PATH, szItem)
 			AuctionPanel.SetSaleInfo(hItem, szDataType, v)
 		else
-			Trace("KLUA[ERROR] ui/Config/Default/AuctionPanel.lua UpdateItemList item is nil!!\n")
+			Log("KLUA[ERROR] ui/Config/Default/AuctionPanel.lua UpdateItemList item is nil!!\n")
 		end
 	end
 	AuctionPanel.OnUpdateItemList(hList, szDataType, true)
@@ -386,8 +405,8 @@ function AuctionPanel.UpateShowInfo(frame)
 	end
 
 	local bDefault = false
-	if szType == "Search" and  tInfoRequesting.nPrice < hItem.nBuyPrice then
-		hItem.nBidPrice = tInfoRequesting.nPrice
+	if szType == "Search" and MoneyOptCmp(tInfoRequesting.tPrice, hItem.tBuyPrice) < 0 then
+		hItem.tBidPrice = tInfoRequesting.tPrice
 		hItem.szBidderName = GetClientPlayer().szName
 	else
 		hList:RemoveItem(nDelID)
@@ -423,13 +442,17 @@ function AuctionPanel.SetSaleInfo(hItem, szDataType, tItemData)
 	local hTextSaler = hItem:Lookup(tInfo.Saler)
 
 	hBox.nItemID = item.dwID
+	hItem.nItemID = item.dwID
 	hItem.nSaleID = tItemData["ID"]
 	hItem.nCRC = tItemData["CRC"]
 	hItem.szItemName = GetItemNameByItem(item)
 	hItem.szBidderName = tItemData["BidderName"] or ""
-	hItem.nBidPrice = tonumber(tItemData["Price"])
-	hItem.nBuyPrice = tonumber(tItemData["BuyItNowPrice"])
-
+	hItem.tBidPrice = tItemData["Price"]
+	hItem.tBuyPrice = tItemData["BuyItNowPrice"]
+	
+	if MoneyOptCmp(hItem.tBuyPrice, 0) == 0 then
+		hItem.tBuyPrice = NO_BID_PRICE
+	end
 	local nCount = 1
 	if item.nGenre == ITEM_GENRE.EQUIPMENT then
 		if item.nSub == EQUIPMENT_SUB.ARROW then --Ô¶³ÌÎäÆ÷
@@ -450,7 +473,7 @@ function AuctionPanel.SetSaleInfo(hItem, szDataType, tItemData)
 
 	hBox:SetObject(UI_OBJECT_ITEM_INFO, item.nVersion, item.dwTabType, item.dwIndex)
 	hBox:SetObjectIcon(nIconID)
-	UpdateItemBoxExtend(hBox, item)
+	UpdateItemBoxExtend(hBox, item.nGenre, item.nQuality, item.nStrengthLevel)
 	hBox:SetOverTextPosition(0, ITEM_POSITION.RIGHT_BOTTOM)
 	hBox:SetOverTextFontScheme(0, 15)
 
@@ -467,13 +490,13 @@ function AuctionPanel.SetSaleInfo(hItem, szDataType, tItemData)
 		hTextSaler:SetText(tItemData["SellerName"])
 	end
 
-	local nGold, nSliver, nCopper = MoneyToGoldSilverAndCopper(hItem.nBidPrice)
+	local nGold, nSliver, nCopper = UnpackMoney(hItem.tBidPrice)
 	hItem:Lookup(tInfo.aBidText[1]):SetText(nGold)
 	hItem:Lookup(tInfo.aBidText[2]):SetText(nSliver)
 	hItem:Lookup(tInfo.aBidText[3]):SetText(nCopper)
 
-	if hItem.nBuyPrice ~= PRICE_LIMITED then
-		nGold, nSliver, nCopper = MoneyToGoldSilverAndCopper(hItem.nBuyPrice)
+	if MoneyOptCmp(hItem.tBuyPrice, NO_BID_PRICE) ~= 0 then
+		nGold, nSliver, nCopper = UnpackMoney(hItem.tBuyPrice)
 		hItem:Lookup(tInfo.aBuyText[1]):SetText(nGold)
 		hItem:Lookup(tInfo.aBuyText[2]):SetText(nSliver)
 		hItem:Lookup(tInfo.aBuyText[3]):SetText(nCopper)
@@ -502,13 +525,13 @@ function AuctionPanel.UpdateItemPriceInfo(hList, szDataType)
 
 	for i=0, nCount-1, 1 do
 		local hItem = hList:Lookup(i)
-		local nBidPrice = hItem.nBidPrice
-		local nBuyPrice = hItem.nBuyPrice
+		local tBidPrice = hItem.tBidPrice
+		local tBuyPrice = hItem.tBuyPrice
 
 		local hTextBid = hItem:Lookup(tInfo.aBidText[4])
 		if bUnitPrice then
-			nBidPrice = math.floor(hItem.nBidPrice / hItem.nCount)
-			nBuyPrice = math.floor(hItem.nBuyPrice / hItem.nCount)
+			tBidPrice = MoneyOptDiv(hItem.tBidPrice, hItem.nCount)
+			tBuyPrice = MoneyOptDiv(hItem.tBuyPrice, hItem.nCount)
 
 			if szDataType == "Search" then
 				if hItem.szBidderName == "" then
@@ -524,7 +547,7 @@ function AuctionPanel.UpdateItemPriceInfo(hList, szDataType)
 				hTextBid:SetText(g_tAuctionString.STR_AUCTION_UNIT_PRICE)
 			end
 
-			if hItem.nBuyPrice ~= PRICE_LIMITED then
+			if MoneyOptCmp(hItem.tBuyPrice, NO_BID_PRICE) ~= 0 then
 				hItem:Lookup(tInfo.aBuyText[4]):SetText(g_tAuctionString.STR_AUCTION_UNIT_PRICE)
 			end
 		else
@@ -542,18 +565,18 @@ function AuctionPanel.UpdateItemPriceInfo(hList, szDataType)
 				hTextBid:SetText("")
 			end
 
-			if hItem.nBuyPrice ~= PRICE_LIMITED then
+			if MoneyOptCmp(hItem.tBuyPrice, NO_BID_PRICE) ~= 0 then
 				hItem:Lookup(tInfo.aBuyText[4]):SetText("")
 			end
 		end
 
-		local nGold, nSliver, nCopper = MoneyToGoldSilverAndCopper(nBidPrice)
+		local nGold, nSliver, nCopper = UnpackMoney(tBidPrice)
 		hItem:Lookup(tInfo.aBidText[1]):SetText(nGold)
 		hItem:Lookup(tInfo.aBidText[2]):SetText(nSliver)
 		hItem:Lookup(tInfo.aBidText[3]):SetText(nCopper)
 
-		if hItem.nBuyPrice ~= PRICE_LIMITED then
-			nGold, nSliver, nCopper = MoneyToGoldSilverAndCopper(nBuyPrice)
+		if MoneyOptCmp(hItem.tBuyPrice, NO_BID_PRICE) ~= 0 then
+			nGold, nSliver, nCopper = UnpackMoney(tBuyPrice)
 			hItem:Lookup(tInfo.aBuyText[1]):SetText(nGold)
 			hItem:Lookup(tInfo.aBuyText[2]):SetText(nSliver)
 			hItem:Lookup(tInfo.aBuyText[3]):SetText(nCopper)
@@ -574,25 +597,30 @@ function AuctionPanel.UpdateSelectedInfo(frame, szDataType, bDefault)
 		local hItem = AuctionPanel.GetSelectedItem(hList)
 		if hItem then
 			local player = GetClientPlayer()
-			local nMoney = player.GetMoney()
+			local tMoney = player.GetMoney()
 
-			if nMoney >= hItem.nBuyPrice then
+			if MoneyOptCmp(tMoney, hItem.tBuyPrice) >= 0 then
 				btnBuy:Enable(true)
 			else
 				btnBuy:Enable(false)
 			end
-			local nBidPrice = 0
+			
+			if MoneyOptCmp(NO_BID_PRICE, hItem.tBuyPrice) == 0 then
+				btnBuy:Enable(false)
+			end
+			
+			local tBidPrice = FormatMoneyTab(0)
 			local nGold, nSilver, nCopper = 0, 0, 0
 
 			if bDefault then
-				nBidPrice = hItem.nBidPrice
+				tBidPrice = hItem.tBidPrice
 				if hItem.szBidderName ~= "" then
-					nBidPrice = nBidPrice + 10
+					tBidPrice = MoneyOptAdd(tBidPrice, 10)
 				end
-				if nBidPrice > MAX_BID_PRICE then
-					nBidPrice = MAX_BID_PRICE
+				if MoneyOptCmp(tBidPrice, PRICE_LIMITED) > 0 then
+					tBidPrice = PRICE_LIMITED
 				end
-				nGold, nSilver, nCopper = MoneyToGoldSilverAndCopper(nBidPrice)
+				nGold, nSilver, nCopper = UnpackMoney(tBidPrice)
 				editBG:SetText(nGold)
 				editBS:SetText(nSilver)
 				editBC:SetText(nCopper)
@@ -600,11 +628,11 @@ function AuctionPanel.UpdateSelectedInfo(frame, szDataType, bDefault)
 				nGold = FormatMoney(editBG)
 				nSilver = FormatMoney(editBS)
 				nCopper = FormatMoney(editBC)
-				nBidPrice = GoldSilverAndCopperToMoney(nGold, nSilver, nCopper)
+				tBidPrice = PackMoney(nGold, nSilver, nCopper)
 			end
 
-			local nNeedPrice = hItem.nBidPrice
-			if nMoney >= nBidPrice and nBidPrice >= nNeedPrice then
+			local nNeedPrice = hItem.tBidPrice
+			if MoneyOptCmp(tMoney, tBidPrice) >= 0 and MoneyOptCmp(tBidPrice, nNeedPrice) >= 0 then
 				btnBid:Enable(true)
 			else
 				btnBid:Enable(false)
@@ -626,10 +654,14 @@ function AuctionPanel.UpdateSelectedInfo(frame, szDataType, bDefault)
 		local hItem = AuctionPanel.GetSelectedItem(hList)
 		if hItem then
 			local player = GetClientPlayer()
-			local nMoney = player.GetMoney()
-			if nMoney >= hItem.nBuyPrice then
+			local tMoney = player.GetMoney()
+			if MoneyOptCmp(tMoney, hItem.tBuyPrice) >= 0 then
 				btnBuy:Enable(true)
 			else
+				btnBuy:Enable(false)
+			end
+			
+			if MoneyOptCmp(NO_BID_PRICE, hItem.tBuyPrice) == 0 then
 				btnBuy:Enable(false)
 			end
 		else
@@ -711,49 +743,59 @@ function AuctionPanel.UpdateSaleInfo(frame, bDefault)
 		end
 
 		local szName = item.szName
-		local nBidPrice = 1
-		local nBuyPrice = 0
+		local tBidPrice = PackMoney(0, 0, 1)
+		local tBuyPrice = FormatMoneyTab(0)
 		if bDefault then
 			local tItemInfo = AuctionPanel.GetItemSellInfo(szName)
 			if tItemInfo then
-				nBidPrice = tonumber(tItemInfo.nBidPrice) * box.nCount
-				nBuyPrice = tonumber(tItemInfo.nBuyPrice) * box.nCount
+				tBidPrice = MoneyOptMult(tItemInfo.tBidPrice, box.nCount)
+				tBuyPrice = MoneyOptMult(tItemInfo.tBuyPrice, box.nCount)
+				
+				if MoneyOptCmp(tBidPrice, PRICE_LIMITED) > 0 then
+					tBidPrice = clone(PRICE_LIMITED)
+				end
+				
+				if MoneyOptCmp(tBuyPrice, PRICE_LIMITED) > 0 then
+					tBuyPrice = clone(PRICE_LIMITED)
+				end
+				
 				textTime:SetText(tItemInfo.szTime)
 			else
 				if item.bCanTrade then
-					nBidPrice = item.nPrice * box.nCount * 2
+					tBidPrice = FormatMoneyTab(item.nPrice * box.nCount * 2)
 				else
-					nBidPrice = box.nCount * 100
+					tBidPrice = FormatMoneyTab(box.nCount * 100)
 				end
 				textTime:SetText(g_tAuctionString.STR_DEFAULT_TIME)
 			end
-
-			local nGold, nSilver, nCopper = MoneyToGoldSilverAndCopper(nBidPrice)
+			
+			local nGold, nSilver, nCopper = UnpackMoney(tBidPrice)
 			editOPG:SetText(nGold)
 			editOPS:SetText(nSilver)
 			editOPC:SetText(nCopper)
 
-			nGold, nSilver, nCopper = MoneyToGoldSilverAndCopper(nBuyPrice)
+			nGold, nSilver, nCopper = UnpackMoney(tBuyPrice)
 			editPG:SetText(nGold)
 			editPS:SetText(nSilver)
 			editPC:SetText(nCopper)
 		end
 
-		if nBuyPrice == 0 then
-			nBuyPrice = PRICE_LIMITED
+		if MoneyOptCmp(tBuyPrice, 0) == 0 then
+			tBuyPrice = NO_BID_PRICE
 		end
 
 		local nTime = tonumber(string.sub(textTime:GetText(),1,2))
-		local nSaveCost = 10
+		local tSaveCost = PackMoney(0, 0, 10)
 		if item.bCanTrade then
-			nSaveCost = math.floor(item.nPrice * box.nCount * nTime / 12 * 0.4 )
-			if nSaveCost < 10 then
-				nSaveCost = 10
+				--math.floor(item.nPrice * box.nCount * nTime / 12 * 0.4 )
+			tSaveCost = MoneyOptDiv(MoneyOptMult(item.nPrice, box.nCount * nTime * 2), 12 * 5)
+			if MoneyOptCmp(tSaveCost, 10) < 0 then
+				tSaveCost = PackMoney(0, 0, 10)
 			end
 		end
-
-		local nMoney = GetClientPlayer().GetMoney()
-		if nMoney >= nSaveCost then
+		
+		local tMoney = GetClientPlayer().GetMoney()
+		if MoneyOptCmp(tMoney, tSaveCost) >= 0 then
 			btnSale.bSave = true
 			btnSale:Enable(btnSale.bPrice)
 		else
@@ -761,12 +803,12 @@ function AuctionPanel.UpdateSaleInfo(frame, bDefault)
 			btnSale:Enable(false)
 		end
 
-		nGold, nSilver, nCopper = MoneyToGoldSilverAndCopper(nSaveCost)
+		nGold, nSilver, nCopper = UnpackMoney(tSaveCost)
 		textCG:SetText(nGold)
 		textCS:SetText(nSilver)
 		textCC:SetText(nCopper)
 
-		nGold, nSilver, nCopper = MoneyToGoldSilverAndCopper(math.floor(nBidPrice/box.nCount))
+		nGold, nSilver, nCopper = UnpackMoney(MoneyOptDiv(tBidPrice, box.nCount))
 		textUPG:SetText(nGold)
 		textUPS:SetText(nSilver)
 		textUPC:SetText(nCopper)
@@ -856,6 +898,9 @@ function AuctionPanel.ApplyLookup(frame, szReqestType, nSortType, szKey, nStart,
 	local nBidderID = 0
 	local nSellerID = 0
 	local bUnitPrice = false
+	local nGold = 0
+	local nSliver = 0
+	local nCopper = 0
 	
 	if nStart < 1 then
 		nStart = 1
@@ -875,10 +920,9 @@ function AuctionPanel.ApplyLookup(frame, szReqestType, nSortType, szKey, nStart,
 			nMaxLevel = tonumber(tSearchInfo["Level"][2])
 		end
 
-		local nGold   = FormatMoney(tSearchInfo["MaxPrice"][1], true)
-		local nSliver = FormatMoney(tSearchInfo["MaxPrice"][2], true)
-		local nCopper = FormatMoney(tSearchInfo["MaxPrice"][3], true)
-		nMaxPrice = GoldSilverAndCopperToMoney(nGold, nSliver, nCopper)
+		nGold   = FormatMoney(tSearchInfo["MaxPrice"][1], true)
+		nSliver = FormatMoney(tSearchInfo["MaxPrice"][2], true)
+		nCopper = FormatMoney(tSearchInfo["MaxPrice"][3], true)
 
 		if EXPAND_ITEM_TYPE.szType then
 			nSort = g_tAuctionString.tSearchSort[EXPAND_ITEM_TYPE.szType].nSortID or 0
@@ -918,8 +962,9 @@ function AuctionPanel.ApplyLookup(frame, szReqestType, nSortType, szKey, nStart,
 		bUnitPrice = 0
 	end
 	assert(tItemDataInfo[szReqestType].nRequestID)
+	
 	local AuctionClient = GetAuctionClient()
-	AuctionClient.ApplyLookup(AuctionPanel.dwTargetID, tItemDataInfo[szReqestType].nRequestID, szItemName, nSort, nSubSort, nMinLevel, nMaxLevel, nQuality, szSellerName, nSellerID, nBidderID, nMaxPrice, nAuction, nStart - 1, nSortType, bDesc, bUnitPrice)
+	AuctionClient.ApplyLookup(AuctionPanel.dwTargetID, tItemDataInfo[szReqestType].nRequestID, szItemName, nSort, nSubSort, nMinLevel, nMaxLevel, nQuality, szSellerName, nSellerID, nBidderID, nGold, nSliver, nCopper, nAuction, nStart - 1, nSortType, bDesc, bUnitPrice)
 
 	AuctionPanel.LockOperate(frame, szReqestType)
 end
@@ -958,16 +1003,16 @@ function AuctionPanel.AuctionBid(hItem)
 	
     local hWnd = hItem:GetParent():GetParent():GetParent()
 	local nGold = FormatMoney(hWnd:Lookup("Edit_BidGold"))
-	local nSliver = FormatMoney(hWnd:Lookup("Edit_BidSilver"))
+	local nSilver = FormatMoney(hWnd:Lookup("Edit_BidSilver"))
 	local nCopper = FormatMoney(hWnd:Lookup("Edit_BidCopper"))
-	local nPrice = GoldSilverAndCopperToMoney(nGold, nSliver, nCopper)
+	local tPrice = PackMoney(nGold, nSilver, nCopper)
 
-	local nNeedPrice = hItem.nBidPrice
+	local tNeedPrice = hItem.tBidPrice
 	if hItem.szBidderName ~= "" then
-		nNeedPrice = nNeedPrice + 10
+		tNeedPrice = MoneyOptAdd(tNeedPrice, 10)
 	end
 
-	if nPrice < nNeedPrice then
+	if MoneyOptCmp(tPrice, tNeedPrice) < 0 then
 		OutputMessage("MSG_ANNOUNCE_RED", g_tAuctionString.STR_BID_BIGGER_THAN_TEN)
 		return
 	end
@@ -977,15 +1022,17 @@ function AuctionPanel.AuctionBid(hItem)
 			AuctionPanel.LockOperate(hItem:GetRoot(), "Search")
 			tInfoRequesting.szRequestType = "Search"
 			tInfoRequesting.nSaleID = hItem.nSaleID
-			tInfoRequesting.nPrice = nPrice
+			tInfoRequesting.tPrice = tPrice
 			FireEvent("BUY_AUCTION_ITEM")
 
+			--==money remark=============================================
 			local AuctionClient = GetAuctionClient()
- 			AuctionClient.Bid(AuctionPanel.dwTargetID, hItem.nSaleID, hItem.nCRC, nPrice)
+ 			AuctionClient.Bid(AuctionPanel.dwTargetID, hItem.nSaleID, hItem.nItemID, hItem.nCRC, tPrice.nGold, tPrice.nSilver, tPrice.nCopper)
+			
  			PlaySound(SOUND.UI_SOUND, g_sound.Trade)
  		end
 	end
-	local szMoney = GetMoneyText(nPrice, 105)
+	local szMoney = GetMoneyText(tPrice, 105)
 	local szMsg = FormatString(g_tAuctionString.STR_BID_AFFIRM, szMoney, hItem.szItemName)
 	AuctionPanel.ShowNotice(szMsg, true, fun, true, true)
 end
@@ -1004,15 +1051,21 @@ function AuctionPanel.AuctionBuy(hItem, szDataType)
 			AuctionPanel.LockOperate(hItem:GetRoot(), szDataType)
 			tInfoRequesting.szRequestType = szDataType
 			tInfoRequesting.nSaleID = hItem.nSaleID
-			tInfoRequesting.nPrice = hItem.nBuyPrice
+			tInfoRequesting.tPrice = hItem.tBuyPrice
 			FireEvent("BUY_AUCTION_ITEM")
 
+			--==money remark=============================================
 			local AuctionClient = GetAuctionClient()
- 			AuctionClient.Bid(AuctionPanel.dwTargetID, hItem.nSaleID, hItem.nCRC, hItem.nBuyPrice)
+			
+			local tBuyPrice = hItem.tBuyPrice
+			--local nBuyPrice = GoldSilverAndCopperToMoney(tBuyPrice.nGold, tBuyPrice.nSilver, tBuyPrice.nCopper)
+	
+ 			AuctionClient.Bid(AuctionPanel.dwTargetID, hItem.nSaleID, hItem.nItemID, hItem.nCRC, tBuyPrice.nGold, tBuyPrice.nSilver, tBuyPrice.nCopper)
+			
  			PlaySound(SOUND.UI_SOUND, g_sound.Trade)
  		end
 	end
-	local szMoney = GetMoneyText(hItem.nBuyPrice, 105)
+	local szMoney = GetMoneyText(hItem.tBuyPrice, 105)
 	local szMsg = FormatString(g_tAuctionString.STR_BUY_AFFIRM, szMoney, hItem.szItemName)
 	AuctionPanel.ShowNotice(szMsg, true, fun, true, true)
 end
@@ -1028,8 +1081,8 @@ function AuctionPanel.AuctionSell(frame)
 	local text      = handle:Lookup("Text_Time")
 	local szTime    = text:GetText()
 	local nTime     = tonumber(string.sub(szTime, 1, 2))
-	local nBidPrice = 0
-	local nBuyPrice = 0
+	local tBidPrice = nil
+	local tBuyPrice = nil
 	local player    = GetClientPlayer()
 	
 	local item = GetPlayerItem(player, box.dwBox, box.dwX);
@@ -1042,25 +1095,27 @@ function AuctionPanel.AuctionSell(frame)
 	end
 	
 	local nGold   = FormatMoney(hWndSale:Lookup("Edit_OPGold"))
-	local nSliver = FormatMoney(hWndSale:Lookup("Edit_OPSilver"))
+	local nSilver = FormatMoney(hWndSale:Lookup("Edit_OPSilver"))
 	local nCopper = FormatMoney(hWndSale:Lookup("Edit_OPCopper"))
-	nBidPrice = GoldSilverAndCopperToMoney(nGold, nSliver, nCopper)
+	tBidPrice 	  = PackMoney(nGold, nSilver, nCopper)
 
-	nGold   = FormatMoney(hWndSale:Lookup("Edit_PGold"))
-	nSliver = FormatMoney(hWndSale:Lookup("Edit_PSilver"))
-	nCopper = FormatMoney(hWndSale:Lookup("Edit_PCopper"))
-	nBuyPrice = GoldSilverAndCopperToMoney(nGold, nSliver, nCopper)
-	if nBuyPrice == 0 then
-		nBuyPrice = PRICE_LIMITED
-	end
+	nGold   	= FormatMoney(hWndSale:Lookup("Edit_PGold"))
+	nSilver 	= FormatMoney(hWndSale:Lookup("Edit_PSilver"))
+	nCopper 	= FormatMoney(hWndSale:Lookup("Edit_PCopper"))
+	tBuyPrice 	= PackMoney(nGold, nSilver, nCopper)
 
 	box.szTime = szTime
-	box.nBidPrice = nBidPrice
-	box.nBuyPrice = nBuyPrice
+	box.tBidPrice = tBidPrice
+	box.tBuyPrice = tBuyPrice
 
+	--==money remark=============================================
 	local AtClient = GetAuctionClient()
 	FireEvent("SELL_AUCTION_ITEM")
-	AtClient.Sell(AuctionPanel.dwTargetID, box.dwBox, box.dwX, nBidPrice, nBuyPrice, nTime)
+	
+	--local nBidPrice = GoldSilverAndCopperToMoney(tBidPrice.nGold, tBidPrice.nSilver, tBidPrice.nCopper)
+	--local nBuyPrice = GoldSilverAndCopperToMoney(tBuyPrice.nGold, tBuyPrice.nSilver, tBuyPrice.nCopper)
+	
+	AtClient.Sell(AuctionPanel.dwTargetID, box.dwBox, box.dwX, tBidPrice.nGold, tBidPrice.nSilver, tBidPrice.nCopper, tBuyPrice.nGold, tBuyPrice.nSilver, tBuyPrice.nCopper, nTime)
 	PlaySound(SOUND.UI_SOUND, g_sound.Trade)
 end
 
@@ -1080,7 +1135,7 @@ function AuctionPanel.ShowNotice(szNotice, bSure, fun, bCancel, bText)
 		  	bRichText = true,
 			szMessage = szContent,
 			szName = "EmotionNotice",
-			fnAutoClose = function() if not IsAuctionPanelOpened() then return true end end,
+			fnAutoClose = function() if not AuctionPanel.IsOpened() then return true end end,
 		}
 		if bSure then
 			table.insert(msg, { szOption = g_tAuctionString.STR_NOTICE_SURE, fnAction = fun})
@@ -1201,8 +1256,8 @@ function AuctionPanel.UpdateMoney(frame)
 	local textTime = hWndSale:Lookup("", "Text_Time")
 
 	local player = GetClientPlayer()
-	local nMoney = player.GetMoney()
-	local nGold, nSilver, nCopper = MoneyToGoldSilverAndCopper(nMoney)
+	local tMoney = player.GetMoney()
+	local nGold, nSilver, nCopper = UnpackMoney(tMoney)
 
 	hWndRes:Lookup("", "Text_ROwnGold"):SetText(nGold)
 	hWndRes:Lookup("", "Text_ROwnSliver"):SetText(nSilver)
@@ -1224,12 +1279,16 @@ function AuctionPanel.UpdateMoney(frame)
 		local btnSale = hWndSale:Lookup("Btn_Sale")
 
 		local nTime = tonumber(string.sub(textTime:GetText(),1,2))
-		local nSaveCost = 10
+		local tSaveCost = PackMoney(0, 0, 10)
 		if item.bCanTrade then
-			nSaveCost = math.floor(item.nPrice * box.nCount * nTime / 12 * 0.4 )
+			--math.floor(item.nPrice * box.nCount * nTime / 12 * 0.4 )
+			tSaveCost = MoneyOptDiv(MoneyOptMult(item.nPrice, box.nCount * nTime * 2), 12 * 5)
+			if MoneyOptCmp(tSaveCost, 10) < 0 then
+				tSaveCost = PackMoney(0, 0, 10)
+			end
 		end
 
-		if nMoney >= nSaveCost then
+		if MoneyOptCmp(tMoney, tSaveCost) >= 0 then
 			btnSale.bSave = true
 			btnSale:Enable(btnSale.bPrice)
 		else
@@ -1305,14 +1364,14 @@ function AuctionPanel.GetItemSellInfo(szItemName)
 	return nil
 end
 
-function AuctionPanel.UpdateItemSellInfo(szItemName, nBidPrice, nBuyPrice, szTime, bEarse)
+function AuctionPanel.UpdateItemSellInfo(szItemName, tBidPrice, tBuyPrice, szTime, bEarse)
 	for k, v in pairs(AuctionPanel.tItemSellInfoCache) do
 		if v.szName == szItemName then
 			if bEarse then
 				table.remove(AuctionPanel.tItemSellInfoCache, k)
 			else
-				AuctionPanel.tItemSellInfoCache[k].nBidPrice = nBidPrice
-				AuctionPanel.tItemSellInfoCache[k].nBuyPrice = nBuyPrice
+				AuctionPanel.tItemSellInfoCache[k].tBidPrice = tBidPrice
+				AuctionPanel.tItemSellInfoCache[k].tBuyPrice = tBuyPrice
 				AuctionPanel.tItemSellInfoCache[k].szTime = szTime
 			end
 			return
@@ -1322,11 +1381,11 @@ function AuctionPanel.UpdateItemSellInfo(szItemName, nBidPrice, nBuyPrice, szTim
 	local nSize = #AuctionPanel.tItemSellInfoCache
 	if nSize == MAX_SELL_INFO_CACHE_SIZE then
 		AuctionPanel.tItemSellInfoCache[1].szName = szItemName
-		AuctionPanel.tItemSellInfoCache[1].nBidPrice = nBidPrice
-		AuctionPanel.tItemSellInfoCache[1].nBuyPrice = nBuyPrice
+		AuctionPanel.tItemSellInfoCache[1].tBidPrice = tBidPrice
+		AuctionPanel.tItemSellInfoCache[1].tBuyPrice = tBuyPrice
 		AuctionPanel.tItemSellInfoCache[1].szTime = szTime
 	end
-	table.insert(AuctionPanel.tItemSellInfoCache, {szName = szItemName, nBidPrice = nBidPrice, nBuyPrice = nBuyPrice, szTime = szTime})
+	table.insert(AuctionPanel.tItemSellInfoCache, {szName = szItemName, tBidPrice = tBidPrice, tBuyPrice = tBuyPrice, szTime = szTime})
 end
 
 function AuctionPanel.OnScrollBarPosChanged()
@@ -1353,6 +1412,10 @@ function AuctionPanel.OnScrollBarPosChanged()
 		hBtnUp = hWnd:Lookup("Btn_SUp")
 		hBtnDown = hWnd:Lookup("Btn_SDown")
 		hList = hWnd:Lookup("", "Handle_SearchList")
+	elseif szName == "ScrollBar_C" then
+		hBtnUp = hWnd:Lookup("Btn_CUp")
+		hBtnDown = hWnd:Lookup("Btn_CDown")
+		hList = hWnd:Lookup("", "Handle_CList")
 	end
 
 	if nCurrentValue == 0 then
@@ -1378,7 +1441,7 @@ function AuctionPanel.OnExchangeBoxItem(boxItem, boxDsc, nHandCount, bHand)
 	local _, dwBox1, dwX1 = boxDsc:GetObjectData()
 	local player = GetClientPlayer()
 
-	if nSourceType ~= UI_OBJECT_ITEM or (not dwBox1 or dwBox1 < INVENTORY_INDEX.PACKAGE or dwBox1 > INVENTORY_INDEX.PACKAGE4) then
+	if nSourceType ~= UI_OBJECT_ITEM or (not dwBox1 or not IsObjectFromPackage(dwBox1)) then
 		OutputMessage("MSG_ANNOUNCE_RED", g_tAuctionString.STR_ERROR_CANNOT_DRAG_ITEM_IN_AUCTION)
 		return
 	end
@@ -1405,7 +1468,7 @@ function AuctionPanel.OnExchangeBoxItem(boxItem, boxDsc, nHandCount, bHand)
 	if item.nGenre == ITEM_GENRE.EQUIPMENT then
 		if item.nSub == EQUIPMENT_SUB.ARROW then --Ô¶³ÌÎäÆ÷
 			nCount = item.nCurrentDurability
-		elseif item.nCurrentDurability < item.nMaxDurability then
+		elseif item.nSub ~= EQUIPMENT_SUB.HORSE and item.nCurrentDurability < item.nMaxDurability then
 			OutputMessage("MSG_ANNOUNCE_RED", g_tAuctionString.STR_ERROR_CANNOT_SELL_BAD_ITEM)
 			return
 		end
@@ -1463,6 +1526,8 @@ function AuctionPanel.OnItemMouseEnter()
 		   szName == "Handle_ListContent" or szName == "Handle_List01" then
 		this.bOver = true
 		AuctionPanel.UpdateBgStatus(this)
+	else
+		BlackMarket.OnItemMouseEnter()
 	end
 end
 
@@ -1474,6 +1539,8 @@ function AuctionPanel.OnItemMouseLeave()
 		  szName == "Handle_ListContent" or szName == "Handle_List01" then
 		this.bOver = false
 		AuctionPanel.UpdateBgStatus(this)
+	else
+		BlackMarket.OnItemMouseLeave()
 	end
 end
 
@@ -1540,6 +1607,8 @@ function AuctionPanel.OnItemLButtonUp()
 	local szName = this:GetName()
 	if szName == "Box_Item" then
 		this:SetObjectPressed(0)
+	else
+		BlackMarket.OnItemLButtonUp()
 	end
 end
 
@@ -1552,7 +1621,14 @@ function AuctionPanel.OnItemLButtonDown()
 	elseif szName == "Box_Box" or szName == "Box_BidBox" or szName == "Box_ABox" then
 		if IsCtrlKeyDown() then
 			EditBox_AppendLinkItem(this.nItemID)
+        elseif IsAltKeyDown() then
+            local hTheItem = GetItem(this.nItemID)
+            if hTheItem then
+                ExteriorViewByItemInfo(hTheItem.dwTabType, hTheItem.dwIndex)
+            end
 		end
+	else
+		BlackMarket.OnItemLButtonDown()
 	end
 end
 
@@ -1647,7 +1723,9 @@ function AuctionPanel.OnLButtonClick()
 		AuctionPanel.ApplyLookup(this:GetRoot(), "Bid", tInfo.nSortType, GetClientPlayer().dwID, tInfo.nStart + REQUEST_DATA_COUTN, tInfo.bDesc)
 
 	elseif szName == "Btn_Close" then
-		CloseAuctionPanel()
+		AuctionPanel.Close()
+	else
+		BlackMarket.OnLButtonClick()
 	end
 
 	PlaySound(SOUND.UI_SOUND,g_sound.Button)
@@ -1819,7 +1897,7 @@ function AuctionPanel.PopupMenu(hBtn, text, tData)
 				end
 			end
 		end,
-		fnAutoClose = function() return not IsAuctionPanelOpened() end,
+		fnAutoClose = function() return not AuctionPanel.IsOpened() end,
 	}
 	if szName == "Btn_Quality" then
 		for k, v in pairs(tData) do
@@ -1893,8 +1971,6 @@ function AuctionPanel.OnCheckBoxCheck()
 		return
 	end
 	
-
-
 	local szName = this:GetName()
 	if szName == "CheckBox_State" then
 		local tInfo = tItemDataInfo["Bid"]
@@ -1916,7 +1992,8 @@ function AuctionPanel.OnCheckBoxCheck()
 		local hList = this:GetParent():Lookup("", "Handle_AList")
 		local tCheckName = {"CheckBox_APrice", "CheckBox_ABid"}
 		CheckUnitPrice(this:GetRoot(), true, "Sell", tCheckName, hList)
-	
+	elseif szName == "CheckBox_Contraband" then
+		BlackMarket.Open(frame, AuctionPanel.dwTargetID)
 	else
 		AuctionPanel.OnSortStateUpdate(this)
 	end
@@ -2069,9 +2146,10 @@ function AuctionPanel.OnEditChanged()
 	   szName == "Edit_PSilver" or szName == "Edit_PCopper" then
 		local hWnd = this:GetParent()
 		local box = hWnd:Lookup("", "Box_Item")
-		if box:IsEmpty() then
+		if box:IsEmpty() or hWnd.bSeting then
 			return
 		end
+		
 		local btnSale = hWnd:Lookup("Btn_Sale")
 		local editOPG = hWnd:Lookup("Edit_OPGold")
 		local editOPS = hWnd:Lookup("Edit_OPSilver")
@@ -2084,21 +2162,39 @@ function AuctionPanel.OnEditChanged()
 		local textUPS = hWnd:Lookup("", "Text_PVSliver")
 		local textUPC = hWnd:Lookup("", "Text_PVCopper")
 
-		local nGold   = FormatMoney(editOPG)
-		local nSliver = FormatMoney(editOPS)
-		local nCopper = FormatMoney(editOPC)
-		nBidPrice = GoldSilverAndCopperToMoney(nGold, nSliver, nCopper)
+		local nGold   	= FormatMoney(editOPG)
+		local nSliver 	= FormatMoney(editOPS)
+		local nCopper 	= FormatMoney(editOPC)
+		tBidPrice 		= PackMoney(nGold, nSliver, nCopper)
 
-		nGold   = FormatMoney(editPG)
-		nSliver = FormatMoney(editPS)
-		nCopper = FormatMoney(editPC)
-		nBuyPrice = GoldSilverAndCopperToMoney(nGold, nSliver, nCopper)
+		nGold   	= FormatMoney(editPG)
+		nSliver 	= FormatMoney(editPS)
+		nCopper 	= FormatMoney(editPC)
+		tBuyPrice 	= PackMoney(nGold, nSliver, nCopper)
 
-		if nBuyPrice == 0 then
-			nBuyPrice = PRICE_LIMITED
+		if MoneyOptCmp(tBidPrice, PRICE_LIMITED) > 0 then
+			hWnd.bSeting = true
+			
+			editOPG:SetText(PRICE_LIMITED.nGold)
+			editOPS:SetText(0)
+			editOPC:SetText(0)
+			tBidPrice = clone(PRICE_LIMITED)
+			
+			hWnd.bSeting = nil
 		end
-
-		if nBuyPrice >= nBidPrice and nBidPrice ~= 0 then
+		
+		if MoneyOptCmp(tBuyPrice, PRICE_LIMITED) > 0 then
+			hWnd.bSeting = true
+			
+			editPG:SetText(PRICE_LIMITED.nGold)
+			editPS:SetText(0)
+			editPC:SetText(0)
+			tBuyPrice = clone(PRICE_LIMITED)
+			
+			hWnd.bSeting = nil
+		end
+		
+		if  MoneyOptCmp(tBuyPrice, 0) == 0 or (MoneyOptCmp(tBidPrice, 0) ~= 0 and MoneyOptCmp(tBuyPrice, tBidPrice) >= 0) then
 			btnSale.bPrice = true
 			btnSale:Enable(btnSale.bSave)
 		else
@@ -2106,7 +2202,7 @@ function AuctionPanel.OnEditChanged()
 			btnSale:Enable(false)
 		end
 
-		nGold, nSliver, nCopper = MoneyToGoldSilverAndCopper(math.floor(nBidPrice / box.nCount))
+		nGold, nSliver, nCopper = UnpackMoney(MoneyOptDiv(tBidPrice, box.nCount))
 		textUPG:SetText(nGold)
 		textUPS:SetText(nSliver)
 		textUPC:SetText(nCopper)
@@ -2118,9 +2214,9 @@ end
 
 -------------
 
-function IsAuctionSearchOpened()
+function AuctionPanel.IsSearchOpened()
 	local frame = Station.Lookup("Normal/AuctionPanel")
-	if IsAuctionPanelOpened() then
+	if AuctionPanel.IsOpened() then
 		local hWndSrch = frame:Lookup("PageSet_Totle/Page_Business/Wnd_Search")
 		if hWndSrch:IsVisible() then
 			return true
@@ -2129,9 +2225,9 @@ function IsAuctionSearchOpened()
 	return false
 end
 
-function IsAuctionSellOpened()
+function AuctionPanel.IsSellOpened()
 	local frame = Station.Lookup("Normal/AuctionPanel")
-	if IsAuctionPanelOpened() then
+	if AuctionPanel.IsOpened() then
 		local hWndSale = frame:Lookup("PageSet_Totle/Page_Auction/Wnd_Sale")
 		if hWndSale:IsVisible() then
 			return true
@@ -2140,8 +2236,8 @@ function IsAuctionSellOpened()
 	return false
 end
 
-function Auction_SetItemName(szName)
-	if IsAuctionPanelOpened() then
+function AuctionPanel.SetItemName(szName)
+	if AuctionPanel.IsOpened() then
 		local frame = Station.Lookup("Normal/AuctionPanel")
 		local page  = frame:Lookup("PageSet_Totle/Page_Business")
 		local hWndSrch = page:Lookup("Wnd_Search")
@@ -2153,12 +2249,12 @@ function Auction_SetItemName(szName)
 	end
 end
 
-function Auction_ExchangeBagAndAuctionItem(boxBag)
+function AuctionPanel.ExchangeBagAndAuctionItem(boxBag)
 	if not boxBag then
 		return
 	end
 
-	if IsAuctionPanelOpened() then
+	if AuctionPanel.IsOpened() then
 		local frame = Station.Lookup("Normal/AuctionPanel")
 		local page  = frame:Lookup("PageSet_Totle/Page_Auction")
 		local hWnd  = page:Lookup("Wnd_Sale")
@@ -2169,7 +2265,7 @@ function Auction_ExchangeBagAndAuctionItem(boxBag)
 	end
 end
 
-function OpenAuctionPanel(dwTargetType, dwTargetID, bDisableSound)
+function AuctionPanel.Open(dwTargetType, dwTargetID, bDisableSound)
 	if IsOptionOrOptionChildPanelOpened() then
 		return
 	end
@@ -2190,9 +2286,11 @@ function OpenAuctionPanel(dwTargetType, dwTargetID, bDisableSound)
 	FireEvent("OPEN_AUCTION")
 end
 
-function CloseAuctionPanel(bDisableSound)
+function AuctionPanel.Close(bDisableSound)
+	BlackMarket.Close()
+	
 	RemoveUILockItem("Auction")
-	if IsAuctionPanelOpened() then
+	if AuctionPanel.IsOpened() then
 		Wnd.CloseWindow("AuctionPanel")
 	end
 
@@ -2201,51 +2299,28 @@ function CloseAuctionPanel(bDisableSound)
 	end
 end
 
-function IsAuctionPanelOpened()
+function AuctionPanel.IsOpened()
 	local frame = Station.Lookup("Normal/AuctionPanel")
 	if frame and frame:IsVisible() then
-		return true
+		return true, frame
 	end
 	return false
 end
 
-function AuctionPanel_Load()
-	local szAccount = GetUserAccount()
-	local szDataFloder = GetUserDataFloder()
-
-	if szAccount == "" or szDataFloder == "" then
-		return
+function AuctionPanel._OnLoad()
+	local nSize = #AuctionPanel.tItemSellInfoCache
+	while nSize > MAX_SELL_INFO_CACHE_SIZE do
+		table.remove(AuctionPanel.tItemSellInfoCache)
+		nSize = nSize - 1
 	end
-
-	local szIniFile = "\\"..szDataFloder.."\\"..szAccount
-	szIniFile = szIniFile.."\\AuctionPriceSave.ini"
-
-	local iniS = Ini.Open(szIniFile)
-	if not iniS then
-		return
-	end
-
-	local szSection = "ItemInfo"
-	local i = 1
-	AuctionPanel.tItemSellInfoCache = {}
-	while i <= MAX_SELL_INFO_CACHE_SIZE do
-		local szName = iniS:ReadString(szSection, "Name"..i, "")
-		local nBidPrice = iniS:ReadString(szSection, "BidPrice"..i, "")
-		local nBuyPrice = iniS:ReadString(szSection, "BuyPrice"..i, "")
-		local szTime = iniS:ReadString(szSection, "Time"..i, "")
-
-		if not szName or szName == "" or not nBidPrice or nBidPrice == "" or not nBuyPrice or nBuyPrice == "" or not szTime or szTime == "" then
-			break
-		end
-		if szTime ~= g_tAuctionString.tAuctionTime[1] and szTime ~= g_tAuctionString.tAuctionTime[2] and szTime ~= g_tAuctionString.tAuctionTime[3] then
-			break
-		end
-		i = i + 1
-
-		table.insert(AuctionPanel.tItemSellInfoCache, {szName = szName, nBidPrice = nBidPrice, nBuyPrice = nBuyPrice, szTime = szTime})
-	end
-	iniS:Close()
 end
 
-RegisterEvent("CUSTOM_DATA_LOADED", function(szEvent) AuctionPanel.OnEvent(szEvent) end)
-RegisterLoadFunction(AuctionPanel_Load)
+local _event_ref
+function AuctionPanel._Exit()
+	BlackMarket._Exit()
+	if _event_ref then
+		UnRegisterEvent("CUSTOM_DATA_LOADED", _event_ref)
+	end
+end
+
+_event_ref = RegisterEvent("CUSTOM_DATA_LOADED", function(szEvent) AuctionPanel.OnEvent(szEvent) end)
